@@ -34,8 +34,12 @@ jobs:
         run: npm ci --prefix server
 
       - name: Check AI key
-        if: ${{ secrets.ANTHROPIC_API_KEY == '' }}
-        run: echo "::warning::ANTHROPIC_API_KEY secret is not set — news is fetched but nothing is summarised or published."
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::warning::ANTHROPIC_API_KEY secret is not set — news is fetched but nothing is summarised or published."
+          fi
 
       - name: Run daily refresh
         env:
