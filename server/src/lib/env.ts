@@ -11,4 +11,10 @@ export const env = {
   adminToken: process.env.ADMIN_TOKEN ?? '',
   newsApiKey: process.env.NEWS_API_KEY ?? '',
   newsApiUrl: process.env.NEWS_API_URL ?? '',
+  // Comma-separated RSS/Atom feed URLs (no key needed). Used when NEWS_API_URL is unset.
+  newsFeeds: (process.env.NEWS_FEEDS ?? '').split(',').map((s) => s.trim()).filter(Boolean),
+  // 'bundled' → the daily job writes into src/data/** (commit + redeploy); 'server' → server/data/*.json
+  publishTo: (process.env.PUBLISH_TO ?? 'server') as 'server' | 'bundled',
+  dailyMcqCount: Number(process.env.DAILY_MCQ_COUNT ?? 10),
+  dailyCaMax: Number(process.env.DAILY_CA_MAX ?? 8),
 };

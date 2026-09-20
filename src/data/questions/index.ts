@@ -9,6 +9,7 @@ import gk from './gk.json';
 import reasoning from './reasoning.json';
 import ict from './ict.json';
 import lifeSkills from './life-skills.json';
+import generated from './generated.json';
 
 /** All bundled practice questions. Admin-added questions are merged at runtime by contentService. */
 export const bundledQuestions: Question[] = [
@@ -22,4 +23,6 @@ export const bundledQuestions: Question[] = [
   ...(reasoning as Question[]),
   ...(ict as Question[]),
   ...(lifeSkills as Question[]),
+  // written by the daily refresh job (tagged ai-generated; review in Admin)
+  ...(generated as Question[]),
 ];

@@ -131,13 +131,17 @@ Uses browser `MediaDevices.getUserMedia` + `MediaRecorder` (recording), Web Spee
 
 ## Daily current-affairs automation
 
-`server/src/jobs/dailyRefresh.ts` fetches news from `NEWS_API_URL` (any JSON API returning `{articles:[{title,description,url,source:{name},publishedAt}]}` — adapt `fetchNews()` for other shapes), summarises each into a dated `CurrentAffair` + MCQ with the AI provider (marked `verified:false` until approved in Admin), generates ~10 new syllabus-mapped MCQs with duplicate detection, and publishes today's Daily Challenge set. **It is not scheduled automatically in this repo.** Connect one of:
+`server/src/jobs/dailyRefresh.ts` fetches fresh news from RSS feeds (`NEWS_FEEDS`, default: PIB press releases + The Hindu National — no API key needed) or a JSON news API (`NEWS_API_URL`), summarises each item into a dated `CurrentAffair` + MCQ with the AI provider (marked `verified:false` until approved in Admin), generates a few new syllabus-mapped MCQs with duplicate detection, and publishes today's Daily Challenge set. It never invents news: with no source configured it fetches nothing.
 
+**It is scheduled by `.github/workflows/daily-refresh.yml`** (04:00 IST daily, or run it manually from the Actions tab). The workflow runs the job with `PUBLISH_TO=bundled`, so new items are written straight into `src/data/currentAffairs/YYYY-MM.json` and `src/data/questions/generated.json`, committed to `main`, and Vercel redeploys the site.
+
+Setup (one time): add the repository secret **`ANTHROPIC_API_KEY`** (GitHub → Settings → Secrets and variables → Actions). Optionally set a repository variable `NEWS_FEEDS` to use different feeds. Without the key the workflow runs but publishes nothing.
+
+Other ways to run it (writes to `server/data/*.json` unless `PUBLISH_TO=bundled`):
+
+- locally: `cd server && npm run refresh:daily`
 - cron: `0 4 * * * cd /srv/exam-prep-app/server && npm run refresh:daily`
-- GitHub Actions / Render / Railway cron calling `npm run refresh:daily`
 - Hosted cron hitting `POST /api/jobs/daily-refresh` with `Authorization: Bearer $ADMIN_TOKEN`
-
-The job never fabricates news: with no news source configured it skips step 1 and the app keeps showing dated older items (with a banner saying when content was last added). Frontend consumption of `/api/content/*` output: use Admin → Export/Import today, or wire `contentService.ts` to fetch the collections (same JSON shapes).
 
 ## Admin / content updates
 

@@ -1,8 +1,12 @@
 import type { CurrentAffair } from '@/types/models';
-import sep2026 from './2026-09.json';
 
 /**
- * Bundled current-affairs archive. New months are added as separate files by the daily refresh job
- * (see server/src/jobs/dailyRefresh.ts) or by the admin panel (stored in localStorage until synced).
+ * Bundled current-affairs archive — one file per month (YYYY-MM.json). Every file in this folder is
+ * loaded automatically, so the daily refresh job (server/src/jobs/dailyRefresh.ts, run by
+ * .github/workflows/daily-refresh.yml) can add new months without touching this file.
  */
-export const bundledCurrentAffairs: CurrentAffair[] = [...(sep2026 as CurrentAffair[])];
+const months = import.meta.glob<CurrentAffair[]>('./*.json', { eager: true, import: 'default' });
+
+export const bundledCurrentAffairs: CurrentAffair[] = Object.keys(months)
+  .sort()
+  .flatMap((k) => months[k]);

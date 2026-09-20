@@ -1,0 +1,60 @@
+# Daily current-affairs + MCQ refresh.
+# Runs every day at 04:00 IST, writes new items into src/data/** and commits them.
+# The commit triggers a Vercel redeploy, so the live site updates automatically.
+#
+# Required repository secret: ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions).
+# Optional: NEWS_FEEDS (comma-separated RSS URLs) to override the defaults below.
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: '30 22 * * *' # 04:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: server/package-lock.json
+
+      - name: Install server dependencies
+        run: npm ci --prefix server
+
+      - name: Check AI key
+        if: ${{ secrets.ANTHROPIC_API_KEY == '' }}
+        run: echo "::warning::ANTHROPIC_API_KEY secret is not set — news is fetched but nothing is summarised or published."
+
+      - name: Run daily refresh
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-5
+          PUBLISH_TO: bundled
+          DAILY_CA_MAX: '8'
+          DAILY_MCQ_COUNT: '5'
+          NEWS_FEEDS: ${{ vars.NEWS_FEEDS || 'https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=48,https://www.thehindu.com/news/national/feeder/default.rss' }}
+        run: npm run refresh:daily --prefix server
+
+      - name: Commit and push new content
+        run: |
+          git add src/data
+          if git diff --cached --quiet; then
+            echo "No new content today."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "content: daily refresh $(date -u +%F)"
+          git push
