@@ -1,0 +1,9 @@
+{
+  "name": "PRT Prep — KVS Interview & Super TET",
+  "short_name": "PRT Prep",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2546eb",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

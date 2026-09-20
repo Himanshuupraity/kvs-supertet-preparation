@@ -1,0 +1,314 @@
+[
+  {
+    "id": "note-cp-theories", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "title": "Learning Theories — Quick Revision", "titleHi": "अधिगम के सिद्धांत — त्वरित पुनरावृत्ति",
+    "keyConcepts": [
+      "Behaviourism: learning = observable change in behaviour through stimulus–response (Pavlov, Thorndike, Skinner, Watson)",
+      "Cognitivism: learning = mental processing, insight, schema (Piaget, Bruner, Gestalt — Köhler, Wertheimer)",
+      "Constructivism: learner actively builds knowledge (Piaget — cognitive; Vygotsky — social)",
+      "Social learning: observation, imitation, modelling (Bandura)",
+      "Humanism: whole person, needs, self-actualisation (Maslow, Rogers)"
+    ],
+    "theories": [
+      { "name": "Pavlov — Classical Conditioning", "points": ["Dog–bell–salivation; UCS, UCR, CS, CR", "Extinction, spontaneous recovery, generalisation, discrimination", "Classroom: pleasant associations with school/subjects reduce anxiety"] },
+      { "name": "Thorndike — Trial & Error / Connectionism", "points": ["Cat in puzzle box", "Laws: Readiness, Exercise (use/disuse), Effect", "Secondary laws: multiple response, attitude, analogy, associative shifting"] },
+      { "name": "Skinner — Operant Conditioning", "points": ["Skinner box (rat/pigeon)", "Positive/negative reinforcement (↑ behaviour); positive/negative punishment (↓ behaviour)", "Schedules: continuous vs partial (fixed/variable ratio/interval)", "Programmed learning, shaping, token economy"] },
+      { "name": "Köhler — Insight (Gestalt)", "points": ["Chimpanzee Sultan; sudden 'aha'", "Whole > sum of parts; laws of perception (similarity, proximity, closure)"] },
+      { "name": "Piaget — Cognitive Development", "points": ["Sensorimotor 0–2 (object permanence); Pre-operational 2–7 (egocentrism, animism, no conservation); Concrete operational 7–11 (conservation, reversibility, classification, seriation); Formal 11+ (abstract, hypothetical)", "Schema, assimilation, accommodation, equilibration"] },
+      { "name": "Vygotsky — Socio-cultural", "points": ["ZPD, scaffolding, MKO", "Language drives thought; private speech", "Culture and social interaction central"] },
+      { "name": "Bruner — Discovery Learning", "points": ["Modes of representation: enactive → iconic → symbolic (basis of CPA)", "Spiral curriculum; 'any subject can be taught at any age in an intellectually honest form'"] },
+      { "name": "Bandura — Social Learning", "points": ["Bobo doll experiment", "Attention → Retention → Reproduction → Motivation", "Self-efficacy"] },
+      { "name": "Kohlberg — Moral Development", "points": ["Pre-conventional (punishment-obedience; instrumental), Conventional (good boy/girl; law & order), Post-conventional (social contract; universal ethics)", "Heinz dilemma"] },
+      { "name": "Erikson — Psychosocial", "points": ["Trust vs mistrust (0–1); Autonomy vs shame (1–3); Initiative vs guilt (3–6); Industry vs inferiority (6–12) ← primary school; Identity vs role confusion (12–18)"] }
+    ],
+    "educators": [
+      { "name": "Maria Montessori", "contribution": "Sensory training, didactic apparatus, prepared environment, 'Children's House'" },
+      { "name": "Friedrich Froebel", "contribution": "Kindergarten (1837), play, 'gifts and occupations', 'father of kindergarten'" },
+      { "name": "John Dewey", "contribution": "Learning by doing, pragmatism, school as miniature society, 'Democracy and Education'" },
+      { "name": "Howard Gardner", "contribution": "Multiple Intelligences (8): linguistic, logical-mathematical, spatial, musical, bodily-kinaesthetic, interpersonal, intrapersonal, naturalistic" },
+      { "name": "Benjamin Bloom", "contribution": "Taxonomy of educational objectives — cognitive (remember, understand, apply, analyse, evaluate, create — revised 2001), affective, psychomotor" }
+    ],
+    "examPoints": [
+      "Positive = add; negative = remove; reinforcement ↑; punishment ↓",
+      "Primary school children (6–11) → concrete operational (Piaget), industry vs inferiority (Erikson), pre-conventional/conventional (Kohlberg)",
+      "Piaget = cognitive constructivism; Vygotsky = social constructivism",
+      "Thorndike's Law of Effect → basis of Skinner's reinforcement",
+      "Gardner's MI → differentiated teaching; Sternberg → triarchic (analytical, creative, practical)"
+    ],
+    "commonTraps": [
+      "Confusing negative reinforcement with punishment",
+      "Attributing 'ZPD' to Piaget or 'schema' to Vygotsky",
+      "Thinking Kohlberg gave psychosocial stages (that's Erikson)",
+      "Bruner's spiral curriculum vs Piaget's stages"
+    ],
+    "relatedQuestionIds": ["cp-001", "cp-002", "cp-003", "cp-004", "cp-012", "cp-013", "cp-015"],
+    "updatedAt": "2026-09-19", "source": "Standard D.El.Ed./B.Ed. educational psychology texts"
+  },
+  {
+    "id": "note-cp-development", "subjectId": "child-psych", "topicId": "cp-factors-development",
+    "title": "Growth, Development & Individual Differences",
+    "keyConcepts": [
+      "Growth = quantitative (height, weight); Development = qualitative + quantitative, lifelong",
+      "Principles: continuity, sequential, general→specific, cephalocaudal, proximodistal, individual differences, heredity×environment, predictable pattern, integration",
+      "Stages: infancy (0–2), early childhood (2–6), later childhood (6–12), adolescence (12–18)",
+      "Factors: heredity (genes), environment (nutrition, family, SES, school, peers, media, culture), maturation and learning interplay",
+      "Individual differences: intelligence, aptitude, interest, attitude, learning style, personality, SES, gender, language"
+    ],
+    "examPoints": [
+      "Later childhood (6–12) = 'gang age', 'elementary school age', 'pseudo-maturity' (Hurlock)",
+      "Adolescence = 'period of storm and stress' (Stanley Hall)",
+      "Intelligence: Binet — mental age; IQ = MA/CA × 100 (Terman); Spearman g-factor; Thurstone primary abilities; Guilford SI model",
+      "Normal IQ 90–109; gifted ≥ 130 (varies by scale)"
+    ],
+    "commonTraps": ["Growth vs development definitions swapped", "Cephalocaudal (head→toe) vs proximodistal (centre→periphery)"],
+    "relatedQuestionIds": ["cp-006", "cp-007", "cp-005", "cp-014"],
+    "updatedAt": "2026-09-19", "source": "Hurlock; D.El.Ed. texts"
+  },
+  {
+    "id": "note-cp-cwsn", "subjectId": "child-psych", "topicId": "cp-cwsn",
+    "title": "Special Provisions for Divyang (CWSN) Students",
+    "keyConcepts": [
+      "RPwD Act 2016: 21 disabilities; replaces PwD Act 1995 (7); 4% reservation in govt jobs, 5% in higher education; inclusive education Sec. 16–17; reasonable accommodation",
+      "Specific Learning Disabilities: dyslexia (reading), dysgraphia (writing), dyscalculia (maths), dyspraxia (motor)",
+      "ASD, ADHD (not separately listed in RPwD but supported), intellectual disability, cerebral palsy, hearing/visual/speech impairment, locomotor",
+      "Models: charity → medical → social → rights-based; segregation → integration → inclusion",
+      "IEP (Individualised Education Plan); resource room; special educator; UDL (Universal Design for Learning)",
+      "Samagra Shiksha (2018): inclusive education component — aids, appliances, escort/transport allowance, home-based education",
+      "NEP 2020 Chapter 6: SEDGs; special educators; Divyang-friendly infrastructure",
+      "CBSE exemptions/relaxations: extra time, scribe, calculator (dyscalculia), alternative subjects"
+    ],
+    "examPoints": [
+      "PwD Act 1995 → 7 categories; RPwD 2016 → 21",
+      "Braille — Louis Braille; Braille Day 4 January; White Cane Day 15 October; International Day of Persons with Disabilities 3 December",
+      "Accessible India Campaign (Sugamya Bharat Abhiyan) 2015",
+      "Sign language: ISLRTC (2015), Indian Sign Language dictionary"
+    ],
+    "commonTraps": ["Saying SLD = low intelligence", "Integration ≠ inclusion"],
+    "relatedQuestionIds": ["cp-008", "cp-009", "cp-010", "tc-013"],
+    "updatedAt": "2026-09-19", "source": "RPwD Act 2016; NEP 2020"
+  },
+  {
+    "id": "note-teach-nep", "subjectId": "teaching", "topicId": "teach-new-initiatives",
+    "title": "NEP 2020, NCF & New Initiatives — Fact Sheet",
+    "keyConcepts": [
+      "NEP 2020: approved 29 July 2020; Kasturirangan committee (draft 2019); replaces NPE 1986/1992; MHRD renamed Ministry of Education",
+      "5+3+3+4: Foundational (3–8: 3 yrs pre-school + Cl 1–2), Preparatory (8–11: Cl 3–5), Middle (11–14: Cl 6–8), Secondary (14–18: Cl 9–12)",
+      "Goals: 100% GER in school by 2030; 6% GDP on education; FLN by Grade 3; universal ECCE; mother tongue till Grade 5 (preferably 8)",
+      "Teachers: 4-year ITEP by 2030; 50 hrs CPD/year; NPST (National Professional Standards for Teachers); TET for all stages",
+      "Assessment: PARAKH; Holistic Progress Card; board exams twice a year, low stakes; exams in Grades 3, 5, 8",
+      "Curriculum: reduce to core essentials; no hard separation of arts/science, curricular/co-curricular, vocational/academic; coding from Class 6; vocational exposure & internships from Class 6; bagless days",
+      "Frameworks: NCF-FS (Oct 2022), NCF-SE (Aug 2023); NCF for ECCE and Teacher Education pending/ongoing"
+    ],
+    "theories": [
+      { "name": "NIPUN Bharat (5 July 2021)", "points": ["FLN by Grade 3 by 2026-27", "Lakshya per grade; 3 developmental goals (health & well-being; effective communicators; involved learners)", "Vidya Pravesh — 3-month school readiness module"] },
+      { "name": "Samagra Shiksha (2018)", "points": ["Merged SSA + RMSA + Teacher Education", "Pre-school to Class 12", "Samagra Shiksha 2.0 (2021–26)"] },
+      { "name": "PM SHRI (Sept 2022)", "points": ["14,500+ exemplar schools", "Includes KVs & JNVs", "Green schools, ICT, NEP pedagogy"] },
+      { "name": "PM POSHAN (Sept 2021)", "points": ["Renamed Mid-Day Meal (1995)", "Classes 1–8 + Balvatika", "Tithi Bhojan, school nutrition gardens"] },
+      { "name": "DIKSHA / PM eVIDYA / NISHTHA", "points": ["DIKSHA 2017 — OER, QR codes", "PM eVIDYA 2020 — one nation one digital platform, 12 TV channels (one class one channel)", "NISHTHA — largest teacher-training programme (2019); NISHTHA-FLN 3.0"] },
+      { "name": "Other", "points": ["Vidyanjali — volunteer portal", "Jaadui Pitara — NCF-FS play material", "ULLAS — Nav Bharat Saaksharta Karyakram (adult literacy)", "APAAR ID — Automated Permanent Academic Account Registry (One Nation One Student ID)"] }
+    ],
+    "examPoints": [
+      "Kothari Commission 1964–66: 10+2+3, 6% GDP, common school system",
+      "NPE 1986 → POA 1992: Operation Blackboard, Navodaya Vidyalayas, DIET",
+      "Yashpal Committee 1993 'Learning Without Burden' → NCF 2005",
+      "NCF 2005: five guiding principles — connect knowledge to life, shift from rote, enrich curriculum beyond textbooks, flexible exams, democratic polity",
+      "Chattopadhyaya Commission 1983–85 (teachers); Justice Verma Commission 2012 (teacher education)"
+    ],
+    "commonTraps": ["NEP 2020 vs NPE 1986 dates", "Foundational stage = ages 3–8 (not 6–8)", "PM SHRI ≠ new schools"],
+    "relatedQuestionIds": ["tc-001", "tc-002", "tc-012", "gk-012", "gk-013", "ic-001"],
+    "updatedAt": "2026-09-19", "source": "NEP 2020; MoE"
+  },
+  {
+    "id": "note-teach-evaluation", "subjectId": "teaching", "topicId": "teach-evaluation",
+    "title": "Measurement & Evaluation Essentials",
+    "keyConcepts": [
+      "Measurement = assigning numbers; Assessment = gathering evidence; Evaluation = value judgement",
+      "Formative (for learning, during) vs Summative (of learning, end); Diagnostic (before/identify gaps); Placement; Prognostic",
+      "Norm-referenced (compare to group) vs Criterion-referenced (compare to standard)",
+      "Qualities of a good test: validity, reliability, objectivity, usability, comprehensiveness, discriminating power",
+      "CCE (RTE Sec. 29) — scholastic + co-scholastic; NEP → HPC, 360°",
+      "Tools: observation, checklist, rating scale, anecdotal record, portfolio, rubric, oral test, project, cumulative record",
+      "Bloom's revised taxonomy for question setting; Learning Outcomes (NCERT 2017)"
+    ],
+    "examPoints": [
+      "Validity types: content, construct, criterion (predictive/concurrent), face",
+      "Reliability methods: test-retest, parallel forms, split-half, KR-20",
+      "A reliable test may not be valid; a valid test is always reliable",
+      "Grading vs marking; absolute vs relative grading"
+    ],
+    "commonTraps": ["Formative ≠ 'frequent tests' — it must feed back into teaching", "Objectivity ≠ objective-type questions"],
+    "relatedQuestionIds": ["tc-003", "tc-004"],
+    "updatedAt": "2026-09-19", "source": "Gronlund; NCERT"
+  },
+  {
+    "id": "note-teach-methods", "subjectId": "teaching", "topicId": "teach-methods-skills",
+    "title": "Teaching Methods, Skills & Lesson Planning",
+    "keyConcepts": [
+      "Maxims of teaching: known→unknown, simple→complex, concrete→abstract, particular→general, whole→part, psychological→logical, induction→deduction, analysis→synthesis",
+      "Methods: lecture, demonstration, discussion, play-way, activity, project (Kilpatrick), problem-solving, heuristic (Armstrong), inductive-deductive, Dalton plan (Parkhurst), Montessori, Kindergarten (Froebel), storytelling, dramatisation",
+      "Micro-teaching (Allen & Ryan, Stanford 1963): 5–10 min, 5–10 pupils, one skill; cycle plan→teach→feedback→re-plan→re-teach→re-feedback",
+      "Core skills: set induction, questioning (probing), explaining, illustrating with examples, stimulus variation, reinforcement, blackboard writing, closure",
+      "Herbartian steps: preparation, presentation, comparison/association, generalisation, application, (recapitulation)",
+      "Bloom's objectives; Learning outcomes; TLM — audio, visual, audio-visual; Edgar Dale's Cone of Experience",
+      "Lesson plan approaches: Herbartian, Morrison (unit), Bloom (evaluation), RCEM, constructivist 5E (engage, explore, explain, elaborate, evaluate)"
+    ],
+    "examPoints": [
+      "Project method — Kilpatrick; Heuristic — H.E. Armstrong; Dalton — Helen Parkhurst; Kindergarten — Froebel; Montessori — Maria Montessori; Basic education (Nai Talim) — Gandhi (Wardha 1937)",
+      "Team teaching — Harvard; Programmed learning — Skinner; Discovery learning — Bruner",
+      "Inductive: examples → rule; Deductive: rule → examples"
+    ],
+    "commonTraps": ["Heuristic vs Project method proponents", "Herbart steps order"],
+    "relatedQuestionIds": ["tc-005", "tc-006", "tc-007", "tc-014"],
+    "updatedAt": "2026-09-19", "source": "D.El.Ed. Pedagogy"
+  },
+  {
+    "id": "note-life-skills", "subjectId": "life-skills",
+    "title": "Life Skills, Motivation, Values & Teacher Roles",
+    "keyConcepts": [
+      "WHO 10 life skills: self-awareness, empathy, critical thinking, creative thinking, decision making, problem solving, effective communication, interpersonal relationships, coping with stress, coping with emotions",
+      "Motivation: intrinsic vs extrinsic; Maslow's hierarchy (physiological, safety, love/belonging, esteem, self-actualisation; later cognitive, aesthetic, transcendence); McClelland — achievement, power, affiliation; Weiner — attribution; Deci & Ryan — SDT (autonomy, competence, relatedness); Atkinson — achievement motivation",
+      "Teacher roles: facilitator, monitor/observer, leader, guide, counsellor, mentor, reflective practitioner (NCF 2005)",
+      "Professional ethics: NCTE Code of Professional Ethics (2010); CCS Conduct Rules; KVS Education Code; no private tuition of own students; impartiality; confidentiality; child protection (POCSO 2012)",
+      "Constitutional values: Preamble — justice, liberty, equality, fraternity; secularism; democracy; Fundamental Duties Art. 51-A (11); dignity",
+      "Reward & punishment: reinforcement > punishment; RTE Sec. 17 bans corporal punishment; NCPCR guidelines 2012; positive discipline; logical consequences; token economy"
+    ],
+    "examPoints": [
+      "Maslow: 'deficiency needs' vs 'growth needs'",
+      "Extrinsic rewards can undermine intrinsic motivation (over-justification effect)",
+      "Adolescence & life skills education — NCERT/CBSE life skills manuals",
+      "Value education: NCERT 'Education for Values in Schools — A Framework' (2012)"
+    ],
+    "commonTraps": ["WHO lists 10 life skills, not 5", "Counsellor vs guide role distinction"],
+    "relatedQuestionIds": ["ls-001", "ls-002", "ls-003", "ls-004", "ls-005", "ls-006", "ls-007"],
+    "updatedAt": "2026-09-19", "source": "WHO (1997); NCTE; Constitution"
+  },
+  {
+    "id": "note-ict", "subjectId": "ict",
+    "title": "ICT in Education — Platforms & Concepts",
+    "keyConcepts": [
+      "Government platforms: DIKSHA (2017, OER, QR), SWAYAM (MOOCs), SWAYAM PRABHA (DTH channels), e-Pathshala (NCERT textbooks app), NROER (National Repository of OER, 2013), NISHTHA (teacher training), PM eVIDYA (2020), ePG Pathshala (PG), NDLI (National Digital Library, IIT-KGP), Vidya Daan, ShaGun portal, UDISE+, PRERNA (UP), APAAR ID",
+      "OER: openly licensed (Creative Commons) teaching-learning resources — 5Rs: retain, reuse, revise, remix, redistribute",
+      "Computer basics: hardware/software; input/output/storage; CPU (ALU, CU, registers); RAM (volatile) vs ROM; units bit→byte→KB→MB→GB→TB; OS (Windows, Android, Linux); MS Office basics; file types",
+      "Internet: WWW (Berners-Lee 1989), URL, HTTP/HTTPS, browser, search engine, email, cloud, Wi-Fi, IP address; ISP",
+      "Smartphone/apps for teaching: Google Classroom, video conferencing, e-content, QR scanners; digital TLM — PPT, videos, simulations (PhET), interactive whiteboards",
+      "Frameworks: TPACK (Mishra & Koehler), SAMR (Puentedura), blended learning, flipped classroom",
+      "Digital safety: cyber-bullying, passwords, privacy; IT Act 2000; Cyber Crime portal 1930",
+      "Digital India (2015): pillars incl. e-Kranti; BharatNet; Bhashini"
+    ],
+    "examPoints": [
+      "DIKSHA = Digital Infrastructure for Knowledge Sharing",
+      "SWAYAM = Study Webs of Active-Learning for Young Aspiring Minds",
+      "1 byte = 8 bits; 1 KB = 1024 bytes",
+      "Father of computer — Charles Babbage; first Indian supercomputer — PARAM 8000 (C-DAC, 1991)"
+    ],
+    "commonTraps": ["SWAYAM vs SWAYAM PRABHA", "RAM vs ROM volatility"],
+    "relatedQuestionIds": ["ic-001", "ic-002", "ic-003", "ic-004", "ic-005", "ic-006"],
+    "updatedAt": "2026-09-19", "source": "MoE; NCERT CIET"
+  },
+  {
+    "id": "note-math-formulas", "subjectId": "math",
+    "title": "Mathematics — Formula & Shortcut Sheet",
+    "keyConcepts": [
+      "Percentage: x% of y = xy/100; successive change a, b → a + b + ab/100; % increase then equal % decrease → net −(x²/100)%",
+      "Profit/Loss on CP: P% = (SP−CP)/CP × 100; SP = CP(100±x)/100; discount on MP",
+      "SI = PRT/100; CI: A = P(1 + R/100)ⁿ; CI − SI (2 yrs) = P(R/100)²",
+      "Average = sum/n; weighted average; average of consecutive numbers = (first + last)/2",
+      "Ratio: a:b, b:c → a:b:c; proportion a/b = c/d ⇒ ad = bc; direct vs inverse variation",
+      "HCF × LCM = product of two numbers; LCM of fractions = LCM(num)/HCF(den)",
+      "Divisibility rules 2–11; prime numbers < 50; squares to 30, cubes to 12",
+      "Identities: (a±b)² = a² ± 2ab + b²; a² − b² = (a+b)(a−b); (a+b)³ = a³ + b³ + 3ab(a+b); a³ + b³ = (a+b)(a² − ab + b²); x + 1/x = k ⇒ x² + 1/x² = k² − 2",
+      "Area: rectangle lb; square a²; triangle ½bh; Heron √(s(s−a)(s−b)(s−c)); parallelogram bh; rhombus ½d₁d₂; trapezium ½(a+b)h; circle πr², circumference 2πr",
+      "Volume/Surface: cube a³/6a²; cuboid lbh / 2(lb+bh+hl); cylinder πr²h / 2πr(r+h); cone ⅓πr²h; sphere 4/3πr³ / 4πr²; 1 m³ = 1000 L",
+      "Geometry: angle sum triangle 180°, polygon (n−2)180°, exterior angles sum 360°; Pythagoras; types of triangles/quadrilaterals; circle terms",
+      "Statistics: mean, median (middle of sorted), mode (most frequent); range; bar graph, pictograph, pie chart (360° = total)",
+      "Time-work: work = rate × time; unitary method; speed = distance/time; km/h → m/s ×5/18"
+    ],
+    "examPoints": [
+      "Place value vs face value", "Fraction comparison: cross-multiply or LCM", "BODMAS order", "Roman numerals I V X L C D M"
+    ],
+    "commonTraps": ["Profit % on SP instead of CP", "Forgetting ½ in rhombus/triangle area", "Successive % changes never cancel"],
+    "relatedQuestionIds": ["ma-001", "ma-003", "ma-004", "ma-005", "ma-006", "ma-009", "ma-010", "ma-011", "ma-012"],
+    "updatedAt": "2026-09-19", "source": "NCERT Classes 6–10"
+  },
+  {
+    "id": "note-hindi-grammar", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "title": "हिन्दी व्याकरण — परीक्षा-केंद्रित बिंदु",
+    "keyConcepts": [
+      "वर्ण: स्वर 11 (अ आ इ ई उ ऊ ए ऐ ओ औ + ऋ), व्यंजन 33 (+ ड़ ढ़ = 35; संयुक्त क्ष त्र ज्ञ श्र); अयोगवाह — अनुस्वार, विसर्ग",
+      "संधि: स्वर (दीर्घ, गुण, वृद्धि, यण्, अयादि), व्यंजन, विसर्ग — उदाहरण याद करें",
+      "समास: अव्ययीभाव (यथाशक्ति), तत्पुरुष (राजपुत्र), कर्मधारय (चंद्रमुख), द्विगु (त्रिलोक), द्वंद्व (माता-पिता), बहुव्रीहि (दशानन)",
+      "उपसर्ग (अ, अन, अति, अधि, अनु, अभि, प्र, परा, सु, दुर्…) और प्रत्यय (कृत्, तद्धित)",
+      "शब्द भेद: तत्सम, तद्भव, देशज, विदेशज; पर्यायवाची, विलोम, अनेकार्थी, एकार्थी, श्रुतिसमभिन्नार्थक",
+      "वाक्य: रचना के आधार पर सरल/संयुक्त/मिश्र; अर्थ के आधार पर 8 प्रकार; वाच्य (कर्तृ, कर्म, भाव)",
+      "रस (11) — स्थायी भाव; अलंकार — शब्दालंकार (अनुप्रास, यमक, श्लेष), अर्थालंकार (उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति, मानवीकरण)",
+      "छंद: दोहा 13-11, सोरठा 11-13, रोला 11-13 (24), चौपाई 16, कुंडलिया = दोहा + रोला; वर्णिक — सवैया, कवित्त"
+    ],
+    "examPoints": ["'ने' परसर्ग भूतकाल सकर्मक क्रिया में", "हिंदी की बोलियाँ: पश्चिमी (खड़ी बोली, ब्रज, बुंदेली…) पूर्वी (अवधी, बघेली, छत्तीसगढ़ी)", "देवनागरी — अक्षरात्मक/ध्वन्यात्मक लिपि"],
+    "commonTraps": ["द्विगु और कर्मधारय (दोनों तत्पुरुष के उपभेद)", "दोहा-सोरठा मात्रा क्रम"],
+    "relatedQuestionIds": ["la-001", "la-002", "la-003", "la-005", "la-006", "la-016", "la-018"],
+    "updatedAt": "2026-09-19", "source": "कामताप्रसाद गुरु — हिन्दी व्याकरण"
+  },
+  {
+    "id": "note-evs-constitution", "subjectId": "evs-sst", "topicId": "evs-constitution",
+    "title": "Indian Constitution & Governance — Must-Know",
+    "keyConcepts": [
+      "Constituent Assembly: first meeting 9 Dec 1946; President Rajendra Prasad; Drafting Committee chair B.R. Ambedkar (29 Aug 1947); adopted 26 Nov 1949; in force 26 Jan 1950; originally 395 Articles, 22 Parts, 8 Schedules (now 12 Schedules)",
+      "Preamble: Sovereign Socialist Secular Democratic Republic; Justice Liberty Equality Fraternity (42nd Amendment 1976 added Socialist, Secular, Integrity)",
+      "Fundamental Rights Part III Art. 12–35: Equality 14–18, Freedom 19–22, against Exploitation 23–24 (child labour <14 in hazardous jobs), Religion 25–28, Cultural & Educational 29–30, Remedies 32",
+      "Art. 21-A RTE (86th Amdt 2002); Art. 45 ECCE; Art. 46 SC/ST education; Art. 350-A mother tongue instruction at primary; Art. 351 Hindi",
+      "DPSP Part IV (36–51); Fundamental Duties Part IV-A Art. 51-A (11 duties)",
+      "Union: President (Art. 52), PM & Council of Ministers (74–75), Parliament (Lok Sabha 543 elected, Rajya Sabha 245); Judiciary — Supreme Court (Art. 124)",
+      "State: Governor (153), CM (164), Legislature; High Court",
+      "Local: 73rd (Panchayats, 1992) & 74th (Municipalities) Amendments; 11th & 12th Schedules",
+      "Education on Concurrent List since 42nd Amendment (1976)"
+    ],
+    "examPoints": [
+      "Constitution Day 26 Nov; Republic Day 26 Jan; Law Day",
+      "Longest written constitution; borrowed features (UK — parliamentary; USA — FRs, judicial review; Ireland — DPSP; Canada — federation with strong centre)",
+      "UP: 80 Lok Sabha seats; 403 Assembly seats; 100 Legislative Council seats (bicameral); 75 districts, 18 divisions"
+    ],
+    "commonTraps": ["Adopted (26 Nov 1949) vs enforced (26 Jan 1950)", "Art. 45 changed by 86th Amendment to ECCE (0–6)"],
+    "relatedQuestionIds": ["ev-001", "ev-002", "ev-008", "tc-011", "ls-005", "ls-007"],
+    "updatedAt": "2026-09-19", "source": "Constitution of India; NCERT"
+  },
+  {
+    "id": "note-gk-up", "subjectId": "gk", "topicId": "gk-current-up",
+    "title": "Uttar Pradesh — Static GK Snapshot",
+    "keyConcepts": [
+      "Formation: United Provinces → Uttar Pradesh 24 Jan 1950 (UP Diwas); Uttarakhand carved out 9 Nov 2000",
+      "Capital Lucknow; High Court Prayagraj (Allahabad HC, 1866, oldest HC in India after Calcutta/Bombay/Madras… est. 1866 at Agra, moved 1869) with Lucknow bench; 75 districts, 18 divisions; most populous state; largest Lok Sabha seats (80)",
+      "Symbols: animal — barasingha (swamp deer); bird — sarus crane; tree — ashoka; flower — palash; dance — kathak; sport — hockey",
+      "Rivers: Ganga, Yamuna, Ghaghara, Gomti, Ramganga, Betwa, Ken, Son, Sharda, Rapti, Chambal",
+      "Wildlife: Dudhwa NP (Lakhimpur Kheri) & Dudhwa Tiger Reserve, Pilibhit TR, Amangarh TR, Ranipur TR; sanctuaries — Chandra Prabha, National Chambal, Nawabganj/Shahid Chandra Shekhar Azad, Okhla",
+      "Heritage: Taj Mahal, Agra Fort, Fatehpur Sikri (UNESCO); Sarnath, Kushinagar, Shravasti (Buddhist circuit); Ayodhya, Varanasi, Mathura-Vrindavan, Prayagraj (Kumbh)",
+      "Schemes: ODOP (2018), Mission Prerna/NIPUN (basic education), Kanya Sumangala, Abhyudaya coaching, Vishwakarma Shram Samman; UP GIS; expressways (Purvanchal, Bundelkhand, Ganga Expressway)",
+      "Education bodies: UPESSC (Prayagraj), UP Basic Education Board (Prayagraj), UPMSP (Board, Prayagraj), SCERT Lucknow, DIETs",
+      "Personalities: Premchand, Tulsidas, Kabir, Surdas, Jaishankar Prasad, Mahadevi Verma, Nirala, Bismillah Khan, Birju Maharaj, Ravi Shankar; freedom fighters — Mangal Pandey, Rani Lakshmibai (Jhansi), Chandrashekhar Azad (Prayagraj), Ram Prasad Bismil, Ashfaqulla Khan (Kakori 1925)",
+      "Folk: Nautanki, Ramlila, Raslila, Kajri, Birha, Chaiti; fairs — Kumbh, Bateshwar, Dev Deepawali"
+    ],
+    "examPoints": ["82°30'E (IST) passes through Mirzapur", "Chauri Chaura 1922 (Gorakhpur)", "Kakori 1925", "Meerut — 1857 start (10 May)"],
+    "commonTraps": ["State animal barasingha (not tiger)", "Allahabad HC established 1866 (at Agra) — verify wording in question"],
+    "relatedQuestionIds": ["gk-003", "gk-006", "gk-007", "gk-008", "gk-010", "gk-016", "ev-006", "ev-007", "ev-013", "ic-006"],
+    "updatedAt": "2026-09-19", "source": "up.gov.in; upforest.gov.in; standard references"
+  },
+  {
+    "id": "note-science-quick", "subjectId": "science",
+    "title": "Science — High-Yield Facts",
+    "keyConcepts": [
+      "Units: force N; work/energy J; power W; pressure Pa; frequency Hz; charge C; current A; resistance Ω; temperature K/°C",
+      "Motion: speed = d/t; acceleration = Δv/t; Newton's 3 laws; g = 9.8 m/s²; mass vs weight (W = mg)",
+      "Energy: KE = ½mv²; PE = mgh; conservation; renewable vs non-renewable",
+      "Light: reflection laws; plane/concave/convex mirrors & uses; refraction; dispersion (VIBGYOR, Newton); speed 3×10⁸ m/s; eye defects — myopia (concave lens), hypermetropia (convex)",
+      "Sound: needs medium; longitudinal; speed air ~343 m/s; audible 20–20,000 Hz; echo; ultrasound uses",
+      "Matter: states, change of state, sublimation, evaporation factors; elements/compounds/mixtures; atoms (Dalton), symbols; pH scale (acid <7, base >7)",
+      "Living world: cell (Robert Hooke 1665); plant vs animal cell; photosynthesis; respiration; classification (Linnaeus); vertebrates/invertebrates; food chain",
+      "Human body: 206 bones; largest organ skin; largest internal organ liver; heart 4 chambers, ~72 bpm; blood groups (Landsteiner); RBC life 120 days; digestion enzymes; excretion — kidneys; nervous system",
+      "Nutrition & health: vitamins A (night blindness), B1 (beri-beri), B12 (anaemia), C (scurvy), D (rickets), K (clotting); minerals — iron (anaemia), iodine (goitre), calcium; balanced diet; diseases — bacterial (TB, cholera, typhoid), viral (measles, polio, dengue, COVID-19), protozoan (malaria), deficiency (kwashiorkor, marasmus); vaccines — Mission Indradhanush",
+      "Environment: greenhouse gases; ozone (CFCs, Montreal Protocol 1987); biodegradable vs non-; 3Rs; Chipko; Project Tiger 1973; natural resources — renewable/non-renewable"
+    ],
+    "examPoints": ["Convex mirror — rear view; concave — torch/dentist", "Sound fastest in solids", "Ice floats — anomalous expansion", "Vitamin C — citrus, amla"],
+    "commonTraps": ["Mass vs weight", "Concave vs convex lens for myopia"],
+    "relatedQuestionIds": ["sc-001", "sc-002", "sc-003", "sc-004", "sc-005", "sc-006", "sc-007", "sc-008", "sc-009", "sc-010"],
+    "updatedAt": "2026-09-19", "source": "NCERT Classes 6–10 Science"
+  }
+]

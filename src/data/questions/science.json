@@ -1,0 +1,218 @@
+[
+  {
+    "id": "sc-001", "subjectId": "science", "topicId": "sci-motion-force-energy",
+    "text": "The SI unit of force is:",
+    "textHi": "बल की SI इकाई है:",
+    "options": [
+      { "key": "A", "text": "Joule", "whyIncorrect": "Joule is the SI unit of work/energy (1 J = 1 N·m)." },
+      { "key": "B", "text": "Newton" },
+      { "key": "C", "text": "Watt", "whyIncorrect": "Watt is the unit of power (J/s)." },
+      { "key": "D", "text": "Pascal", "whyIncorrect": "Pascal is the unit of pressure (N/m²)." }
+    ],
+    "correct": "B",
+    "explanation": "Force = mass × acceleration; 1 newton (N) is the force that gives a 1 kg mass an acceleration of 1 m/s². CGS unit: dyne (1 N = 10⁵ dyne).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 8–9 Science, Force and Laws of Motion",
+    "examRelevance": "Units of physical quantities are a staple question.",
+    "origin": "practice", "tags": ["units", "force"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-002", "subjectId": "science", "topicId": "sci-motion-force-energy",
+    "text": "A ball thrown vertically upwards has, at its highest point:",
+    "textHi": "ऊर्ध्वाधर ऊपर फेंकी गई गेंद के उच्चतम बिंदु पर:",
+    "options": [
+      { "key": "A", "text": "Zero velocity and zero acceleration", "whyIncorrect": "Acceleration due to gravity (g ≈ 9.8 m/s² downward) acts throughout the flight." },
+      { "key": "B", "text": "Zero velocity but acceleration equal to g (downward)" },
+      { "key": "C", "text": "Maximum velocity", "whyIncorrect": "Velocity is maximum at the point of release, not at the top." },
+      { "key": "D", "text": "Zero acceleration but non-zero velocity", "whyIncorrect": "Reversed — velocity is zero, acceleration is g." }
+    ],
+    "correct": "B",
+    "explanation": "At the highest point, the ball momentarily stops (v = 0) before reversing direction, but gravity continues to act, so acceleration remains g downward. Potential energy is maximum and kinetic energy zero at this point.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "NCERT Class 9 Science, Motion and Gravitation",
+    "examRelevance": "Conceptual motion question — tests understanding beyond formulas.",
+    "origin": "practice", "tags": ["motion", "gravity"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-003", "subjectId": "science", "topicId": "sci-light-sound",
+    "text": "Sound cannot travel through:",
+    "textHi": "ध्वनि किसमें संचरण नहीं कर सकती?",
+    "options": [
+      { "key": "A", "text": "Water", "whyIncorrect": "Sound travels in water (~1480 m/s) — faster than in air." },
+      { "key": "B", "text": "Steel", "whyIncorrect": "Sound travels fastest in solids like steel (~5000 m/s)." },
+      { "key": "C", "text": "Vacuum" },
+      { "key": "D", "text": "Air", "whyIncorrect": "Sound travels in air at about 343 m/s (at 20 °C)." }
+    ],
+    "correct": "C",
+    "explanation": "Sound is a mechanical longitudinal wave and needs a material medium. In vacuum there are no particles to vibrate, so no sound (the bell-jar experiment). Speed order: solids > liquids > gases. Light, an electromagnetic wave, does travel through vacuum.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 8–9 Science, Sound",
+    "examRelevance": "Basic sound property — routinely asked.",
+    "origin": "practice", "tags": ["sound", "medium"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-004", "subjectId": "science", "topicId": "sci-light-sound",
+    "text": "Which type of mirror is used as a rear-view mirror in vehicles, and why?",
+    "textHi": "वाहनों में पीछे देखने के दर्पण के रूप में कौन सा दर्पण प्रयोग होता है और क्यों?",
+    "options": [
+      { "key": "A", "text": "Concave mirror — it magnifies distant objects", "whyIncorrect": "Concave mirrors give inverted/varying images for distant objects; unsuitable for rear view." },
+      { "key": "B", "text": "Convex mirror — it gives an erect, diminished image with a wider field of view" },
+      { "key": "C", "text": "Plane mirror — it gives a same-size image", "whyIncorrect": "Plane mirrors have a narrow field of view." },
+      { "key": "D", "text": "Convex mirror — it forms real, inverted images", "whyIncorrect": "Convex mirrors always form virtual, erect images." }
+    ],
+    "correct": "B",
+    "explanation": "Convex mirrors always form virtual, erect, diminished images regardless of object distance and cover a wide field of view — ideal for rear-view mirrors and at blind turns. Concave mirrors are used in torches, shaving mirrors and by dentists.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 10 Science, Light — Reflection and Refraction",
+    "examRelevance": "Uses of mirrors — 'science in daily life' type item.",
+    "origin": "practice", "tags": ["light", "mirrors"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-005", "subjectId": "science", "topicId": "sci-human-body-health",
+    "text": "Deficiency of which vitamin causes night blindness?",
+    "textHi": "किस विटामिन की कमी से रतौंधी होती है?",
+    "options": [
+      { "key": "A", "text": "Vitamin A" },
+      { "key": "B", "text": "Vitamin B1", "whyIncorrect": "B1 (thiamine) deficiency causes beri-beri." },
+      { "key": "C", "text": "Vitamin C", "whyIncorrect": "Vitamin C deficiency causes scurvy." },
+      { "key": "D", "text": "Vitamin D", "whyIncorrect": "Vitamin D deficiency causes rickets (children) and osteomalacia (adults)." }
+    ],
+    "correct": "A",
+    "explanation": "Vitamin A (retinol) is needed for rhodopsin in rod cells; deficiency → night blindness, xerophthalmia. Sources: carrot, papaya, green leafy vegetables, milk, fish liver oil. Other pairs: B12 — pernicious anaemia; K — bleeding disorder; B3 — pellagra.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 6 Science, Components of Food",
+    "examRelevance": "Vitamin–deficiency disease matching is asked almost every year.",
+    "origin": "practice", "tags": ["nutrition", "vitamins"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-006", "subjectId": "science", "topicId": "sci-human-body-health",
+    "text": "Which disease is caused by a protozoan and spread by the female Anopheles mosquito?",
+    "textHi": "कौन सा रोग प्रोटोजोआ से होता है और मादा एनाफिलीज मच्छर द्वारा फैलता है?",
+    "options": [
+      { "key": "A", "text": "Dengue", "whyIncorrect": "Dengue is viral and spread by Aedes aegypti." },
+      { "key": "B", "text": "Malaria" },
+      { "key": "C", "text": "Tuberculosis", "whyIncorrect": "TB is bacterial (Mycobacterium tuberculosis), airborne." },
+      { "key": "D", "text": "Typhoid", "whyIncorrect": "Typhoid is bacterial (Salmonella typhi), water/food-borne." }
+    ],
+    "correct": "B",
+    "explanation": "Malaria is caused by Plasmodium (protozoan) transmitted by female Anopheles. Dengue/chikungunya — Aedes; filaria/Japanese encephalitis — Culex. Ronald Ross established the mosquito link (Nobel 1902).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 8–9 Science, Microorganisms; Why Do We Fall Ill",
+    "examRelevance": "Disease–pathogen–vector is a classic question.",
+    "origin": "practice", "tags": ["disease", "health"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-007", "subjectId": "science", "topicId": "sci-matter-states",
+    "text": "The direct change of a solid into vapour without passing through the liquid state is called:",
+    "textHi": "ठोस का द्रव अवस्था में जाए बिना सीधे वाष्प में बदलना क्या कहलाता है?",
+    "options": [
+      { "key": "A", "text": "Evaporation", "whyIncorrect": "Evaporation is liquid → gas at the surface below boiling point." },
+      { "key": "B", "text": "Condensation", "whyIncorrect": "Condensation is gas → liquid." },
+      { "key": "C", "text": "Sublimation" },
+      { "key": "D", "text": "Fusion", "whyIncorrect": "Fusion is melting (solid → liquid)." }
+    ],
+    "correct": "C",
+    "explanation": "Sublimation: solid ⇌ gas directly. Examples: camphor, naphthalene balls, dry ice (solid CO₂), iodine, ammonium chloride. Used in separating mixtures like salt and ammonium chloride.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 9 Science, Matter in Our Surroundings",
+    "examRelevance": "States of matter — change-of-state terminology.",
+    "origin": "practice", "tags": ["matter", "sublimation"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-008", "subjectId": "science", "topicId": "sci-living-world",
+    "text": "The powerhouse of the cell, where cellular respiration produces ATP, is the:",
+    "textHi": "कोशिका का 'ऊर्जा घर', जहाँ कोशिकीय श्वसन से ATP बनता है, है:",
+    "options": [
+      { "key": "A", "text": "Ribosome", "whyIncorrect": "Ribosomes synthesise proteins." },
+      { "key": "B", "text": "Mitochondrion" },
+      { "key": "C", "text": "Nucleus", "whyIncorrect": "The nucleus controls the cell and contains DNA." },
+      { "key": "D", "text": "Chloroplast", "whyIncorrect": "Chloroplasts perform photosynthesis in plant cells ('kitchen of the cell')." }
+    ],
+    "correct": "B",
+    "explanation": "Mitochondria (double membrane, own DNA) carry out aerobic respiration releasing energy stored as ATP. Plant cells additionally have chloroplasts and a cell wall (cellulose) and a large central vacuole.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 8–9 Science, Cell — Structure and Functions",
+    "examRelevance": "Cell organelle functions are frequently tested.",
+    "origin": "practice", "tags": ["cell", "biology"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-009", "subjectId": "science", "topicId": "sci-environment-resources",
+    "text": "Which gas is the main contributor to the greenhouse effect from human activities?",
+    "textHi": "मानवीय गतिविधियों से ग्रीनहाउस प्रभाव में मुख्य योगदान देने वाली गैस है:",
+    "options": [
+      { "key": "A", "text": "Nitrogen", "whyIncorrect": "N₂ (78% of air) is not a greenhouse gas." },
+      { "key": "B", "text": "Oxygen", "whyIncorrect": "O₂ is not a greenhouse gas." },
+      { "key": "C", "text": "Carbon dioxide" },
+      { "key": "D", "text": "Argon", "whyIncorrect": "Argon is an inert noble gas, not a greenhouse gas." }
+    ],
+    "correct": "C",
+    "explanation": "CO₂ from fossil-fuel burning and deforestation is the largest anthropogenic greenhouse gas; methane (CH₄), nitrous oxide (N₂O), CFCs and water vapour also contribute. CFCs additionally deplete the ozone layer (Montreal Protocol 1987; World Ozone Day 16 Sept).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 9 Science, Natural Resources; Class 7 Air",
+    "examRelevance": "Environment topic — greenhouse gases, ozone are recurrent.",
+    "origin": "practice", "tags": ["environment", "greenhouse"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-010", "subjectId": "science", "topicId": "sci-daily-life",
+    "text": "Why does a pressure cooker cook food faster?",
+    "textHi": "प्रेशर कुकर में खाना जल्दी क्यों पकता है?",
+    "options": [
+      { "key": "A", "text": "It traps steam, raising pressure and thus the boiling point of water above 100 °C" },
+      { "key": "B", "text": "It lowers the boiling point of water", "whyIncorrect": "Lower boiling point (as at high altitude) makes cooking SLOWER." },
+      { "key": "C", "text": "It uses more fuel", "whyIncorrect": "Faster cooking actually saves fuel." },
+      { "key": "D", "text": "The metal conducts heat directly into food", "whyIncorrect": "Conduction happens in any metal pot; the pressure effect is what speeds cooking." }
+    ],
+    "correct": "A",
+    "explanation": "Boiling point rises with pressure. Inside a cooker, pressure ~2 atm raises water's boiling point to ~120 °C, so food cooks faster. Conversely, at hill stations lower pressure lowers the boiling point and cooking takes longer.",
+    "difficulty": "medium", "type": "application",
+    "source": "NCERT Class 9 Science — Matter (effect of pressure on boiling point)",
+    "examRelevance": "'Science in daily life' — everyday-phenomenon explanation.",
+    "origin": "practice", "tags": ["daily life", "pressure", "boiling point"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-011", "subjectId": "science", "topicId": "sci-human-body-health",
+    "text": "The normal human body temperature is approximately:",
+    "textHi": "सामान्य मानव शरीर का तापमान लगभग होता है:",
+    "options": [
+      { "key": "A", "text": "37 °C (98.6 °F)" },
+      { "key": "B", "text": "40 °C (104 °F)", "whyIncorrect": "40 °C indicates a high fever." },
+      { "key": "C", "text": "35 °C (95 °F)", "whyIncorrect": "35 °C is hypothermia threshold." },
+      { "key": "D", "text": "42 °C (107.6 °F)", "whyIncorrect": "42 °C is a life-threatening temperature; also the maximum on a clinical thermometer." }
+    ],
+    "correct": "A",
+    "explanation": "Normal body temperature is about 37 °C = 98.6 °F. A clinical thermometer reads 35–42 °C. Conversion: F = (9/5)C + 32.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 7 Science, Heat",
+    "examRelevance": "Basic health/hygiene fact.",
+    "origin": "practice", "tags": ["health", "temperature"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "sc-012", "subjectId": "science", "topicId": "sci-living-world",
+    "text": "Photosynthesis in plants primarily takes place in the presence of sunlight using:",
+    "textHi": "पौधों में प्रकाश संश्लेषण सूर्य के प्रकाश की उपस्थिति में मुख्यतः किसका उपयोग करता है?",
+    "options": [
+      { "key": "A", "text": "Carbon dioxide and water, releasing oxygen" },
+      { "key": "B", "text": "Oxygen and water, releasing carbon dioxide", "whyIncorrect": "That describes respiration, not photosynthesis." },
+      { "key": "C", "text": "Nitrogen and water, releasing oxygen", "whyIncorrect": "Nitrogen is not a raw material of photosynthesis." },
+      { "key": "D", "text": "Glucose and oxygen, releasing water", "whyIncorrect": "Glucose is a product, not a raw material." }
+    ],
+    "correct": "A",
+    "explanation": "6CO₂ + 6H₂O → (sunlight, chlorophyll) → C₆H₁₂O₆ + 6O₂. Occurs in chloroplasts; stomata take in CO₂; oxygen released comes from splitting water.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 7 Science, Nutrition in Plants",
+    "examRelevance": "Foundational biology — frequently asked and also relevant to EVS pedagogy.",
+    "origin": "practice", "tags": ["photosynthesis", "plants"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

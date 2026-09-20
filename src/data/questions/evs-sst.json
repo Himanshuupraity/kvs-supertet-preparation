@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ev-001", "subjectId": "evs-sst", "topicId": "evs-constitution",
+    "text": "Which Article of the Indian Constitution deals with the Right to Education as a Fundamental Right?",
+    "textHi": "भारतीय संविधान का कौन सा अनुच्छेद शिक्षा के अधिकार को मौलिक अधिकार के रूप में प्रदान करता है?",
+    "options": [
+      { "key": "A", "text": "Article 19", "whyIncorrect": "Article 19 covers freedoms of speech, assembly, movement, etc." },
+      { "key": "B", "text": "Article 21-A" },
+      { "key": "C", "text": "Article 45", "whyIncorrect": "Article 45 (DPSP) now covers early childhood care and education for children below 6." },
+      { "key": "D", "text": "Article 32", "whyIncorrect": "Article 32 is the right to constitutional remedies." }
+    ],
+    "correct": "B",
+    "explanation": "Article 21-A, inserted by the 86th Amendment (2002), mandates free and compulsory education for children aged 6–14. Implemented through the RTE Act 2009 from 1 April 2010.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Constitution of India, Part III",
+    "examRelevance": "Constitution + education — guaranteed question.",
+    "origin": "practice", "tags": ["constitution", "article 21a"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-002", "subjectId": "evs-sst", "topicId": "evs-constitution",
+    "text": "The Indian Constitution was adopted by the Constituent Assembly on:",
+    "textHi": "भारतीय संविधान को संविधान सभा द्वारा कब अंगीकृत किया गया?",
+    "options": [
+      { "key": "A", "text": "15 August 1947", "whyIncorrect": "That is Independence Day." },
+      { "key": "B", "text": "26 November 1949" },
+      { "key": "C", "text": "26 January 1950", "whyIncorrect": "That is when the Constitution came into force (Republic Day)." },
+      { "key": "D", "text": "9 December 1946", "whyIncorrect": "That was the first sitting of the Constituent Assembly." }
+    ],
+    "correct": "B",
+    "explanation": "Adopted 26 Nov 1949 (celebrated as Constitution Day/Samvidhan Divas since 2015); came into force 26 Jan 1950. Drafting Committee chairman: Dr B.R. Ambedkar; President of Constituent Assembly: Dr Rajendra Prasad; took 2 years 11 months 18 days.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Constitution of India — historical background (NCERT Class 9 Political Science)",
+    "examRelevance": "Date-based constitution fact — very common.",
+    "origin": "practice", "tags": ["constitution", "dates"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-003", "subjectId": "evs-sst", "topicId": "evs-freedom-struggle",
+    "text": "The Non-Cooperation Movement was withdrawn by Gandhiji in 1922 after which incident?",
+    "textHi": "1922 में गांधीजी ने किस घटना के बाद असहयोग आंदोलन वापस ले लिया?",
+    "options": [
+      { "key": "A", "text": "Jallianwala Bagh massacre", "whyIncorrect": "Jallianwala Bagh (1919) preceded and partly triggered the movement." },
+      { "key": "B", "text": "Chauri Chaura incident" },
+      { "key": "C", "text": "Kakori train action", "whyIncorrect": "Kakori (1925) was a revolutionary action by HRA, after the movement ended." },
+      { "key": "D", "text": "Simon Commission arrival", "whyIncorrect": "Simon Commission came in 1928." }
+    ],
+    "correct": "B",
+    "explanation": "At Chauri Chaura (Gorakhpur, UP) on 4 Feb 1922, a mob burnt a police station killing 22 policemen. Gandhiji, committed to non-violence, called off the movement (Bardoli resolution, 12 Feb 1922). Note the UP connection — important for the 'प्रदेश' angle.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 10 History, Nationalism in India",
+    "examRelevance": "Freedom struggle events with UP links are high-yield.",
+    "origin": "practice", "tags": ["freedom struggle", "gandhi", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-004", "subjectId": "evs-sst", "topicId": "evs-social-reformers",
+    "text": "Who founded the Arya Samaj in 1875?",
+    "textHi": "1875 में आर्य समाज की स्थापना किसने की?",
+    "options": [
+      { "key": "A", "text": "Raja Ram Mohan Roy", "whyIncorrect": "He founded the Brahmo Samaj (1828)." },
+      { "key": "B", "text": "Swami Dayanand Saraswati" },
+      { "key": "C", "text": "Swami Vivekananda", "whyIncorrect": "He founded the Ramakrishna Mission (1897)." },
+      { "key": "D", "text": "Jyotiba Phule", "whyIncorrect": "He founded the Satyashodhak Samaj (1873)." }
+    ],
+    "correct": "B",
+    "explanation": "Dayanand Saraswati founded Arya Samaj in Bombay (1875) with the slogan 'Back to the Vedas'; wrote Satyarth Prakash; DAV schools carry his legacy. Reformer–organisation pairs are very commonly asked.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 8 History, Women, Caste and Reform",
+    "examRelevance": "Social reformers — direct syllabus topic.",
+    "origin": "practice", "tags": ["social reformers"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-005", "subjectId": "evs-sst", "topicId": "evs-solar-system",
+    "text": "Which planet is known as the 'Red Planet'?",
+    "textHi": "किस ग्रह को 'लाल ग्रह' कहा जाता है?",
+    "options": [
+      { "key": "A", "text": "Venus", "whyIncorrect": "Venus is the 'Morning/Evening Star' and Earth's twin." },
+      { "key": "B", "text": "Mars" },
+      { "key": "C", "text": "Jupiter", "whyIncorrect": "Jupiter is the largest planet." },
+      { "key": "D", "text": "Saturn", "whyIncorrect": "Saturn is known for its rings." }
+    ],
+    "correct": "B",
+    "explanation": "Mars appears red due to iron oxide on its surface. India's Mangalyaan (Mars Orbiter Mission, 2013–14) made ISRO the first Asian agency to reach Mars orbit. Order of planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 6 Geography, The Earth in the Solar System",
+    "examRelevance": "Solar system basics — frequently asked.",
+    "origin": "practice", "tags": ["solar system", "planets"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-006", "subjectId": "evs-sst", "topicId": "evs-lat-long",
+    "text": "The Indian Standard Time (IST) is based on the longitude:",
+    "textHi": "भारतीय मानक समय (IST) किस देशांतर पर आधारित है?",
+    "options": [
+      { "key": "A", "text": "82°30' E, passing through Mirzapur (UP)" },
+      { "key": "B", "text": "0° (Greenwich)", "whyIncorrect": "0° is the Prime Meridian — GMT/UTC reference." },
+      { "key": "C", "text": "68°7' E", "whyIncorrect": "That is India's westernmost longitude (Gujarat)." },
+      { "key": "D", "text": "97°25' E", "whyIncorrect": "That is India's easternmost longitude (Arunachal Pradesh)." }
+    ],
+    "correct": "A",
+    "explanation": "IST = UTC + 5:30, based on 82°30' E which passes near Mirzapur, Uttar Pradesh. India's longitudinal extent (68°7'–97°25' E) means ~2 hours of solar-time difference between Gujarat and Arunachal.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 9 Geography, India — Size and Location",
+    "examRelevance": "Latitude/longitude + UP connection — a favourite.",
+    "origin": "practice", "tags": ["longitude", "ist", "uttar pradesh"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-007", "subjectId": "evs-sst", "topicId": "evs-rivers-mountains",
+    "text": "Which is the longest river of Uttar Pradesh by length within the state?",
+    "textHi": "उत्तर प्रदेश में राज्य के भीतर लंबाई के अनुसार सबसे लंबी नदी कौन सी है?",
+    "options": [
+      { "key": "A", "text": "Yamuna", "whyIncorrect": "Yamuna is long but the Ganga's course within UP is longer." },
+      { "key": "B", "text": "Ganga" },
+      { "key": "C", "text": "Gomti", "whyIncorrect": "Gomti (Lucknow) is entirely within UP but much shorter (~900 km)." },
+      { "key": "D", "text": "Ghaghara", "whyIncorrect": "Ghaghara is a major tributary but shorter within UP." }
+    ],
+    "correct": "B",
+    "explanation": "The Ganga flows about 1,000+ km through UP (from Bijnor to Ballia) — the longest course within the state. Key UP rivers: Ganga, Yamuna, Ghaghara, Gomti, Ramganga, Betwa, Ken, Son, Sharda, Rapti.",
+    "difficulty": "medium", "type": "fact",
+    "source": "UP State geography — standard references",
+    "examRelevance": "Rivers of UP — likely under 'प्रदेश' angle.",
+    "origin": "practice", "tags": ["rivers", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-008", "subjectId": "evs-sst", "topicId": "evs-governance",
+    "text": "Who is the constitutional head of a State in India?",
+    "textHi": "भारत में किसी राज्य का संवैधानिक प्रमुख कौन होता है?",
+    "options": [
+      { "key": "A", "text": "Chief Minister", "whyIncorrect": "The CM is the real executive head, not the constitutional head." },
+      { "key": "B", "text": "Governor" },
+      { "key": "C", "text": "Speaker of Legislative Assembly", "whyIncorrect": "The Speaker presides over the Assembly." },
+      { "key": "D", "text": "Chief Justice of High Court", "whyIncorrect": "Heads the state judiciary." }
+    ],
+    "correct": "B",
+    "explanation": "Article 153–154: the Governor is the constitutional (nominal) head of the state, appointed by the President for 5 years; the Council of Ministers headed by the CM exercises real executive power (Art. 163).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 9–10 Political Science; Constitution Part VI",
+    "examRelevance": "'Our governance system' — Governor/CM roles frequently asked.",
+    "origin": "practice", "tags": ["governance", "governor"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-009", "subjectId": "evs-sst", "topicId": "evs-road-safety",
+    "text": "A triangular road sign with a red border generally indicates:",
+    "textHi": "लाल किनारे वाला त्रिभुजाकार सड़क चिह्न सामान्यतः क्या दर्शाता है?",
+    "options": [
+      { "key": "A", "text": "A mandatory instruction", "whyIncorrect": "Mandatory/regulatory signs are circular." },
+      { "key": "B", "text": "A warning/caution (e.g., school ahead, sharp bend)" },
+      { "key": "C", "text": "Information (e.g., hospital, petrol pump)", "whyIncorrect": "Informatory signs are rectangular, usually blue." },
+      { "key": "D", "text": "Parking permitted", "whyIncorrect": "Parking signs are informatory rectangles." }
+    ],
+    "correct": "B",
+    "explanation": "Indian road signs: Mandatory — circular (red border prohibitory, blue compulsory); Cautionary/Warning — triangular with red border; Informatory — rectangular. Road Safety Week is observed in January; Motor Vehicles (Amendment) Act 2019 raised penalties.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Indian Roads Congress road-sign classification; MoRTH",
+    "examRelevance": "Traffic and road safety is an explicit syllabus topic.",
+    "origin": "practice", "tags": ["road safety", "traffic signs"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-010", "subjectId": "evs-sst", "topicId": "evs-disaster",
+    "text": "The National Disaster Management Authority (NDMA) is headed by:",
+    "textHi": "राष्ट्रीय आपदा प्रबंधन प्राधिकरण (NDMA) का अध्यक्ष कौन होता है?",
+    "options": [
+      { "key": "A", "text": "The President of India", "whyIncorrect": "The President is not part of NDMA." },
+      { "key": "B", "text": "The Prime Minister (ex-officio Chairperson)" },
+      { "key": "C", "text": "The Home Minister", "whyIncorrect": "Disaster management falls under MHA, but the PM chairs NDMA." },
+      { "key": "D", "text": "The Chief of Defence Staff", "whyIncorrect": "Armed forces assist but do not head NDMA." }
+    ],
+    "correct": "B",
+    "explanation": "NDMA was constituted under the Disaster Management Act 2005 with the PM as Chairperson; State DMAs are chaired by CMs and District DMAs by District Collectors/Magistrates. NDRF is the specialised response force. 13 October: International Day for Disaster Risk Reduction.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Disaster Management Act 2005, Section 3",
+    "examRelevance": "Disaster management institutional structure — frequent question.",
+    "origin": "practice", "tags": ["disaster management", "ndma"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-011", "subjectId": "evs-sst", "topicId": "evs-earth-structure",
+    "text": "The innermost layer of the Earth is called the:",
+    "textHi": "पृथ्वी की सबसे भीतरी परत कहलाती है:",
+    "options": [
+      { "key": "A", "text": "Crust", "whyIncorrect": "The crust is the outermost, thinnest layer." },
+      { "key": "B", "text": "Mantle", "whyIncorrect": "The mantle lies between crust and core." },
+      { "key": "C", "text": "Core" },
+      { "key": "D", "text": "Lithosphere", "whyIncorrect": "Lithosphere = crust + upper mantle (rigid outer shell)." }
+    ],
+    "correct": "C",
+    "explanation": "Layers: Crust (SiAl), Mantle (SiMa), Core (NiFe — nickel and iron; outer core liquid, inner core solid). Core radius ≈ 3,500 km; temperature up to ~5,000–6,000 °C.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 7 Geography, Inside Our Earth",
+    "examRelevance": "Structure of the Earth — first topic in the EVS syllabus list.",
+    "origin": "practice", "tags": ["earth", "layers"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-012", "subjectId": "evs-sst", "topicId": "evs-economy",
+    "text": "Which of the following is a direct tax in India?",
+    "textHi": "निम्न में से कौन भारत में प्रत्यक्ष कर है?",
+    "options": [
+      { "key": "A", "text": "Goods and Services Tax (GST)", "whyIncorrect": "GST is an indirect tax on consumption." },
+      { "key": "B", "text": "Income Tax" },
+      { "key": "C", "text": "Customs duty", "whyIncorrect": "Customs duty on imports is indirect." },
+      { "key": "D", "text": "Excise duty", "whyIncorrect": "Excise (on petroleum, alcohol etc.) is indirect." }
+    ],
+    "correct": "B",
+    "explanation": "Direct taxes are paid by the person on whom they are levied (income tax, corporate tax); indirect taxes are shifted to consumers (GST, customs, excise). GST introduced 1 July 2017 via the 101st Constitutional Amendment.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 10 Economics; Ministry of Finance",
+    "examRelevance": "Indian economy basics — tax classification.",
+    "origin": "practice", "tags": ["economy", "taxes"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-013", "subjectId": "evs-sst", "topicId": "evs-cultural-heritage",
+    "text": "Which classical dance form originated in Uttar Pradesh?",
+    "textHi": "कौन सा शास्त्रीय नृत्य उत्तर प्रदेश से उत्पन्न हुआ?",
+    "options": [
+      { "key": "A", "text": "Bharatanatyam", "whyIncorrect": "Tamil Nadu." },
+      { "key": "B", "text": "Kathak" },
+      { "key": "C", "text": "Odissi", "whyIncorrect": "Odisha." },
+      { "key": "D", "text": "Kuchipudi", "whyIncorrect": "Andhra Pradesh." }
+    ],
+    "correct": "B",
+    "explanation": "Kathak (from 'katha' — story) developed in North India with major gharanas at Lucknow, Jaipur and Banaras. Birju Maharaj (Lucknow gharana) was its most celebrated exponent. The 8 Sangeet Natak Akademi classical dances: Bharatanatyam, Kathak, Kathakali, Kuchipudi, Odissi, Manipuri, Mohiniyattam, Sattriya.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Sangeet Natak Akademi; NCERT Class 11 Fine Arts",
+    "examRelevance": "Cultural heritage with UP link — high probability.",
+    "origin": "practice", "tags": ["culture", "dance", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ev-014", "subjectId": "evs-sst", "topicId": "evs-env-conservation",
+    "text": "'Chipko Movement' (1973) is associated with:",
+    "textHi": "'चिपको आंदोलन' (1973) किससे संबंधित है?",
+    "options": [
+      { "key": "A", "text": "Protection of forests by hugging trees, led by villagers in Uttarakhand (then UP)" },
+      { "key": "B", "text": "Protest against big dams on the Narmada", "whyIncorrect": "That is the Narmada Bachao Andolan (Medha Patkar)." },
+      { "key": "C", "text": "Anti-mining movement in Goa", "whyIncorrect": "Unrelated." },
+      { "key": "D", "text": "River-cleaning campaign", "whyIncorrect": "Unrelated." }
+    ],
+    "correct": "A",
+    "explanation": "Chipko began in Chamoli district (then in Uttar Pradesh, now Uttarakhand), with Sunderlal Bahuguna, Chandi Prasad Bhatt and Gaura Devi. It inspired the Forest Conservation Act 1980. Similar: Appiko movement (Karnataka, 1983).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 10 Science, Management of Natural Resources",
+    "examRelevance": "Environmental conservation movements — frequently asked.",
+    "origin": "practice", "tags": ["environment", "chipko"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

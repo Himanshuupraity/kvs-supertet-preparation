@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ls-001", "subjectId": "life-skills", "topicId": "ls-reward-punishment",
+    "text": "A Class 2 student repeatedly disturbs others during story time. The MOST effective and professionally appropriate first response is:",
+    "textHi": "कक्षा 2 का एक छात्र कहानी के समय बार-बार दूसरों को परेशान करता है। सबसे प्रभावी और व्यावसायिक रूप से उचित पहली प्रतिक्रिया है:",
+    "options": [
+      { "key": "A", "text": "Make the child stand outside the class for the whole period", "whyIncorrect": "Exclusion is a form of mental harassment prohibited under RTE Sec. 17 and denies learning." },
+      { "key": "B", "text": "Give the child a role (e.g., holding the picture book) and praise on-task behaviour" },
+      { "key": "C", "text": "Hit the child's palm with a scale", "whyIncorrect": "Corporal punishment is illegal (RTE Act 2009, Sec. 17; JJ Act 2015)." },
+      { "key": "D", "text": "Ignore it completely every time", "whyIncorrect": "Planned ignoring works for attention-seeking only when combined with reinforcing positive behaviour; alone it lets disruption continue." }
+    ],
+    "correct": "B",
+    "explanation": "Positive behaviour support: redirect energy, give responsibility, reinforce desirable behaviour immediately (Skinner). RTE Section 17 bans physical punishment and mental harassment; NCPCR guidelines (2012) recommend positive discipline. Rewards should be specific, immediate and gradually faded.",
+    "difficulty": "medium", "type": "scenario",
+    "source": "RTE Act 2009 Sec. 17; NCPCR Guidelines for Eliminating Corporal Punishment (2012)",
+    "examRelevance": "Direct syllabus item — 'effective use of punishment and reward'; also a classic KVS interview scenario.",
+    "origin": "practice", "tags": ["discipline", "reward", "corporal punishment"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-002", "subjectId": "life-skills", "topicId": "ls-motivation",
+    "text": "According to Maslow's hierarchy, a hungry child who has not eaten breakfast is unlikely to focus on learning because:",
+    "textHi": "मास्लो के पदानुक्रम के अनुसार, जिस बच्चे ने नाश्ता नहीं किया वह पढ़ाई पर ध्यान क्यों नहीं दे पाता?",
+    "options": [
+      { "key": "A", "text": "Physiological needs must be reasonably satisfied before higher needs like cognitive/self-actualisation motivate behaviour" },
+      { "key": "B", "text": "Hunger increases intelligence", "whyIncorrect": "Hunger reduces attention and cognition." },
+      { "key": "C", "text": "Children never feel hungry in school", "whyIncorrect": "Factually wrong; this is why PM POSHAN exists." },
+      { "key": "D", "text": "Learning is a physiological need", "whyIncorrect": "Learning/knowing is a higher (cognitive/growth) need in Maslow's model." }
+    ],
+    "correct": "A",
+    "explanation": "Maslow (1943): physiological → safety → love/belonging → esteem → self-actualisation (later cognitive and aesthetic needs added). Schemes like PM POSHAN address the base of the pyramid so children can learn.",
+    "difficulty": "easy", "type": "application",
+    "source": "Maslow, A Theory of Human Motivation (1943)",
+    "examRelevance": "Motivation theories — Maslow is the most frequently asked.",
+    "origin": "practice", "tags": ["motivation", "maslow"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-003", "subjectId": "life-skills", "topicId": "ls-motivation",
+    "text": "A student who reads storybooks because she enjoys them, not for marks, shows:",
+    "textHi": "एक छात्रा जो अंकों के लिए नहीं बल्कि आनंद के लिए कहानी की किताबें पढ़ती है, वह दर्शाती है:",
+    "options": [
+      { "key": "A", "text": "Extrinsic motivation", "whyIncorrect": "Extrinsic motivation comes from external rewards like marks or prizes." },
+      { "key": "B", "text": "Intrinsic motivation" },
+      { "key": "C", "text": "Negative reinforcement", "whyIncorrect": "Not a motivation type; refers to removing an aversive stimulus." },
+      { "key": "D", "text": "Achievement anxiety", "whyIncorrect": "Anxiety is not what drives enjoyment-based reading." }
+    ],
+    "correct": "B",
+    "explanation": "Intrinsic motivation arises from interest and satisfaction in the activity itself; it produces deeper, longer-lasting learning. Teachers should build intrinsic motivation through curiosity, choice, autonomy and mastery (Self-Determination Theory: autonomy, competence, relatedness).",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Deci & Ryan, Self-Determination Theory",
+    "examRelevance": "Intrinsic vs extrinsic — regular item.",
+    "origin": "practice", "tags": ["motivation", "intrinsic"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-004", "subjectId": "life-skills", "topicId": "ls-teacher-roles",
+    "text": "When a teacher helps a withdrawn child talk about problems at home and guides the family to appropriate help, the teacher is acting mainly as a:",
+    "textHi": "जब एक शिक्षक एक अंतर्मुखी बच्चे को घर की समस्याओं के बारे में बात करने में मदद करता है और परिवार को उचित सहायता तक पहुँचाता है, तो शिक्षक मुख्यतः किस भूमिका में है?",
+    "options": [
+      { "key": "A", "text": "Facilitator", "whyIncorrect": "Facilitator role concerns enabling learning activities." },
+      { "key": "B", "text": "Counsellor" },
+      { "key": "C", "text": "Monitor/Evaluator", "whyIncorrect": "Monitoring is about tracking progress and behaviour." },
+      { "key": "D", "text": "Leader", "whyIncorrect": "Leadership is about direction and team-building." }
+    ],
+    "correct": "B",
+    "explanation": "The syllabus lists teacher roles: facilitator (सुविधा प्रदाता), monitor (अनुश्रवणकर्ता), leader (नेतृत्वकर्ता), guide (मार्गदर्शक), counsellor (परामर्शदाता). Counselling involves empathetic listening and connecting the child/family to support, while respecting confidentiality and child-protection norms.",
+    "difficulty": "easy", "type": "scenario",
+    "source": "UPESSC syllabus — Role of teaching; NCF 2005 teacher role",
+    "examRelevance": "Teacher-role identification — direct syllabus item.",
+    "origin": "practice", "tags": ["teacher roles", "counsellor"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-005", "subjectId": "life-skills", "topicId": "ls-values",
+    "text": "Which of the following values is listed in the Preamble of the Indian Constitution?",
+    "textHi": "निम्न में से कौन सा मूल्य भारतीय संविधान की प्रस्तावना में उल्लिखित है?",
+    "options": [
+      { "key": "A", "text": "Fraternity" },
+      { "key": "B", "text": "Obedience", "whyIncorrect": "Not in the Preamble." },
+      { "key": "C", "text": "Prosperity", "whyIncorrect": "Not in the Preamble." },
+      { "key": "D", "text": "Discipline", "whyIncorrect": "Not in the Preamble." }
+    ],
+    "correct": "A",
+    "explanation": "Preamble: Sovereign, Socialist, Secular, Democratic Republic; Justice (social, economic, political); Liberty (thought, expression, belief, faith, worship); Equality (status, opportunity); Fraternity (dignity of the individual, unity and integrity of the Nation). 'Socialist', 'Secular', 'Integrity' were added by the 42nd Amendment (1976).",
+    "difficulty": "easy", "type": "fact",
+    "source": "Constitution of India — Preamble",
+    "examRelevance": "Constitutional values — a listed topic.",
+    "origin": "practice", "tags": ["constitutional values", "preamble"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-006", "subjectId": "life-skills", "topicId": "ls-professional-ethics",
+    "text": "A teacher is offered money by a parent to 'take special care' of their child's marks. The professionally ethical response is to:",
+    "textHi": "एक अभिभावक शिक्षक को अपने बच्चे के अंकों का 'विशेष ध्यान' रखने के लिए पैसे देता है। व्यावसायिक रूप से नैतिक प्रतिक्रिया है:",
+    "options": [
+      { "key": "A", "text": "Accept since it is voluntary", "whyIncorrect": "Accepting gratification is corruption and violates conduct rules." },
+      { "key": "B", "text": "Politely refuse, explain assessment is fair and equal for all, and offer legitimate remedial support if needed" },
+      { "key": "C", "text": "Accept and give extra tuition", "whyIncorrect": "Private tuition of one's own students for money is barred for government teachers under conduct rules." },
+      { "key": "D", "text": "Report the child to the principal for punishment", "whyIncorrect": "The child has done nothing wrong." }
+    ],
+    "correct": "B",
+    "explanation": "Professional ethics: integrity, impartiality, no gratification (Central/State Civil Services Conduct Rules; KVS Education Code for employees), commitment to every child. Offer remedial teaching as a legitimate route to improvement.",
+    "difficulty": "easy", "type": "scenario",
+    "source": "CCS (Conduct) Rules 1964; KVS Education Code; NCTE Code of Professional Ethics for Teachers",
+    "examRelevance": "Professional conduct scenarios are direct syllabus items and interview favourites.",
+    "origin": "practice", "tags": ["ethics", "professional conduct"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ls-007", "subjectId": "life-skills", "topicId": "ls-values",
+    "text": "The 'Fundamental Duties' were added to the Constitution on the recommendation of the:",
+    "textHi": "'मौलिक कर्तव्य' संविधान में किस समिति की सिफारिश पर जोड़े गए?",
+    "options": [
+      { "key": "A", "text": "Sarkaria Commission", "whyIncorrect": "Sarkaria dealt with Centre–State relations." },
+      { "key": "B", "text": "Swaran Singh Committee" },
+      { "key": "C", "text": "Kothari Commission", "whyIncorrect": "Kothari Commission (1964–66) was on education." },
+      { "key": "D", "text": "Mandal Commission", "whyIncorrect": "Mandal dealt with OBC reservation." }
+    ],
+    "correct": "B",
+    "explanation": "Swaran Singh Committee (1976) → 42nd Amendment inserted Part IV-A, Article 51-A with 10 duties; the 11th, 51-A(k) (parents to provide education to 6–14-year-olds), was added by the 86th Amendment 2002.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Constitution of India, Part IV-A",
+    "examRelevance": "Constitutional values — fundamental duties frequently asked.",
+    "origin": "practice", "tags": ["fundamental duties", "constitution"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

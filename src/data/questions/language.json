@@ -1,0 +1,308 @@
+[
+  {
+    "id": "la-001", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'विद्यालय' शब्द में कौन सी संधि है?",
+    "options": [
+      { "key": "A", "text": "गुण संधि", "whyIncorrect": "गुण संधि में अ/आ + इ/ई = ए होता है, जैसे 'नरेश'।" },
+      { "key": "B", "text": "दीर्घ संधि" },
+      { "key": "C", "text": "वृद्धि संधि", "whyIncorrect": "वृद्धि संधि में अ/आ + ए/ऐ = ऐ होता है, जैसे 'एकैक'।" },
+      { "key": "D", "text": "यण् संधि", "whyIncorrect": "यण् संधि में इ/उ के बाद असमान स्वर आने पर य्/व् बनता है, जैसे 'अत्यधिक'।" }
+    ],
+    "correct": "B",
+    "explanation": "विद्या + आलय = विद्यालय। आ + आ = आ (दीर्घ संधि)। दीर्घ संधि: समान ह्रस्व/दीर्घ स्वरों के मिलने से दीर्घ स्वर बनता है (अ/आ+अ/आ=आ, इ/ई+इ/ई=ई, उ/ऊ+उ/ऊ=ऊ)।",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "हिन्दी व्याकरण — संधि (कामताप्रसाद गुरु / NCERT)",
+    "examRelevance": "संधि पहचान — भाषा खंड (30 प्रश्न) में प्रायः पूछा जाता है।",
+    "origin": "practice", "tags": ["hindi", "sandhi"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-002", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'पंचवटी' में कौन सा समास है?",
+    "options": [
+      { "key": "A", "text": "तत्पुरुष", "whyIncorrect": "तत्पुरुष में उत्तरपद प्रधान होता है और कारक चिह्न का लोप होता है, जैसे 'राजपुत्र'।" },
+      { "key": "B", "text": "द्विगु" },
+      { "key": "C", "text": "द्वंद्व", "whyIncorrect": "द्वंद्व में दोनों पद प्रधान होते हैं और 'और/या' लुप्त होता है, जैसे 'माता-पिता'।" },
+      { "key": "D", "text": "बहुव्रीहि", "whyIncorrect": "बहुव्रीहि में कोई पद प्रधान नहीं, अन्य अर्थ निकलता है, जैसे 'दशानन' (रावण)।" }
+    ],
+    "correct": "B",
+    "explanation": "पंचवटी = पाँच वटों का समाहार। जिसका पूर्वपद संख्यावाची हो और समूह का बोध हो, वह द्विगु समास है (त्रिभुवन, चौराहा, नवरत्न)।",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "हिन्दी व्याकरण — समास",
+    "examRelevance": "समास भेद — नियमित प्रश्न।",
+    "origin": "practice", "tags": ["hindi", "samas"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-003", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'चारु चंद्र की चंचल किरणें, खेल रही हैं जल-थल में' — इस पंक्ति में कौन सा अलंकार है?",
+    "options": [
+      { "key": "A", "text": "यमक", "whyIncorrect": "यमक में एक शब्द बार-बार भिन्न अर्थों में आता है।" },
+      { "key": "B", "text": "अनुप्रास" },
+      { "key": "C", "text": "उपमा", "whyIncorrect": "उपमा में उपमेय की उपमान से तुलना होती है (जैसे, सा, सम)।" },
+      { "key": "D", "text": "रूपक", "whyIncorrect": "रूपक में उपमेय पर उपमान का आरोप होता है।" }
+    ],
+    "correct": "B",
+    "explanation": "'च' वर्ण की बार-बार आवृत्ति (चारु, चंद्र, चंचल) से अनुप्रास अलंकार है। अनुप्रास = वर्णों की आवृत्ति; यमक = शब्दों की आवृत्ति भिन्न अर्थ में; श्लेष = एक शब्द के अनेक अर्थ।",
+    "difficulty": "easy", "type": "application",
+    "source": "मैथिलीशरण गुप्त, पंचवटी; हिन्दी व्याकरण — अलंकार",
+    "examRelevance": "शब्दालंकार पहचान — प्रायः पूछा जाता है।",
+    "origin": "practice", "tags": ["hindi", "alankar"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-004", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'अंधे के हाथ बटेर लगना' मुहावरे का अर्थ है:",
+    "options": [
+      { "key": "A", "text": "बहुत परिश्रम करना", "whyIncorrect": "परिश्रम का भाव इस मुहावरे में नहीं है।" },
+      { "key": "B", "text": "अयोग्य व्यक्ति को संयोग से अच्छी वस्तु मिल जाना" },
+      { "key": "C", "text": "धोखा देना", "whyIncorrect": "यह 'आँखों में धूल झोंकना' का अर्थ है।" },
+      { "key": "D", "text": "असंभव कार्य करना", "whyIncorrect": "यह 'आकाश के तारे तोड़ना' का अर्थ है।" }
+    ],
+    "correct": "B",
+    "explanation": "'अंधे के हाथ बटेर लगना' का अर्थ है — बिना योग्यता या प्रयास के संयोग से कोई मूल्यवान वस्तु मिल जाना।",
+    "difficulty": "easy", "type": "fact",
+    "source": "हिन्दी मुहावरे एवं लोकोक्तियाँ",
+    "examRelevance": "मुहावरे-लोकोक्तियाँ — 2-3 प्रश्न अपेक्षित।",
+    "origin": "practice", "tags": ["hindi", "muhavare"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-005", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "निम्न में से शुद्ध वाक्य चुनिए:",
+    "options": [
+      { "key": "A", "text": "मैंने आपको एक पुस्तक दी थी।" },
+      { "key": "B", "text": "मैं आपको एक पुस्तक दी थी।", "whyIncorrect": "सकर्मक क्रिया के भूतकाल में कर्ता के साथ 'ने' आवश्यक है।" },
+      { "key": "C", "text": "मैंने आपको एक पुस्तक दिया था।", "whyIncorrect": "'पुस्तक' स्त्रीलिंग है, इसलिए क्रिया 'दी थी' होगी।" },
+      { "key": "D", "text": "मैंने आपको एक पुस्तकें दी थी।", "whyIncorrect": "'एक' के साथ बहुवचन 'पुस्तकें' असंगत है।" }
+    ],
+    "correct": "A",
+    "explanation": "'ने' का प्रयोग सकर्मक क्रिया के भूतकालिक रूपों में कर्ता के साथ होता है और क्रिया कर्म (पुस्तक — स्त्रीलिंग, एकवचन) के अनुसार 'दी थी' बनती है।",
+    "difficulty": "medium", "type": "application",
+    "source": "हिन्दी व्याकरण — वाक्य शुद्धि",
+    "examRelevance": "वाक्य शुद्धि नियमित रूप से पूछा जाता है।",
+    "origin": "practice", "tags": ["hindi", "vakya shuddhi"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-006", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'श्रृंगार रस' का स्थायी भाव क्या है?",
+    "options": [
+      { "key": "A", "text": "हास", "whyIncorrect": "हास — हास्य रस का स्थायी भाव।" },
+      { "key": "B", "text": "रति" },
+      { "key": "C", "text": "शोक", "whyIncorrect": "शोक — करुण रस का स्थायी भाव।" },
+      { "key": "D", "text": "उत्साह", "whyIncorrect": "उत्साह — वीर रस का स्थायी भाव।" }
+    ],
+    "correct": "B",
+    "explanation": "रस–स्थायी भाव: श्रृंगार–रति, हास्य–हास, करुण–शोक, वीर–उत्साह, रौद्र–क्रोध, भयानक–भय, बीभत्स–जुगुप्सा, अद्भुत–विस्मय, शांत–निर्वेद, वात्सल्य–वत्सलता, भक्ति–ईश्वर-अनुराग। श्रृंगार को 'रसराज' कहा जाता है।",
+    "difficulty": "easy", "type": "fact",
+    "source": "हिन्दी काव्यशास्त्र — रस",
+    "examRelevance": "रस–स्थायी भाव सुमेलन प्रायः पूछा जाता है।",
+    "origin": "practice", "tags": ["hindi", "ras"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-007", "subjectId": "language", "topicId": "lang-sanskrit-grammar",
+    "text": "'रामः' शब्द किस विभक्ति और वचन का रूप है?",
+    "options": [
+      { "key": "A", "text": "प्रथमा विभक्ति, एकवचन" },
+      { "key": "B", "text": "द्वितीया विभक्ति, एकवचन", "whyIncorrect": "द्वितीया एकवचन 'रामम्' होता है।" },
+      { "key": "C", "text": "प्रथमा विभक्ति, बहुवचन", "whyIncorrect": "प्रथमा बहुवचन 'रामाः' होता है।" },
+      { "key": "D", "text": "षष्ठी विभक्ति, एकवचन", "whyIncorrect": "षष्ठी एकवचन 'रामस्य' होता है।" }
+    ],
+    "correct": "A",
+    "explanation": "अकारान्त पुल्लिंग 'राम' शब्द: प्रथमा — रामः, रामौ, रामाः; द्वितीया — रामम्, रामौ, रामान्; तृतीया — रामेण, रामाभ्याम्, रामैः; षष्ठी — रामस्य, रामयोः, रामाणाम्।",
+    "difficulty": "easy", "type": "fact",
+    "source": "संस्कृत व्याकरण — शब्दरूप (अकारान्त पुल्लिंग)",
+    "examRelevance": "शब्दरूप पहचान — संस्कृत खंड का आधारभूत प्रश्न।",
+    "origin": "practice", "tags": ["sanskrit", "shabd roop"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-008", "subjectId": "language", "topicId": "lang-sanskrit-grammar",
+    "text": "'पठति' धातु रूप किस लकार, पुरुष और वचन में है?",
+    "options": [
+      { "key": "A", "text": "लट् लकार, प्रथम पुरुष, एकवचन" },
+      { "key": "B", "text": "लृट् लकार, प्रथम पुरुष, एकवचन", "whyIncorrect": "लृट् (भविष्यत्) में 'पठिष्यति' होता है।" },
+      { "key": "C", "text": "लङ् लकार, मध्यम पुरुष, एकवचन", "whyIncorrect": "लङ् (भूतकाल) में 'अपठत्' होता है।" },
+      { "key": "D", "text": "लट् लकार, उत्तम पुरुष, एकवचन", "whyIncorrect": "उत्तम पुरुष एकवचन 'पठामि' होता है।" }
+    ],
+    "correct": "A",
+    "explanation": "पठ् धातु, लट् लकार (वर्तमान): प्रथम पुरुष — पठति, पठतः, पठन्ति; मध्यम पुरुष — पठसि, पठथः, पठथ; उत्तम पुरुष — पठामि, पठावः, पठामः। ध्यान दें: संस्कृत में 'प्रथम पुरुष' = अन्य पुरुष (he/she)।",
+    "difficulty": "easy", "type": "fact",
+    "source": "संस्कृत व्याकरण — धातुरूप",
+    "examRelevance": "लकार पहचान का सामान्य प्रश्न।",
+    "origin": "practice", "tags": ["sanskrit", "dhatu roop", "lakar"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-009", "subjectId": "language", "topicId": "lang-sanskrit-grammar",
+    "text": "'सः विद्यालयं गच्छति' — इस वाक्य में 'विद्यालयं' में कौन सी विभक्ति है?",
+    "options": [
+      { "key": "A", "text": "प्रथमा", "whyIncorrect": "प्रथमा कर्ता के लिए — यहाँ कर्ता 'सः' है।" },
+      { "key": "B", "text": "द्वितीया" },
+      { "key": "C", "text": "चतुर्थी", "whyIncorrect": "चतुर्थी सम्प्रदान (जिसके लिए) में — 'विद्यालयाय'।" },
+      { "key": "D", "text": "सप्तमी", "whyIncorrect": "सप्तमी अधिकरण (में/पर) में — 'विद्यालये'।" }
+    ],
+    "correct": "B",
+    "explanation": "गति-अर्थक धातु (गच्छति) के साथ गन्तव्य स्थान (कर्म) में द्वितीया विभक्ति होती है। विद्यालयम् = द्वितीया एकवचन। कारक–विभक्ति: कर्ता–प्रथमा, कर्म–द्वितीया, करण–तृतीया, सम्प्रदान–चतुर्थी, अपादान–पञ्चमी, सम्बन्ध–षष्ठी, अधिकरण–सप्तमी।",
+    "difficulty": "medium", "type": "application",
+    "source": "संस्कृत व्याकरण — कारक-विभक्ति",
+    "examRelevance": "कारक-विभक्ति प्रयोग — अपेक्षित प्रश्न।",
+    "origin": "practice", "tags": ["sanskrit", "karak", "vibhakti"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-010", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "Choose the correct sentence:",
+    "options": [
+      { "key": "A", "text": "Neither of the two boys were present.", "whyIncorrect": "'Neither' is singular and takes a singular verb." },
+      { "key": "B", "text": "Neither of the two boys was present." },
+      { "key": "C", "text": "Neither of the two boys have been present.", "whyIncorrect": "Plural auxiliary 'have' does not agree with singular 'neither'." },
+      { "key": "D", "text": "Neither of the two boys are present.", "whyIncorrect": "'Are' is plural; 'neither' requires 'is/was'." }
+    ],
+    "correct": "B",
+    "explanation": "Subject–verb agreement: 'Neither', 'either', 'each', 'every', 'one of', 'none' (usually) take a singular verb. The prepositional phrase 'of the two boys' does not change the number of the subject.",
+    "difficulty": "easy", "type": "application",
+    "source": "Wren & Martin, High School English Grammar — Concord",
+    "examRelevance": "Subject–verb agreement / error spotting — regular question.",
+    "origin": "practice", "tags": ["english", "subject verb agreement"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-011", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "Change into passive voice: 'The teacher praised the student.'",
+    "options": [
+      { "key": "A", "text": "The student is praised by the teacher.", "whyIncorrect": "Tense changed to present; original is simple past." },
+      { "key": "B", "text": "The student was praised by the teacher." },
+      { "key": "C", "text": "The student has been praised by the teacher.", "whyIncorrect": "Present perfect, but original is simple past." },
+      { "key": "D", "text": "The student was being praised by the teacher.", "whyIncorrect": "Past continuous passive; original is not continuous." }
+    ],
+    "correct": "B",
+    "explanation": "Simple past active (V2) → passive: was/were + V3. 'praised' → 'was praised'. Object 'the student' becomes subject; agent takes 'by'.",
+    "difficulty": "easy", "type": "application",
+    "source": "English Grammar — Active and Passive Voice",
+    "examRelevance": "Voice transformation appears every year.",
+    "origin": "practice", "tags": ["english", "passive voice"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-012", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "Choose the word closest in meaning to 'BENEVOLENT':",
+    "options": [
+      { "key": "A", "text": "Cruel", "whyIncorrect": "Cruel is an antonym." },
+      { "key": "B", "text": "Kind-hearted" },
+      { "key": "C", "text": "Wealthy", "whyIncorrect": "Wealth is unrelated to benevolence." },
+      { "key": "D", "text": "Careless", "whyIncorrect": "Careless is unrelated." }
+    ],
+    "correct": "B",
+    "explanation": "Benevolent (Latin bene = well, volens = wishing) means well-meaning and kindly; antonym: malevolent.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Standard English vocabulary",
+    "examRelevance": "Synonyms/antonyms — 2–3 questions expected.",
+    "origin": "practice", "tags": ["english", "synonyms"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-013", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "One word for 'a person who can speak many languages':",
+    "options": [
+      { "key": "A", "text": "Linguist", "whyIncorrect": "A linguist studies language scientifically; not necessarily multilingual." },
+      { "key": "B", "text": "Polyglot" },
+      { "key": "C", "text": "Bilingual", "whyIncorrect": "Bilingual = speaks two languages." },
+      { "key": "D", "text": "Orator", "whyIncorrect": "An orator is a skilled public speaker." }
+    ],
+    "correct": "B",
+    "explanation": "Polyglot (poly = many, glotta = tongue) = a person who knows and is able to use several languages.",
+    "difficulty": "easy", "type": "fact",
+    "source": "One-word substitution",
+    "examRelevance": "One-word substitution is a standard item.",
+    "origin": "practice", "tags": ["english", "one word substitution"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-014", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "Fill in the blank: 'She has been living in Lucknow ____ 2015.'",
+    "options": [
+      { "key": "A", "text": "for", "whyIncorrect": "'For' is used with a duration (for 10 years), not a point in time." },
+      { "key": "B", "text": "since" },
+      { "key": "C", "text": "from", "whyIncorrect": "'From' needs a paired 'to/till' and is not used with perfect continuous tense this way." },
+      { "key": "D", "text": "before", "whyIncorrect": "Changes the meaning and does not fit the perfect continuous tense." }
+    ],
+    "correct": "B",
+    "explanation": "'Since' marks the starting point of time (since 2015, since Monday); 'for' marks duration (for 11 years). Both go with perfect/perfect-continuous tenses.",
+    "difficulty": "easy", "type": "application",
+    "source": "English Grammar — Prepositions of time",
+    "examRelevance": "Since/for is a very common preposition question.",
+    "origin": "practice", "tags": ["english", "prepositions"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-015", "subjectId": "language", "topicId": "lang-english-grammar",
+    "text": "Change into indirect speech: He said, \"I am reading a book.\"",
+    "options": [
+      { "key": "A", "text": "He said that he is reading a book.", "whyIncorrect": "Present continuous must change to past continuous after a past reporting verb." },
+      { "key": "B", "text": "He said that he was reading a book." },
+      { "key": "C", "text": "He said that I was reading a book.", "whyIncorrect": "First person 'I' changes to the third person 'he' (subject of the reporting verb)." },
+      { "key": "D", "text": "He told that he was reading a book.", "whyIncorrect": "'Told' requires an object (told me/us); 'said that' is correct without one." }
+    ],
+    "correct": "B",
+    "explanation": "Rules: reporting verb in past → tense shifts back (am reading → was reading); pronoun changes according to the speaker (I → he); 'that' introduces the reported clause.",
+    "difficulty": "easy", "type": "application",
+    "source": "English Grammar — Direct and Indirect Speech",
+    "examRelevance": "Narration change — expected question.",
+    "origin": "practice", "tags": ["english", "narration"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-016", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'अभिमान' शब्द में उपसर्ग है:",
+    "options": [
+      { "key": "A", "text": "अ", "whyIncorrect": "'अ' उपसर्ग होने पर मूल शब्द 'भिमान' बनता, जो सार्थक नहीं है।" },
+      { "key": "B", "text": "अभि" },
+      { "key": "C", "text": "अभिम", "whyIncorrect": "'अभिम' कोई उपसर्ग नहीं है।" },
+      { "key": "D", "text": "आन", "whyIncorrect": "'आन' अंत में है, यह प्रत्यय जैसा प्रतीत हो सकता है परंतु यहाँ उपसर्ग पूछा गया है।" }
+    ],
+    "correct": "B",
+    "explanation": "अभि + मान = अभिमान। 'अभि' संस्कृत उपसर्ग है (अर्थ: सामने, पास, ओर) — अभिनय, अभिलाषा, अभियान, अभ्यास।",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "हिन्दी व्याकरण — उपसर्ग",
+    "examRelevance": "उपसर्ग-प्रत्यय पहचान — नियमित प्रश्न।",
+    "origin": "practice", "tags": ["hindi", "upsarg"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-017", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'समुद्र' का पर्यायवाची नहीं है:",
+    "options": [
+      { "key": "A", "text": "सागर", "whyIncorrect": "सागर समुद्र का पर्यायवाची है।" },
+      { "key": "B", "text": "रत्नाकर", "whyIncorrect": "रत्नाकर (रत्नों की खान) समुद्र का पर्यायवाची है।" },
+      { "key": "C", "text": "जलधि", "whyIncorrect": "जलधि (जल का भंडार) समुद्र का पर्यायवाची है।" },
+      { "key": "D", "text": "सरिता" }
+    ],
+    "correct": "D",
+    "explanation": "सरिता का अर्थ नदी है (पर्याय: तटिनी, तरंगिणी, निर्झरिणी)। समुद्र के पर्यायवाची: सागर, सिंधु, जलधि, रत्नाकर, पयोधि, उदधि, वारिधि, नदीश।",
+    "difficulty": "easy", "type": "fact",
+    "source": "हिन्दी शब्द भंडार — पर्यायवाची",
+    "examRelevance": "पर्यायवाची — 'नहीं है' प्रकार का प्रश्न सामान्य है।",
+    "origin": "practice", "tags": ["hindi", "paryayvachi"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "la-018", "subjectId": "language", "topicId": "lang-hindi-grammar",
+    "text": "'दोहा' छंद के प्रत्येक चरण में मात्राओं का क्रम होता है:",
+    "options": [
+      { "key": "A", "text": "11, 13, 11, 13", "whyIncorrect": "यह 'सोरठा' का क्रम है (दोहे का उल्टा)।" },
+      { "key": "B", "text": "13, 11, 13, 11" },
+      { "key": "C", "text": "16, 16, 16, 16", "whyIncorrect": "यह 'चौपाई' का क्रम है।" },
+      { "key": "D", "text": "12, 12, 12, 12", "whyIncorrect": "किसी प्रचलित मात्रिक छंद का यह क्रम नहीं है।" }
+    ],
+    "correct": "B",
+    "explanation": "दोहा अर्द्धसम मात्रिक छंद है: विषम चरण (1, 3) में 13 और सम चरण (2, 4) में 11 मात्राएँ; अंत में लघु। सोरठा दोहे का उल्टा (11-13) है; रोला में 11-13 प्रत्येक चरण 24 मात्राएँ; चौपाई में 16 मात्राएँ।",
+    "difficulty": "medium", "type": "fact",
+    "source": "हिन्दी काव्यशास्त्र — छंद",
+    "examRelevance": "छंद की मात्राएँ — दोहा/चौपाई/सोरठा पर प्रश्न आते हैं।",
+    "origin": "practice", "tags": ["hindi", "chhand"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

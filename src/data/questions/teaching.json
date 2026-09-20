@@ -1,0 +1,254 @@
+[
+  {
+    "id": "tc-001", "subjectId": "teaching", "topicId": "teach-new-initiatives",
+    "text": "NEP 2020 replaces the 10+2 school structure with which curricular and pedagogical structure?",
+    "textHi": "NEP 2020 ने 10+2 विद्यालय संरचना को किस पाठ्यचर्या एवं शैक्षणिक संरचना से प्रतिस्थापित किया है?",
+    "options": [
+      { "key": "A", "text": "5+3+3+4" },
+      { "key": "B", "text": "4+4+4", "whyIncorrect": "Not proposed by NEP 2020." },
+      { "key": "C", "text": "3+5+4+3", "whyIncorrect": "Incorrect ordering; the correct structure begins with a 5-year Foundational Stage." },
+      { "key": "D", "text": "8+4", "whyIncorrect": "This resembles the older elementary+secondary split, not NEP 2020." }
+    ],
+    "correct": "A",
+    "explanation": "5+3+3+4 covers ages 3–18: Foundational Stage (3 yrs Anganwadi/pre-school + Classes 1–2; ages 3–8), Preparatory (Classes 3–5; ages 8–11), Middle (Classes 6–8; ages 11–14), Secondary (Classes 9–12; ages 14–18). PRTs teach in the Foundational and Preparatory stages.",
+    "difficulty": "easy", "type": "fact",
+    "source": "National Education Policy 2020, para 4.1",
+    "examRelevance": "Most-asked NEP 2020 fact; also a guaranteed KVS interview question.",
+    "origin": "practice", "tags": ["nep 2020"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-002", "subjectId": "teaching", "topicId": "teach-new-initiatives",
+    "text": "The NIPUN Bharat Mission aims to ensure that every child attains foundational literacy and numeracy by the end of:",
+    "textHi": "निपुण भारत मिशन का लक्ष्य है कि प्रत्येक बच्चा किसके अंत तक बुनियादी साक्षरता और संख्या-ज्ञान प्राप्त कर ले?",
+    "options": [
+      { "key": "A", "text": "Class 5", "whyIncorrect": "Class 5 marks the end of the Preparatory Stage, later than the FLN target." },
+      { "key": "B", "text": "Class 3 (originally targeted by 2026-27)" },
+      { "key": "C", "text": "Class 8", "whyIncorrect": "Class 8 is the end of elementary education under RTE, not the FLN target." },
+      { "key": "D", "text": "Class 1", "whyIncorrect": "Too early; FLN is a Grade 3 outcome." }
+    ],
+    "correct": "B",
+    "explanation": "NIPUN (National Initiative for Proficiency in Reading with Understanding and Numeracy) Bharat was launched on 5 July 2021 under Samagra Shiksha. Its goal: universal FLN by the end of Grade 3 by 2026-27, with Lakshya (targets) for each grade from Balvatika to Class 3.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NIPUN Bharat Guidelines, Ministry of Education (2021)",
+    "examRelevance": "FLN/NIPUN is the single most important 'new initiative' topic for primary teacher exams.",
+    "origin": "practice", "tags": ["nipun bharat", "fln"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-003", "subjectId": "teaching", "topicId": "teach-evaluation",
+    "text": "Which of the following is an example of FORMATIVE assessment?",
+    "textHi": "निम्न में से कौन रचनात्मक (formative) मूल्यांकन का उदाहरण है?",
+    "options": [
+      { "key": "A", "text": "Annual examination at the end of the session", "whyIncorrect": "Year-end exams are summative — they judge learning after instruction ends." },
+      { "key": "B", "text": "Board examination", "whyIncorrect": "Board exams are large-scale summative assessments." },
+      { "key": "C", "text": "Teacher observing group work and giving feedback during the lesson to adjust teaching" },
+      { "key": "D", "text": "Ranking students by marks for the merit list", "whyIncorrect": "Ranking is a summative, norm-referenced use of results." }
+    ],
+    "correct": "C",
+    "explanation": "Formative assessment (assessment FOR learning) happens during instruction to give feedback and modify teaching; summative assessment (assessment OF learning) happens at the end to certify achievement. NEP 2020 shifts assessment towards regular, formative, competency-based methods.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT CCE guidelines; NEP 2020 para 4.34",
+    "examRelevance": "Formative vs summative distinction is asked almost every year.",
+    "origin": "practice", "tags": ["assessment", "formative"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-004", "subjectId": "teaching", "topicId": "teach-evaluation",
+    "text": "A test measures what it claims to measure. This property is called:",
+    "textHi": "एक परीक्षण वही मापता है जिसे मापने का वह दावा करता है। इस गुण को क्या कहते हैं?",
+    "options": [
+      { "key": "A", "text": "Reliability", "whyIncorrect": "Reliability is consistency of scores across time/forms, not accuracy of purpose." },
+      { "key": "B", "text": "Validity" },
+      { "key": "C", "text": "Objectivity", "whyIncorrect": "Objectivity means scoring is free from the scorer's personal bias." },
+      { "key": "D", "text": "Usability", "whyIncorrect": "Usability concerns practicality — cost, time, ease of administration." }
+    ],
+    "correct": "B",
+    "explanation": "Validity = the test measures what it is intended to measure (content, construct, criterion validity). A test can be reliable without being valid, but cannot be valid without being reliable.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Educational Measurement — Gronlund; D.El.Ed. Evaluation unit",
+    "examRelevance": "Characteristics of a good test — a direct syllabus item under 'measurement and evaluation'.",
+    "origin": "practice", "tags": ["validity", "reliability", "measurement"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-005", "subjectId": "teaching", "topicId": "teach-methods-skills",
+    "text": "The 'Project Method' of teaching is associated with:",
+    "textHi": "शिक्षण की 'प्रोजेक्ट विधि' किससे संबंधित है?",
+    "options": [
+      { "key": "A", "text": "Maria Montessori", "whyIncorrect": "Montessori developed the Montessori method with didactic apparatus and sensory training." },
+      { "key": "B", "text": "William Heard Kilpatrick" },
+      { "key": "C", "text": "Friedrich Froebel", "whyIncorrect": "Froebel founded the Kindergarten and used 'gifts and occupations'." },
+      { "key": "D", "text": "Herbert Spencer", "whyIncorrect": "Spencer is known for the utilitarian/scientific curriculum, not the project method." }
+    ],
+    "correct": "B",
+    "explanation": "Kilpatrick (a student of John Dewey) formalised the Project Method: 'a whole-hearted purposeful activity proceeding in a social environment'. Steps: providing situation, choosing, planning, executing, evaluating, recording.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Kilpatrick, The Project Method (1918)",
+    "examRelevance": "Method–proponent matching is common.",
+    "origin": "practice", "tags": ["teaching methods", "kilpatrick"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-006", "subjectId": "teaching", "topicId": "teach-methods-skills",
+    "text": "Micro-teaching, developed at Stanford University (Allen & Ryan), is best described as:",
+    "textHi": "स्टैनफोर्ड विश्वविद्यालय (एलन और रयान) में विकसित सूक्ष्म-शिक्षण का सर्वोत्तम वर्णन है:",
+    "options": [
+      { "key": "A", "text": "Teaching very young children in small groups", "whyIncorrect": "Micro-teaching is a teacher-training technique, not about the age of learners." },
+      { "key": "B", "text": "A scaled-down teaching encounter (small class, 5–10 min, one skill) with feedback and re-teach cycle" },
+      { "key": "C", "text": "Teaching using microscopes in science", "whyIncorrect": "Unrelated to the term." },
+      { "key": "D", "text": "Online teaching via short videos", "whyIncorrect": "Micro-teaching predates online video and is about skill practice." }
+    ],
+    "correct": "B",
+    "explanation": "Micro-teaching cycle: Plan → Teach → Feedback → Re-plan → Re-teach → Re-feedback. It isolates skills like set induction, questioning, stimulus variation, reinforcement, explaining and blackboard writing.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "Allen & Ryan, Micro-teaching (1969); Indian model by Passi",
+    "examRelevance": "Teaching skills topic — micro-teaching steps and skills are frequently asked.",
+    "origin": "practice", "tags": ["micro-teaching", "teaching skills"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-007", "subjectId": "teaching", "topicId": "teach-learning-principles",
+    "text": "Herbart's steps of lesson planning, in the correct order, are:",
+    "textHi": "हरबर्ट के पाठ योजना के पद सही क्रम में हैं:",
+    "options": [
+      { "key": "A", "text": "Presentation → Preparation → Comparison → Generalisation → Application", "whyIncorrect": "Preparation (introduction) must come before presentation." },
+      { "key": "B", "text": "Preparation → Presentation → Comparison/Association → Generalisation → Application" },
+      { "key": "C", "text": "Generalisation → Application → Preparation → Presentation → Comparison", "whyIncorrect": "Generalisation cannot precede presentation of content." },
+      { "key": "D", "text": "Preparation → Application → Presentation → Generalisation → Comparison", "whyIncorrect": "Application is the final step after generalisation." }
+    ],
+    "correct": "B",
+    "explanation": "Herbartian five steps: Preparation/Introduction, Presentation, Comparison/Association, Generalisation, Application (a sixth, Recapitulation, is often added). Lesson plans in Indian teacher training largely follow this sequence.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "Herbart's Formal Steps; D.El.Ed. Pedagogy",
+    "examRelevance": "Sequence questions on Herbartian steps appear regularly.",
+    "origin": "practice", "tags": ["herbart", "lesson planning"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-008", "subjectId": "teaching", "topicId": "teach-inclusive",
+    "text": "The Right of Children to Free and Compulsory Education (RTE) Act, 2009 applies to children in which age group?",
+    "textHi": "निःशुल्क और अनिवार्य बाल शिक्षा का अधिकार (RTE) अधिनियम, 2009 किस आयु वर्ग के बच्चों पर लागू होता है?",
+    "options": [
+      { "key": "A", "text": "3–18 years", "whyIncorrect": "3–18 is the coverage NEP 2020 PROPOSES to extend RTE to, not the current Act." },
+      { "key": "B", "text": "6–14 years" },
+      { "key": "C", "text": "5–15 years", "whyIncorrect": "Not the statutory age band." },
+      { "key": "D", "text": "0–6 years", "whyIncorrect": "0–6 is covered by ICDS/Anganwadi and Article 45 (ECCE), not RTE." }
+    ],
+    "correct": "B",
+    "explanation": "RTE Act 2009 (effective 1 April 2010) gives effect to Article 21-A: free and compulsory elementary education (Classes 1–8) for children aged 6–14. Key provisions: Section 12(1)(c) 25% EWS seats in private schools, no detention (amended 2019 to allow states to detain in Class 5 and 8 after re-exam), PTR norms, no corporal punishment (Sec. 17), no screening for admission.",
+    "difficulty": "easy", "type": "fact",
+    "source": "RTE Act 2009; Constitution (86th Amendment) Act 2002",
+    "examRelevance": "RTE age group is a certain question; also useful for interview.",
+    "origin": "practice", "tags": ["rte", "article 21a"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-009", "subjectId": "teaching", "topicId": "teach-early-reading",
+    "text": "In early reading instruction, 'phonological awareness' refers to a child's ability to:",
+    "textHi": "प्रारंभिक पठन शिक्षण में 'ध्वन्यात्मक जागरूकता' का अर्थ है बच्चे की यह क्षमता:",
+    "options": [
+      { "key": "A", "text": "Recognise and manipulate the sounds of spoken language (syllables, rhymes, individual sounds)" },
+      { "key": "B", "text": "Write letters neatly", "whyIncorrect": "That is handwriting/graphomotor skill." },
+      { "key": "C", "text": "Understand the meaning of a paragraph", "whyIncorrect": "That is reading comprehension." },
+      { "key": "D", "text": "Memorise the alphabet in order", "whyIncorrect": "Alphabet recitation is rote knowledge of letter names, not sound awareness." }
+    ],
+    "correct": "A",
+    "explanation": "Phonological awareness (including phonemic awareness) is an oral skill and a strong predictor of later reading success. It underpins decoding — mapping sounds (varna/akshara) to symbols. NIPUN Bharat's reading components: oral language, phonological awareness, decoding, vocabulary, fluency, comprehension, writing.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "NIPUN Bharat Guidelines — components of FLN",
+    "examRelevance": "Direct syllabus topic 'early reading skills'.",
+    "origin": "practice", "tags": ["reading", "phonological awareness", "fln"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-010", "subjectId": "teaching", "topicId": "teach-management-admin",
+    "text": "Under the RTE Act 2009, the School Management Committee (SMC) must have at least what proportion of its members as parents/guardians of children in the school?",
+    "textHi": "RTE अधिनियम 2009 के अंतर्गत विद्यालय प्रबंधन समिति (SMC) में विद्यालय के बच्चों के अभिभावकों का न्यूनतम अनुपात क्या होना चाहिए?",
+    "options": [
+      { "key": "A", "text": "One-fourth", "whyIncorrect": "Too low; the Act requires a strong parent majority." },
+      { "key": "B", "text": "One-half", "whyIncorrect": "Half is required for WOMEN among the parent members, not for parents overall." },
+      { "key": "C", "text": "Three-fourths" },
+      { "key": "D", "text": "All members", "whyIncorrect": "SMC also includes elected representatives, teachers and the head teacher." }
+    ],
+    "correct": "C",
+    "explanation": "Section 21 of RTE Act: SMC comprises elected local-authority representatives, parents/guardians and teachers; at least three-fourths must be parents/guardians, with proportionate representation of disadvantaged/weaker sections, and 50% of members women. SMC prepares the School Development Plan.",
+    "difficulty": "medium", "type": "fact",
+    "source": "RTE Act 2009, Section 21 and 22",
+    "examRelevance": "Educational management and administration — SMC composition is a frequent question in UP exams.",
+    "origin": "practice", "tags": ["smc", "rte", "school management"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-011", "subjectId": "teaching", "topicId": "teach-society-elementary",
+    "text": "Which constitutional amendment inserted Article 21-A making education a fundamental right?",
+    "textHi": "किस संविधान संशोधन ने अनुच्छेद 21-A जोड़कर शिक्षा को मौलिक अधिकार बनाया?",
+    "options": [
+      { "key": "A", "text": "42nd Amendment, 1976", "whyIncorrect": "42nd Amendment moved 'education' from the State List to the Concurrent List." },
+      { "key": "B", "text": "73rd Amendment, 1992", "whyIncorrect": "73rd Amendment relates to Panchayati Raj." },
+      { "key": "C", "text": "86th Amendment, 2002" },
+      { "key": "D", "text": "93rd Amendment, 2005", "whyIncorrect": "93rd Amendment enabled reservation for OBCs in educational institutions (Art. 15(5))." }
+    ],
+    "correct": "C",
+    "explanation": "The 86th Amendment (2002) inserted Article 21-A (right to education for 6–14 years), amended Article 45 (ECCE for children below 6) and added fundamental duty 51-A(k) — parents to provide education opportunities to children aged 6–14.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Constitution of India, 86th Amendment Act 2002",
+    "examRelevance": "Overlaps with 'Indian Constitution' topic in EVS/SST — high yield.",
+    "origin": "practice", "tags": ["constitution", "article 21a", "amendment"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-012", "subjectId": "teaching", "topicId": "teach-new-initiatives",
+    "text": "The NCF for the Foundational Stage (2022) recommends 'Panchaadi' — a five-step learning process. The correct sequence is:",
+    "textHi": "NCF बुनियादी स्तर (2022) 'पंचाड़ी' — पाँच चरणों की अधिगम प्रक्रिया — की अनुशंसा करता है। सही क्रम है:",
+    "options": [
+      { "key": "A", "text": "Aditi (introduction) → Bodh (conceptual understanding) → Abhyas (practice) → Prayog (application) → Prasar (expansion)" },
+      { "key": "B", "text": "Abhyas → Aditi → Bodh → Prasar → Prayog", "whyIncorrect": "Practice cannot precede introduction and understanding." },
+      { "key": "C", "text": "Bodh → Aditi → Prayog → Abhyas → Prasar", "whyIncorrect": "Introduction (Aditi) comes first." },
+      { "key": "D", "text": "Aditi → Abhyas → Bodh → Prasar → Prayog", "whyIncorrect": "Understanding (Bodh) should precede practice (Abhyas)." }
+    ],
+    "correct": "A",
+    "explanation": "NCF-FS 2022 describes Panchaadi: Aditi (introduction/engagement), Bodh (conceptual understanding), Abhyas (practice), Prayog (application), Prasar (expansion/extension). It is an example of play-based, experiential pedagogy for ages 3–8.",
+    "difficulty": "hard", "type": "fact",
+    "source": "National Curriculum Framework for Foundational Stage 2022, Chapter on Pedagogy",
+    "examRelevance": "NCF-FS 2022 is a recent policy document — expect new-initiative questions from it.",
+    "origin": "practice", "tags": ["ncf 2022", "panchaadi", "pedagogy"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-013", "subjectId": "teaching", "topicId": "teach-inclusive",
+    "text": "Which of these best reflects 'inclusive education' as understood in NEP 2020 and the RPwD Act?",
+    "textHi": "NEP 2020 और RPwD अधिनियम में 'समावेशी शिक्षा' को कौन सबसे अच्छी तरह दर्शाता है?",
+    "options": [
+      { "key": "A", "text": "Children with disabilities study in separate special classrooms within a regular school", "whyIncorrect": "This is 'integration' or segregated provision, not inclusion." },
+      { "key": "B", "text": "All children, regardless of disability, gender, caste or socio-economic background, learn together in the same classroom with the system adapting to their needs" },
+      { "key": "C", "text": "Only children who can cope with the regular curriculum are admitted", "whyIncorrect": "Conditional admission is the opposite of inclusion." },
+      { "key": "D", "text": "Special schools for all children with disabilities", "whyIncorrect": "Special schools are a last resort; inclusion is the default." }
+    ],
+    "correct": "B",
+    "explanation": "RPwD Act 2016 Sec. 2(m) defines inclusive education as a system where students with and without disability learn together and the teaching–learning is suitably adapted. NEP 2020 Chapter 6 extends the idea to all Socio-Economically Disadvantaged Groups (SEDGs).",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "RPwD Act 2016 Sec. 2(m); NEP 2020 Chapter 6",
+    "examRelevance": "Definition-level question; also central to KVS interview.",
+    "origin": "practice", "tags": ["inclusive education", "nep 2020"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "tc-014", "subjectId": "teaching", "topicId": "teach-methods-skills",
+    "text": "The teaching skill of 'set induction' refers to:",
+    "textHi": "'सेट इंडक्शन' (प्रस्तावना) शिक्षण कौशल का अर्थ है:",
+    "options": [
+      { "key": "A", "text": "Summarising the lesson at the end", "whyIncorrect": "That is the skill of closure." },
+      { "key": "B", "text": "Preparing/motivating learners at the start of a lesson by linking to prior knowledge and arousing curiosity" },
+      { "key": "C", "text": "Arranging the seating in sets", "whyIncorrect": "Unrelated to the technical term." },
+      { "key": "D", "text": "Giving a written test", "whyIncorrect": "Testing is an evaluation activity, not an introductory skill." }
+    ],
+    "correct": "B",
+    "explanation": "Set induction (introducing the lesson) creates readiness — through questions, a story, a real object, a demonstration or a problem — and links previous knowledge to the new topic. It corresponds to Herbart's 'Preparation' step.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Micro-teaching skills — Allen & Ryan; Passi",
+    "examRelevance": "Teaching-skills definitions are directly examinable.",
+    "origin": "practice", "tags": ["teaching skills", "set induction"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

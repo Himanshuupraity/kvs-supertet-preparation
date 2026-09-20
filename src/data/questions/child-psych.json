@@ -1,0 +1,272 @@
+[
+  {
+    "id": "cp-001", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "According to Piaget, a child who can think logically about concrete objects but struggles with abstract hypothetical reasoning is most likely in which stage?",
+    "textHi": "पियाजे के अनुसार, जो बच्चा ठोस वस्तुओं के बारे में तार्किक रूप से सोच सकता है परंतु अमूर्त काल्पनिक तर्क में कठिनाई अनुभव करता है, वह किस अवस्था में है?",
+    "options": [
+      { "key": "A", "text": "Sensorimotor stage", "whyIncorrect": "Sensorimotor (0–2 yrs) is about reflexes, object permanence and motor exploration, not logical thought." },
+      { "key": "B", "text": "Pre-operational stage", "whyIncorrect": "Pre-operational (2–7 yrs) children are egocentric, lack conservation and cannot yet reason logically even about concrete objects." },
+      { "key": "C", "text": "Concrete operational stage" },
+      { "key": "D", "text": "Formal operational stage", "whyIncorrect": "Formal operational (11+ yrs) children CAN reason abstractly and hypothetically." }
+    ],
+    "correct": "C",
+    "explanation": "The concrete operational stage (approx. 7–11 years) is marked by logical thinking about concrete, tangible objects/events, mastery of conservation, reversibility and classification — but abstract/hypothetical reasoning develops only in the formal operational stage. Primary school children (Class 1–5) are largely in this stage, which is why hands-on TLM matters.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Piaget's theory of cognitive development; NCERT B.Ed./D.El.Ed. Child Development texts",
+    "examRelevance": "Piaget's stages are asked almost every year in UP teacher exams; know age ranges and key features of each stage.",
+    "origin": "practice", "tags": ["piaget", "cognitive development"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-002", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "The 'Zone of Proximal Development' (ZPD) refers to the gap between:",
+    "textHi": "'समीपस्थ विकास का क्षेत्र' (ZPD) किसके बीच के अंतर को दर्शाता है?",
+    "options": [
+      { "key": "A", "text": "What a child knows and what the syllabus prescribes", "whyIncorrect": "ZPD is about the child's capability with vs. without help, not syllabus coverage." },
+      { "key": "B", "text": "What a child can do alone and what the child can do with guidance from a more capable person" },
+      { "key": "C", "text": "A child's IQ and academic achievement", "whyIncorrect": "This describes under/over-achievement, unrelated to Vygotsky's concept." },
+      { "key": "D", "text": "Physical age and mental age", "whyIncorrect": "This relates to Binet's mental-age concept in intelligence testing, not ZPD." }
+    ],
+    "correct": "B",
+    "explanation": "Vygotsky defined ZPD as the distance between actual development (independent problem solving) and potential development (problem solving under adult guidance or with more capable peers). Teaching should target this zone using 'scaffolding'.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Vygotsky, Mind in Society (1978); D.El.Ed. Child Psychology",
+    "examRelevance": "ZPD, scaffolding and MKO (More Knowledgeable Other) are frequent one-liner questions.",
+    "origin": "practice", "tags": ["vygotsky", "zpd", "scaffolding"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-003", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "A teacher gives a star sticker every time a student completes homework on time. The frequency of timely homework increases. This is an example of:",
+    "textHi": "एक शिक्षक हर बार गृहकार्य समय पर पूरा करने पर छात्र को स्टार स्टिकर देता है। समय पर गृहकार्य की आवृत्ति बढ़ जाती है। यह किसका उदाहरण है?",
+    "options": [
+      { "key": "A", "text": "Negative reinforcement", "whyIncorrect": "Negative reinforcement increases behaviour by REMOVING an unpleasant stimulus (e.g., cancelling extra homework), not by adding a reward." },
+      { "key": "B", "text": "Positive reinforcement" },
+      { "key": "C", "text": "Punishment", "whyIncorrect": "Punishment aims to DECREASE a behaviour; here behaviour increased." },
+      { "key": "D", "text": "Classical conditioning", "whyIncorrect": "Classical conditioning (Pavlov) pairs stimuli to produce reflexive responses; homework completion is a voluntary operant behaviour." }
+    ],
+    "correct": "B",
+    "explanation": "In Skinner's operant conditioning, positive reinforcement means adding a pleasant stimulus (sticker) after a behaviour, making it more likely to recur. Remember: 'positive' = something added, 'negative' = something removed; 'reinforcement' = behaviour increases, 'punishment' = behaviour decreases.",
+    "difficulty": "medium", "type": "application",
+    "source": "B.F. Skinner — Operant Conditioning; D.El.Ed. Psychology",
+    "examRelevance": "Reinforcement vs punishment scenario questions appear regularly; also relevant to the 'reward and punishment' topic in Life Skills.",
+    "origin": "practice", "tags": ["skinner", "operant conditioning", "reinforcement"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-004", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "Kohlberg's theory is primarily concerned with the development of:",
+    "textHi": "कोहलबर्ग का सिद्धांत मुख्यतः किसके विकास से संबंधित है?",
+    "options": [
+      { "key": "A", "text": "Language", "whyIncorrect": "Language development is associated with Chomsky (LAD), Vygotsky and Skinner." },
+      { "key": "B", "text": "Moral reasoning" },
+      { "key": "C", "text": "Psychosocial identity", "whyIncorrect": "Psychosocial stages (trust vs mistrust, etc.) belong to Erik Erikson." },
+      { "key": "D", "text": "Psychosexual stages", "whyIncorrect": "Psychosexual stages (oral, anal, phallic…) are Freud's." }
+    ],
+    "correct": "B",
+    "explanation": "Lawrence Kohlberg proposed three levels (pre-conventional, conventional, post-conventional) with six stages of moral reasoning, extending Piaget's work on moral judgement. Most primary students are at the pre-conventional level (obedience/punishment, self-interest).",
+    "difficulty": "easy", "type": "fact",
+    "source": "Kohlberg (1958/1984), Stages of Moral Development",
+    "examRelevance": "Theorist–theory matching is a staple question type.",
+    "origin": "practice", "tags": ["kohlberg", "moral development"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-005", "subjectId": "child-psych", "topicId": "cp-individual-differences",
+    "text": "Howard Gardner's theory of Multiple Intelligences implies that a primary teacher should:",
+    "textHi": "हावर्ड गार्डनर के बहु-बुद्धि सिद्धांत के अनुसार एक प्राथमिक शिक्षक को क्या करना चाहिए?",
+    "options": [
+      { "key": "A", "text": "Group children strictly by IQ score", "whyIncorrect": "Gardner rejected a single IQ as the measure of intelligence." },
+      { "key": "B", "text": "Present content through varied modes — music, movement, visuals, group work, nature — so different strengths are engaged" },
+      { "key": "C", "text": "Focus only on linguistic and logical-mathematical skills because they are tested in exams", "whyIncorrect": "This is exactly the narrow view Gardner criticised." },
+      { "key": "D", "text": "Label each child with one fixed intelligence type", "whyIncorrect": "Every person has all intelligences in different profiles; labelling limits children." }
+    ],
+    "correct": "B",
+    "explanation": "Gardner (1983) identified eight intelligences — linguistic, logical-mathematical, spatial, bodily-kinaesthetic, musical, interpersonal, intrapersonal, naturalistic (later proposed existential). Classroom implication: use multiple entry points and varied assessment so every child can show understanding.",
+    "difficulty": "medium", "type": "application",
+    "source": "Gardner, Frames of Mind (1983)",
+    "examRelevance": "Individual differences + Gardner is a common application-type question.",
+    "origin": "practice", "tags": ["gardner", "multiple intelligences", "individual differences"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-006", "subjectId": "child-psych", "topicId": "cp-factors-development",
+    "text": "Which statement about the principles of development is CORRECT?",
+    "textHi": "विकास के सिद्धांतों के बारे में कौन सा कथन सही है?",
+    "options": [
+      { "key": "A", "text": "Development proceeds from specific to general responses", "whyIncorrect": "It is the reverse — general (whole-body) to specific (fine, differentiated) responses." },
+      { "key": "B", "text": "Development is a discontinuous process that stops at adolescence", "whyIncorrect": "Development is continuous and lifelong, though the rate varies." },
+      { "key": "C", "text": "Development follows cephalocaudal (head-to-toe) and proximodistal (centre-to-periphery) directions" },
+      { "key": "D", "text": "All children develop at the same rate", "whyIncorrect": "Rate of development differs among individuals (principle of individual differences)." }
+    ],
+    "correct": "C",
+    "explanation": "Key principles: continuity, sequential order, general-to-specific, cephalocaudal (head control before leg control), proximodistal (trunk/shoulders before fingers), individual differences, interaction of heredity and environment, and predictability of pattern.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "Hurlock, Child Development; D.El.Ed. texts",
+    "examRelevance": "Principles of development questions typically test direction (cephalocaudal/proximodistal) and general-to-specific.",
+    "origin": "practice", "tags": ["principles of development"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-007", "subjectId": "child-psych", "topicId": "cp-factors-development",
+    "text": "Which of the following is an environmental (nurture) factor affecting child development rather than a hereditary one?",
+    "textHi": "निम्न में से कौन बाल विकास को प्रभावित करने वाला पर्यावरणीय (पोषण) कारक है, वंशानुगत नहीं?",
+    "options": [
+      { "key": "A", "text": "Eye colour", "whyIncorrect": "Eye colour is genetically determined." },
+      { "key": "B", "text": "Blood group", "whyIncorrect": "Blood group is inherited." },
+      { "key": "C", "text": "Quality of nutrition and stimulation at home" },
+      { "key": "D", "text": "Chromosomal disorders such as Down syndrome", "whyIncorrect": "Down syndrome arises from an extra copy of chromosome 21 — a genetic factor." }
+    ],
+    "correct": "C",
+    "explanation": "Development results from the interaction of heredity (genes) and environment (nutrition, family, school, peers, culture, socio-economic status, media). Nutrition and early stimulation are powerful environmental factors, especially in the first 6–8 years.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "D.El.Ed. Child Development — heredity and environment",
+    "examRelevance": "Directly maps to the syllabus topic 'factors affecting child development'.",
+    "origin": "practice", "tags": ["heredity", "environment"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-008", "subjectId": "child-psych", "topicId": "cp-identifying-needs",
+    "text": "A Class 3 child reads fluently but consistently reverses letters like 'b' and 'd' while writing, and finds spelling very hard despite normal intelligence. The teacher should FIRST suspect:",
+    "textHi": "कक्षा 3 का एक बच्चा धाराप्रवाह पढ़ता है परंतु लिखते समय 'b' और 'd' जैसे अक्षरों को लगातार उलट देता है, और सामान्य बुद्धि के बावजूद वर्तनी में बहुत कठिनाई पाता है। शिक्षक को सबसे पहले किस पर संदेह करना चाहिए?",
+    "options": [
+      { "key": "A", "text": "Laziness and carelessness", "whyIncorrect": "Attributing a persistent pattern to laziness ignores a possible learning disability and harms the child." },
+      { "key": "B", "text": "Intellectual disability", "whyIncorrect": "The child has normal intelligence; specific learning disabilities are by definition not due to low IQ." },
+      { "key": "C", "text": "A specific learning disability such as dysgraphia/dyslexia, requiring screening and support" },
+      { "key": "D", "text": "Poor eyesight only", "whyIncorrect": "Vision should be checked, but fluent reading makes vision an unlikely sole cause of writing reversals and spelling difficulty." }
+    ],
+    "correct": "C",
+    "explanation": "Persistent letter reversals, spelling difficulty and writing problems with normal intelligence indicate a possible specific learning disability (dysgraphia — writing; dyslexia — reading/spelling). Under RPwD Act 2016, SLD is a recognised disability; the teacher should observe, document, involve parents and refer for assessment, while providing accommodations (extra time, oral tests, multisensory methods).",
+    "difficulty": "medium", "type": "scenario",
+    "source": "RPwD Act 2016 (Schedule — Specific Learning Disabilities); NCERT Inclusive Education material",
+    "examRelevance": "Identifying learning needs + CWSN provisions — scenario questions very common.",
+    "origin": "practice", "tags": ["learning disability", "dysgraphia", "dyslexia", "cwsn"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-009", "subjectId": "child-psych", "topicId": "cp-cwsn",
+    "text": "Under the Rights of Persons with Disabilities (RPwD) Act, 2016, how many categories of disabilities are recognised?",
+    "textHi": "दिव्यांगजन अधिकार अधिनियम (RPwD), 2016 के अंतर्गत कितनी प्रकार की दिव्यांगताएँ मान्य हैं?",
+    "options": [
+      { "key": "A", "text": "7", "whyIncorrect": "7 categories were recognised under the earlier PwD Act, 1995." },
+      { "key": "B", "text": "14", "whyIncorrect": "Not the correct count under RPwD 2016." },
+      { "key": "C", "text": "21" },
+      { "key": "D", "text": "25", "whyIncorrect": "No statute recognises 25 categories." }
+    ],
+    "correct": "C",
+    "explanation": "RPwD Act 2016 replaced the PwD Act 1995 and expanded the list from 7 to 21 specified disabilities, including specific learning disabilities, autism spectrum disorder, cerebral palsy, dwarfism, acid attack victims, thalassemia, haemophilia, sickle cell disease, multiple sclerosis, Parkinson's disease, etc. It mandates inclusive education and 'reasonable accommodation'.",
+    "difficulty": "easy", "type": "fact",
+    "source": "RPwD Act 2016, Schedule",
+    "examRelevance": "Frequently asked number-based fact for 'special provisions for Divyang students'.",
+    "origin": "practice", "tags": ["rpwd", "inclusive education", "cwsn"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-010", "subjectId": "child-psych", "topicId": "cp-cwsn",
+    "text": "Which of the following is the best example of 'reasonable accommodation' for a child with visual impairment in a regular primary classroom?",
+    "textHi": "एक सामान्य प्राथमिक कक्षा में दृष्टिबाधित बच्चे के लिए 'उचित समायोजन' का सबसे अच्छा उदाहरण कौन सा है?",
+    "options": [
+      { "key": "A", "text": "Exempting the child from all classroom activities", "whyIncorrect": "Exclusion from activities is the opposite of inclusion." },
+      { "key": "B", "text": "Providing large-print/Braille material, tactile TLM, front seating and audio support" },
+      { "key": "C", "text": "Sending the child to a special school immediately", "whyIncorrect": "RPwD Act and RTE favour inclusive neighbourhood schooling; special schooling is only when needs cannot be met otherwise." },
+      { "key": "D", "text": "Lowering learning expectations permanently", "whyIncorrect": "Accommodation changes HOW the child accesses learning, not WHAT they are expected to learn." }
+    ],
+    "correct": "B",
+    "explanation": "Reasonable accommodation means necessary and appropriate modifications so persons with disabilities can enjoy rights equally with others. For visual impairment: Braille/large print, tactile and audio materials, verbal descriptions, preferential seating, extra time and a scribe if needed.",
+    "difficulty": "medium", "type": "application",
+    "source": "RPwD Act 2016 Sec. 2(y) and Sec. 16; Samagra Shiksha inclusive education guidelines",
+    "examRelevance": "Application-type inclusive-education question.",
+    "origin": "practice", "tags": ["inclusive education", "visual impairment", "accommodation"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-011", "subjectId": "child-psych", "topicId": "cp-learning-environment",
+    "text": "Which classroom practice BEST creates a supportive environment for early reading in Class 1–2?",
+    "textHi": "कक्षा 1–2 में प्रारंभिक पठन के लिए सहायक वातावरण बनाने हेतु कौन सी कक्षा-प्रथा सर्वोत्तम है?",
+    "options": [
+      { "key": "A", "text": "A print-rich classroom with labelled objects, a reading corner, picture books and daily read-aloud" },
+      { "key": "B", "text": "Silent copying of the alphabet for 40 minutes daily", "whyIncorrect": "Mechanical copying without meaning does not build reading motivation or comprehension." },
+      { "key": "C", "text": "Punishing children who mispronounce words", "whyIncorrect": "Fear reduces risk-taking, which is essential for beginning readers." },
+      { "key": "D", "text": "Reading only from the prescribed textbook", "whyIncorrect": "Restricting exposure limits vocabulary and interest; NIPUN Bharat recommends varied children's literature." }
+    ],
+    "correct": "A",
+    "explanation": "NIPUN Bharat / NCF-FS 2022 emphasise a print-rich environment, oral language development, read-alouds, shared reading, and access to storybooks (e.g., library corners) to build emergent literacy, phonological awareness and love for reading.",
+    "difficulty": "easy", "type": "pedagogy",
+    "source": "NIPUN Bharat Guidelines (2021); NCF for Foundational Stage 2022",
+    "examRelevance": "Maps to 'creating an environment for reading' and to Teaching Skill 'early reading skills'.",
+    "origin": "practice", "tags": ["fln", "nipun bharat", "reading environment"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-012", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "'Insight learning' — sudden understanding of a problem's solution (the 'aha' experience) — was demonstrated by:",
+    "textHi": "'अंतर्दृष्टि अधिगम' — समस्या के समाधान की अचानक समझ ('अहा' अनुभव) — किसने प्रदर्शित किया?",
+    "options": [
+      { "key": "A", "text": "Thorndike with cats in a puzzle box", "whyIncorrect": "Thorndike's cats learned by gradual trial and error, not sudden insight." },
+      { "key": "B", "text": "Köhler with chimpanzees (e.g., Sultan stacking boxes to reach a banana)" },
+      { "key": "C", "text": "Pavlov with dogs", "whyIncorrect": "Pavlov demonstrated classical conditioning (salivation to a bell)." },
+      { "key": "D", "text": "Bandura with the Bobo doll", "whyIncorrect": "Bandura demonstrated observational/social learning of aggression." }
+    ],
+    "correct": "B",
+    "explanation": "Wolfgang Köhler, a Gestalt psychologist, showed chimpanzees solving problems through insight — perceiving the whole situation — rather than trial and error. Gestalt view: 'The whole is greater than the sum of its parts.'",
+    "difficulty": "medium", "type": "fact",
+    "source": "Köhler, The Mentality of Apes (1925)",
+    "examRelevance": "Experiment–psychologist matching is a very common question format.",
+    "origin": "practice", "tags": ["gestalt", "kohler", "insight learning"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-013", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "Thorndike's 'Law of Effect' states that:",
+    "textHi": "थार्नडाइक के 'प्रभाव के नियम' के अनुसार:",
+    "options": [
+      { "key": "A", "text": "Connections are strengthened with practice and weakened with disuse", "whyIncorrect": "That is the Law of Exercise (use and disuse)." },
+      { "key": "B", "text": "Learning is effective when the learner is mentally and physically ready", "whyIncorrect": "That is the Law of Readiness." },
+      { "key": "C", "text": "Responses followed by satisfaction are strengthened; those followed by discomfort are weakened" },
+      { "key": "D", "text": "Learning occurs through observing others", "whyIncorrect": "That is Bandura's social learning theory." }
+    ],
+    "correct": "C",
+    "explanation": "Thorndike's three primary laws: Readiness, Exercise, and Effect. The Law of Effect — satisfying consequences strengthen the S-R bond — laid the foundation for Skinner's reinforcement.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "Thorndike, Animal Intelligence (1911)",
+    "examRelevance": "Direct one-liner on laws of learning.",
+    "origin": "practice", "tags": ["thorndike", "laws of learning"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-014", "subjectId": "child-psych", "topicId": "cp-individual-differences",
+    "text": "In a mixed-ability Class 4, the most appropriate way to address individual differences is:",
+    "textHi": "मिश्रित क्षमता वाली कक्षा 4 में वैयक्तिक भिन्नताओं को संबोधित करने का सबसे उपयुक्त तरीका है:",
+    "options": [
+      { "key": "A", "text": "Teach at the pace of the fastest learners so the class covers the syllabus", "whyIncorrect": "Leaves most students behind and creates learning gaps." },
+      { "key": "B", "text": "Differentiate instruction — vary tasks, grouping, pace and assessment while keeping common learning outcomes" },
+      { "key": "C", "text": "Permanently seat slow learners at the back", "whyIncorrect": "Segregation and labelling damage self-esteem and violate inclusion principles." },
+      { "key": "D", "text": "Give identical worksheets to everyone every day", "whyIncorrect": "Uniform tasks ignore differences in readiness and interest." }
+    ],
+    "correct": "B",
+    "explanation": "Differentiated instruction (Tomlinson) adapts content, process, product and learning environment to student readiness, interest and learning profile. It aligns with NEP 2020's emphasis on flexible, learner-centred pedagogy.",
+    "difficulty": "medium", "type": "pedagogy",
+    "source": "Tomlinson, The Differentiated Classroom; NEP 2020 para 4.5–4.6",
+    "examRelevance": "Individual differences → classroom implication; also useful for KVS interview.",
+    "origin": "practice", "tags": ["individual differences", "differentiation"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "cp-015", "subjectId": "child-psych", "topicId": "cp-learning-theories",
+    "text": "Which pair of theorist and key concept is CORRECTLY matched?",
+    "textHi": "सिद्धांतकार और प्रमुख अवधारणा का कौन सा युग्म सही सुमेलित है?",
+    "options": [
+      { "key": "A", "text": "Erikson — Hierarchy of needs", "whyIncorrect": "Hierarchy of needs is Maslow's." },
+      { "key": "B", "text": "Bandura — Observational learning / self-efficacy" },
+      { "key": "C", "text": "Bruner — Psychosocial stages", "whyIncorrect": "Psychosocial stages are Erikson's; Bruner gave discovery learning and the spiral curriculum." },
+      { "key": "D", "text": "Chomsky — Operant conditioning", "whyIncorrect": "Operant conditioning is Skinner's; Chomsky proposed the innate Language Acquisition Device." }
+    ],
+    "correct": "B",
+    "explanation": "Albert Bandura's social learning theory shows children learn by observing models (Bobo doll experiment) and introduced self-efficacy — belief in one's capability — a key motivational construct for teachers to build.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Bandura, Social Learning Theory (1977)",
+    "examRelevance": "Matching questions across theorists are a frequent format.",
+    "origin": "practice", "tags": ["bandura", "theorists"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

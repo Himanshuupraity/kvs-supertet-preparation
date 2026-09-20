@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "examName": "UP Primary School Assistant Teacher (Class 1-5) Recruitment Exam 2026 (popularly 'Super TET')",
+    "examNameHi": "प्राथमिक विद्यालय सहायक अध्यापक (कक्षा 1-5 तक) की भर्ती परीक्षा 2026",
+    "conductingBody": "Uttar Pradesh Education Service Selection Commission (UPESSC), 23 Allenganj, Prayagraj - 211002",
+    "sourceUrl": "https://www.upessc.up.gov.in/syllabus/837218cf-1d9a-4252-a08c-404719d1b9d9.pdf",
+    "sourceAccessedOn": "2026-09-19",
+    "durationMinutes": 120,
+    "totalQuestions": 120,
+    "marksPerQuestion": 3,
+    "negativeMarking": 1,
+    "paperLanguage": "Question paper will be in both English and Hindi (प्रश्न पत्र अंग्रेजी एवं हिन्दी दोनों भाषा में होगा)",
+    "levelNotes": [
+      "Language (Hindi, Sanskrit & English), Science, Mathematics, Environment & Social Studies: up to Class 12 level",
+      "Teaching Skill, Child Psychology, Information Technology, Life Skill/Management & Attitude: up to D.El.Ed. course level",
+      "All questions are MCQs with four options and one correct answer; each question carries 3 marks; 1 mark deducted for each wrong answer"
+    ],
+    "version": "2026-official-v1"
+  },
+  "subjects": [
+    {
+      "id": "gk", "code": "GK", "order": 1, "questionsInExam": 25, "marksInExam": 75, "color": "amber", "icon": "Globe2",
+      "nameEn": "General Knowledge / Current Events", "nameHi": "सामान्य ज्ञान / समसामयिक घटनाएँ",
+      "topics": [
+        { "id": "gk-current-intl", "subjectId": "gk", "order": 1, "nameEn": "Important current events — International", "nameHi": "समसामयिक महत्वपूर्ण घटनाएँ — अंतर्राष्ट्रीय" },
+        { "id": "gk-current-national", "subjectId": "gk", "order": 2, "nameEn": "Important current events — National", "nameHi": "समसामयिक महत्वपूर्ण घटनाएँ — राष्ट्रीय" },
+        { "id": "gk-current-up", "subjectId": "gk", "order": 3, "nameEn": "Important events related to the State (Uttar Pradesh)", "nameHi": "प्रदेश से सम्बन्धित महत्वपूर्ण घटनाएँ" },
+        { "id": "gk-places-persons", "subjectId": "gk", "order": 4, "nameEn": "Places, Personalities, Works/Compositions", "nameHi": "स्थान, व्यक्तित्व, रचनाएँ" },
+        { "id": "gk-awards-sports", "subjectId": "gk", "order": 5, "nameEn": "International & National Awards / Sports", "nameHi": "अन्तर्राष्ट्रीय तथा राष्ट्रीय पुरस्कार / खेल-कूद" },
+        { "id": "gk-culture-art", "subjectId": "gk", "order": 6, "nameEn": "Indian Culture and Art", "nameHi": "भारतीय संस्कृति एवं कला" }
+      ]
+    },
+    {
+      "id": "reasoning", "code": "REAS", "order": 2, "questionsInExam": 5, "marksInExam": 15, "color": "violet", "icon": "BrainCircuit",
+      "nameEn": "Logical Reasoning", "nameHi": "तार्किक ज्ञान",
+      "topics": [
+        { "id": "reas-analogies", "subjectId": "reasoning", "order": 1, "nameEn": "Analogies", "nameHi": "सादृश्यता" },
+        { "id": "reas-assertion-reason", "subjectId": "reasoning", "order": 2, "nameEn": "Assertion and Reason", "nameHi": "अभिकथन और कारण" },
+        { "id": "reas-binary-logic", "subjectId": "reasoning", "order": 3, "nameEn": "Binary Logic", "nameHi": "बाइनरी लॉजिक" },
+        { "id": "reas-classification", "subjectId": "reasoning", "order": 4, "nameEn": "Classification", "nameHi": "वर्गीकरण" },
+        { "id": "reas-clocks-calendars", "subjectId": "reasoning", "order": 5, "nameEn": "Clocks and Calendars", "nameHi": "घड़ी और कैलेंडर" },
+        { "id": "reas-coded-inequalities", "subjectId": "reasoning", "order": 6, "nameEn": "Coded Inequalities, Coding & Decoding", "nameHi": "कोडित असमानताएँ, कोडिंग-डिकोडिंग" },
+        { "id": "reas-critical", "subjectId": "reasoning", "order": 7, "nameEn": "Critical Reasoning", "nameHi": "आलोचनात्मक तर्क" },
+        { "id": "reas-cubes-series", "subjectId": "reasoning", "order": 8, "nameEn": "Cubes, Number Series", "nameHi": "घन, संख्या श्रेणी" },
+        { "id": "reas-puzzles", "subjectId": "reasoning", "order": 9, "nameEn": "Puzzles", "nameHi": "पहेलियाँ" },
+        { "id": "reas-symbols", "subjectId": "reasoning", "order": 10, "nameEn": "Symbols and Notations", "nameHi": "प्रतीक और संकेतन" },
+        { "id": "reas-venn-dice", "subjectId": "reasoning", "order": 11, "nameEn": "Venn Diagrams and Dice", "nameHi": "वेन आरेख और पासा" },
+        { "id": "reas-di", "subjectId": "reasoning", "order": 12, "nameEn": "Data Interpretation", "nameHi": "आँकड़ों की व्याख्या" },
+        { "id": "reas-direction", "subjectId": "reasoning", "order": 13, "nameEn": "Direction Sense Test", "nameHi": "दिशा ज्ञान परीक्षण" },
+        { "id": "reas-grouping", "subjectId": "reasoning", "order": 14, "nameEn": "Grouping and Selections", "nameHi": "समूहन और चयन" },
+        { "id": "reas-inferences", "subjectId": "reasoning", "order": 15, "nameEn": "Inferences", "nameHi": "निष्कर्ष" },
+        { "id": "reas-letter-series", "subjectId": "reasoning", "order": 16, "nameEn": "Letter Series", "nameHi": "अक्षर श्रेणी" }
+      ]
+    },
+    {
+      "id": "language", "code": "LANG", "order": 3, "questionsInExam": 30, "marksInExam": 90, "color": "rose", "icon": "Languages",
+      "nameEn": "Hindi, Sanskrit and English", "nameHi": "हिन्दी, संस्कृत तथा अंग्रेजी",
+      "topics": [
+        { "id": "lang-hindi-grammar", "subjectId": "language", "order": 1, "nameEn": "Hindi Grammar (व्याकरण)", "nameHi": "हिन्दी व्याकरण", "subtopics": ["संज्ञा, सर्वनाम, विशेषण, क्रिया", "संधि", "समास", "उपसर्ग-प्रत्यय", "पर्यायवाची-विलोम", "मुहावरे-लोकोक्तियाँ", "वाक्य शुद्धि", "अलंकार, रस, छंद", "वर्ण विचार"] },
+        { "id": "lang-hindi-comprehension", "subjectId": "language", "order": 2, "nameEn": "Hindi Unseen Prose & Poetry Passage (अपठित गद्यांश, पद्यांश)", "nameHi": "अपठित गद्यांश, पद्यांश" },
+        { "id": "lang-sanskrit-grammar", "subjectId": "language", "order": 3, "nameEn": "Sanskrit Grammar (व्याकरण)", "nameHi": "संस्कृत व्याकरण", "subtopics": ["शब्द रूप", "धातु रूप", "संधि", "समास", "कारक-विभक्ति", "प्रत्यय", "संख्या"] },
+        { "id": "lang-sanskrit-comprehension", "subjectId": "language", "order": 4, "nameEn": "Sanskrit Unseen Passage", "nameHi": "संस्कृत अपठित गद्यांश" },
+        { "id": "lang-english-grammar", "subjectId": "language", "order": 5, "nameEn": "English Grammar", "nameHi": "अंग्रेजी व्याकरण", "subtopics": ["Parts of speech", "Tenses", "Subject-verb agreement", "Articles & prepositions", "Active/passive voice", "Direct/indirect speech", "Synonyms/antonyms", "One-word substitution", "Idioms & phrases", "Error spotting"] },
+        { "id": "lang-english-comprehension", "subjectId": "language", "order": 6, "nameEn": "English Comprehension", "nameHi": "अंग्रेजी अपठित गद्यांश" }
+      ]
+    },
+    {
+      "id": "science", "code": "SCI", "order": 4, "questionsInExam": 8, "marksInExam": 24, "color": "emerald", "icon": "FlaskConical",
+      "nameEn": "Science", "nameHi": "विज्ञान",
+      "topics": [
+        { "id": "sci-daily-life", "subjectId": "science", "order": 1, "nameEn": "Science in Daily Life", "nameHi": "दैनिक जीवन में विज्ञान" },
+        { "id": "sci-motion-force-energy", "subjectId": "science", "order": 2, "nameEn": "Motion, Force, Energy, Distance", "nameHi": "गति, बल, ऊर्जा, दूरी" },
+        { "id": "sci-light-sound", "subjectId": "science", "order": 3, "nameEn": "Light and Sound", "nameHi": "प्रकाश, ध्वनि" },
+        { "id": "sci-living-world", "subjectId": "science", "order": 4, "nameEn": "World of Living Organisms", "nameHi": "जीवों की दुनिया" },
+        { "id": "sci-human-body-health", "subjectId": "science", "order": 5, "nameEn": "Human Body, Health, Hygiene and Nutrition", "nameHi": "मानव शरीर, स्वास्थ्य, स्वच्छता एवं पोषण" },
+        { "id": "sci-environment-resources", "subjectId": "science", "order": 6, "nameEn": "Environment and Natural Resources", "nameHi": "पर्यावरण एवं प्राकृतिक संसाधन" },
+        { "id": "sci-matter-states", "subjectId": "science", "order": 7, "nameEn": "Matter and States of Matter", "nameHi": "पदार्थ एवं पदार्थ की अवस्थाएँ" }
+      ]
+    },
+    {
+      "id": "math", "code": "MATH", "order": 5, "questionsInExam": 16, "marksInExam": 48, "color": "sky", "icon": "Calculator",
+      "nameEn": "Mathematics", "nameHi": "गणित",
+      "topics": [
+        { "id": "math-numeracy-operations", "subjectId": "math", "order": 1, "nameEn": "Numerical Ability & Mathematical Operations", "nameHi": "अंकीय क्षमता, गणितीय संक्रियाएँ" },
+        { "id": "math-decimal-place-value", "subjectId": "math", "order": 2, "nameEn": "Decimals and Place Value", "nameHi": "दशमलव, स्थानीयमान" },
+        { "id": "math-fractions", "subjectId": "math", "order": 3, "nameEn": "Fractions", "nameHi": "भिन्न" },
+        { "id": "math-interest", "subjectId": "math", "order": 4, "nameEn": "Interest (Simple & Compound)", "nameHi": "ब्याज" },
+        { "id": "math-profit-loss", "subjectId": "math", "order": 5, "nameEn": "Profit and Loss", "nameHi": "लाभ-हानि" },
+        { "id": "math-percentage-divisibility", "subjectId": "math", "order": 6, "nameEn": "Percentage & Divisibility", "nameHi": "प्रतिशत, विभाज्यता" },
+        { "id": "math-factors", "subjectId": "math", "order": 7, "nameEn": "Factors (Factorisation, HCF/LCM)", "nameHi": "गुणनखण्ड" },
+        { "id": "math-unitary", "subjectId": "math", "order": 8, "nameEn": "Unitary Method", "nameHi": "ऐकिक नियम" },
+        { "id": "math-algebra", "subjectId": "math", "order": 9, "nameEn": "General Algebra", "nameHi": "सामान्य बीजगणित" },
+        { "id": "math-area-volume", "subjectId": "math", "order": 10, "nameEn": "Area and Volume", "nameHi": "क्षेत्रफल, आयतन" },
+        { "id": "math-average", "subjectId": "math", "order": 11, "nameEn": "Average", "nameHi": "औसत" },
+        { "id": "math-ratio", "subjectId": "math", "order": 12, "nameEn": "Ratio and Proportion", "nameHi": "अनुपात" },
+        { "id": "math-identities", "subjectId": "math", "order": 13, "nameEn": "Algebraic Identities", "nameHi": "सर्वसमिकायें" },
+        { "id": "math-geometry", "subjectId": "math", "order": 14, "nameEn": "General Geometry", "nameHi": "सामान्य ज्यामिति" },
+        { "id": "math-statistics", "subjectId": "math", "order": 15, "nameEn": "General Statistics", "nameHi": "सामान्य सांख्यिकी" }
+      ]
+    },
+    {
+      "id": "evs-sst", "code": "EVS", "order": 6, "questionsInExam": 8, "marksInExam": 24, "color": "lime", "icon": "Mountain",
+      "nameEn": "Environment and Social Studies", "nameHi": "पर्यावरण एवं सामाजिक अध्ययन",
+      "topics": [
+        { "id": "evs-earth-structure", "subjectId": "evs-sst", "order": 1, "nameEn": "Structure of the Earth", "nameHi": "पृथ्वी की संरचना" },
+        { "id": "evs-rivers-mountains", "subjectId": "evs-sst", "order": 2, "nameEn": "Rivers, Mountains, Continents, Oceans & Living Beings", "nameHi": "नदियाँ, पर्वत, महाद्वीप, महासागर व जीव" },
+        { "id": "evs-natural-wealth", "subjectId": "evs-sst", "order": 3, "nameEn": "Natural Wealth/Resources", "nameHi": "प्राकृतिक सम्पदा" },
+        { "id": "evs-lat-long", "subjectId": "evs-sst", "order": 4, "nameEn": "Latitude and Longitude", "nameHi": "अक्षांश और देशान्तर" },
+        { "id": "evs-solar-system", "subjectId": "evs-sst", "order": 5, "nameEn": "Solar System", "nameHi": "सौरमण्डल" },
+        { "id": "evs-indian-geography", "subjectId": "evs-sst", "order": 6, "nameEn": "Indian Geography", "nameHi": "भारतीय भूगोल" },
+        { "id": "evs-freedom-struggle", "subjectId": "evs-sst", "order": 7, "nameEn": "Indian Freedom Struggle", "nameHi": "भारतीय स्वतंत्रता संग्राम" },
+        { "id": "evs-social-reformers", "subjectId": "evs-sst", "order": 8, "nameEn": "Indian Social Reformers", "nameHi": "भारतीय समाज सुधारक" },
+        { "id": "evs-constitution", "subjectId": "evs-sst", "order": 9, "nameEn": "Indian Constitution", "nameHi": "भारतीय संविधान" },
+        { "id": "evs-governance", "subjectId": "evs-sst", "order": 10, "nameEn": "Our Governance System", "nameHi": "हमारी शासन व्यवस्था" },
+        { "id": "evs-road-safety", "subjectId": "evs-sst", "order": 11, "nameEn": "Traffic and Road Safety", "nameHi": "यातायात एवं सड़क सुरक्षा" },
+        { "id": "evs-economy", "subjectId": "evs-sst", "order": 12, "nameEn": "Indian Economy and Challenges", "nameHi": "भारतीय अर्थव्यवस्था एवं चुनौतियाँ" },
+        { "id": "evs-cultural-heritage", "subjectId": "evs-sst", "order": 13, "nameEn": "Our Cultural Heritage", "nameHi": "हमारी सांस्कृतिक विरासत" },
+        { "id": "evs-env-conservation", "subjectId": "evs-sst", "order": 14, "nameEn": "Environmental Conservation", "nameHi": "पर्यावरण संरक्षण" },
+        { "id": "evs-disaster", "subjectId": "evs-sst", "order": 15, "nameEn": "Natural Disaster Management", "nameHi": "प्राकृतिक आपदा प्रबन्धन" }
+      ]
+    },
+    {
+      "id": "teaching", "code": "TEACH", "order": 7, "questionsInExam": 8, "marksInExam": 24, "color": "indigo", "icon": "GraduationCap",
+      "nameEn": "Teaching Skill", "nameHi": "शिक्षण कौशल",
+      "topics": [
+        { "id": "teach-methods-skills", "subjectId": "teaching", "order": 1, "nameEn": "Methods and Skills of Teaching", "nameHi": "शिक्षण की विधियाँ एवं कौशल" },
+        { "id": "teach-learning-principles", "subjectId": "teaching", "order": 2, "nameEn": "Principles of Teaching-Learning", "nameHi": "शिक्षण अधिगम के सिद्धान्त" },
+        { "id": "teach-society-elementary", "subjectId": "teaching", "order": 3, "nameEn": "Present Indian Society and Elementary Education", "nameHi": "वर्तमान भारतीय समाज एवं प्रारम्भिक शिक्षा" },
+        { "id": "teach-inclusive", "subjectId": "teaching", "order": 4, "nameEn": "Inclusive Education", "nameHi": "समावेशी शिक्षा" },
+        { "id": "teach-new-initiatives", "subjectId": "teaching", "order": 5, "nameEn": "New Initiatives in Elementary Education", "nameHi": "प्रारम्भिक शिक्षा के नवीन प्रयास" },
+        { "id": "teach-evaluation", "subjectId": "teaching", "order": 6, "nameEn": "Educational Evaluation and Measurement", "nameHi": "शैक्षिक मूल्यांकन एवं मापन" },
+        { "id": "teach-early-reading", "subjectId": "teaching", "order": 7, "nameEn": "Early Reading Skills", "nameHi": "आरम्भिक पठन कौशल" },
+        { "id": "teach-management-admin", "subjectId": "teaching", "order": 8, "nameEn": "Educational Management and Administration", "nameHi": "शैक्षिक प्रबन्धन एवं प्रशासन" }
+      ]
+    },
+    {
+      "id": "child-psych", "code": "CP", "order": 8, "questionsInExam": 8, "marksInExam": 24, "color": "fuchsia", "icon": "Baby",
+      "nameEn": "Child Psychology", "nameHi": "बाल मनोविज्ञान",
+      "topics": [
+        { "id": "cp-individual-differences", "subjectId": "child-psych", "order": 1, "nameEn": "Individual Differences", "nameHi": "वैयक्तिक भिन्नता" },
+        { "id": "cp-factors-development", "subjectId": "child-psych", "order": 2, "nameEn": "Factors Affecting Child Development", "nameHi": "बाल विकास को प्रभावित करने वाले कारक" },
+        { "id": "cp-identifying-needs", "subjectId": "child-psych", "order": 3, "nameEn": "Identifying Learning Needs", "nameHi": "सीखने की आवश्यकता की पहचान" },
+        { "id": "cp-learning-environment", "subjectId": "child-psych", "order": 4, "nameEn": "Creating an Environment for Learning/Reading", "nameHi": "पढ़ने के लिए वातावरण का सृजन करना" },
+        { "id": "cp-learning-theories", "subjectId": "child-psych", "order": 5, "nameEn": "Theories of Learning and their Practical Use in Classroom Teaching", "nameHi": "सीखने के सिद्धान्त तथा कक्षा-शिक्षण में इनकी व्यवहारिक उपयोगिता एवं प्रयोग" },
+        { "id": "cp-cwsn", "subjectId": "child-psych", "order": 6, "nameEn": "Special Provisions for Divyang (CWSN) Students", "nameHi": "दिव्यांग छात्रों हेतु विशेष व्यवस्था" }
+      ]
+    },
+    {
+      "id": "ict", "code": "ICT", "order": 9, "questionsInExam": 4, "marksInExam": 12, "color": "cyan", "icon": "MonitorSmartphone",
+      "nameEn": "Information Technology", "nameHi": "सूचना तकनीकी",
+      "topics": [
+        { "id": "ict-teaching-skill", "subjectId": "ict", "order": 1, "nameEn": "IT in Teaching Skill Development, Classroom Teaching & School Management", "nameHi": "शिक्षण कौशल विकास, कक्षा-शिक्षण तथा विद्यालय प्रबन्धन में सूचना तकनीकी" },
+        { "id": "ict-computer-internet", "subjectId": "ict", "order": 2, "nameEn": "Computer, Internet, Smartphone", "nameHi": "कम्प्यूटर, इन्टरनेट, स्मार्टफोन" },
+        { "id": "ict-oer", "subjectId": "ict", "order": 3, "nameEn": "OER (Open Educational Resources)", "nameHi": "ओ.ई.आर. (ओपन एजुकेशनल रिसोर्स)" },
+        { "id": "ict-apps-digital", "subjectId": "ict", "order": 4, "nameEn": "Useful Apps in Teaching; Digital Teaching Material", "nameHi": "शिक्षण में उपयोगी ऐप्स, डिजिटल शिक्षण सामग्री" }
+      ]
+    },
+    {
+      "id": "life-skills", "code": "LSMA", "order": 10, "questionsInExam": 8, "marksInExam": 24, "color": "orange", "icon": "HeartHandshake",
+      "nameEn": "Life Skill / Management and Attitude", "nameHi": "जीवन कौशल / प्रबन्धन एवं अभिवृत्ति",
+      "topics": [
+        { "id": "ls-professional-ethics", "subjectId": "life-skills", "order": 1, "nameEn": "Professional Conduct and Ethics", "nameHi": "व्यवसायिक आचरण एवं नीति" },
+        { "id": "ls-motivation", "subjectId": "life-skills", "order": 2, "nameEn": "Motivation", "nameHi": "प्रेरणा" },
+        { "id": "ls-teacher-roles", "subjectId": "life-skills", "order": 3, "nameEn": "Role of Teaching (Facilitator, Monitor, Leader, Guide, Counsellor)", "nameHi": "शिक्षण की भूमिका (सुविधा प्रदाता, अनुश्रवणकर्ता, नेतृत्वकर्ता, मार्गदर्शक, परामर्शदाता)" },
+        { "id": "ls-values", "subjectId": "life-skills", "order": 4, "nameEn": "Constitutional and Human Values", "nameHi": "संवैधानिक और मानवीय मूल्य" },
+        { "id": "ls-reward-punishment", "subjectId": "life-skills", "order": 5, "nameEn": "Effective Use of Punishment and Reward System", "nameHi": "दण्ड एवं पुरस्कार व्यवस्था का प्रभावी प्रयोग" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "re-001", "subjectId": "reasoning", "topicId": "reas-cubes-series",
+    "text": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+    "textHi": "श्रेणी में अगली संख्या ज्ञात करें: 2, 6, 12, 20, 30, ?",
+    "options": [
+      { "key": "A", "text": "40", "whyIncorrect": "Differences are 4, 6, 8, 10 — next difference is 12, not 10." },
+      { "key": "B", "text": "42" },
+      { "key": "C", "text": "36", "whyIncorrect": "Would require a difference of 6." },
+      { "key": "D", "text": "44", "whyIncorrect": "Would require a difference of 14." }
+    ],
+    "correct": "B",
+    "explanation": "Pattern n(n+1): 1×2, 2×3, 3×4, 4×5, 5×6, 6×7 = 42. Equivalently differences increase by 2: +4, +6, +8, +10, +12.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Standard number series",
+    "examRelevance": "Number series is the most common reasoning item.",
+    "origin": "practice", "tags": ["number series"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-002", "subjectId": "reasoning", "topicId": "reas-coded-inequalities",
+    "text": "In a certain code, TEACHER is written as VGCEJGT. How is STUDENT written in that code?",
+    "textHi": "एक कोड में TEACHER को VGCEJGT लिखा जाता है। STUDENT को उसी कोड में कैसे लिखेंगे?",
+    "options": [
+      { "key": "A", "text": "UVWFGPV" },
+      { "key": "B", "text": "UVVFGPV", "whyIncorrect": "U+2 = W, not V (third letter)." },
+      { "key": "C", "text": "TUVEFOU", "whyIncorrect": "This applies +1, but the code uses +2." },
+      { "key": "D", "text": "VWXGHQW", "whyIncorrect": "This applies +3." }
+    ],
+    "correct": "A",
+    "explanation": "Each letter is shifted +2: T→V, E→G, A→C, C→E, H→J, E→G, R→T. Apply to STUDENT: S→U, T→V, U→W, D→F, E→G, N→P, T→V ⇒ UVWFGPV.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Letter-shift coding",
+    "examRelevance": "Coding-decoding appears every year.",
+    "origin": "practice", "tags": ["coding decoding"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-003", "subjectId": "reasoning", "topicId": "reas-direction",
+    "text": "Rita walks 5 km north, turns right and walks 3 km, then turns right again and walks 5 km. How far and in which direction is she from her starting point?",
+    "textHi": "रीता 5 किमी उत्तर चलती है, दाएँ मुड़कर 3 किमी चलती है, फिर दाएँ मुड़कर 5 किमी चलती है। वह प्रारंभिक बिंदु से कितनी दूर और किस दिशा में है?",
+    "options": [
+      { "key": "A", "text": "3 km, East" },
+      { "key": "B", "text": "3 km, West", "whyIncorrect": "After facing north, a right turn is East, so the displacement is eastward." },
+      { "key": "C", "text": "13 km, North", "whyIncorrect": "The two 5-km legs cancel out (north then south)." },
+      { "key": "D", "text": "5 km, South", "whyIncorrect": "Net north–south displacement is zero." }
+    ],
+    "correct": "A",
+    "explanation": "North 5 → right (East) 3 → right (South) 5. Net: N–S cancels, leaving 3 km East of the start.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Direction sense test",
+    "examRelevance": "Direction sense is explicitly listed in the syllabus.",
+    "origin": "practice", "tags": ["direction"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-004", "subjectId": "reasoning", "topicId": "reas-clocks-calendars",
+    "text": "If 15 August 2026 is a Saturday, what day of the week is 26 January 2027?",
+    "textHi": "यदि 15 अगस्त 2026 शनिवार है, तो 26 जनवरी 2027 को कौन सा दिन होगा?",
+    "options": [
+      { "key": "A", "text": "Monday", "whyIncorrect": "Off by one — recount the odd days." },
+      { "key": "B", "text": "Tuesday" },
+      { "key": "C", "text": "Sunday", "whyIncorrect": "Incorrect odd-day count." },
+      { "key": "D", "text": "Wednesday", "whyIncorrect": "Incorrect odd-day count." }
+    ],
+    "correct": "B",
+    "explanation": "Days from 15 Aug 2026 to 26 Jan 2027: Aug 16 (remaining) + Sep 30 + Oct 31 + Nov 30 + Dec 31 + Jan 26 = 164 days. 164 ÷ 7 = 23 weeks + 3 odd days. Saturday + 3 = Tuesday.",
+    "difficulty": "medium", "type": "reasoning",
+    "source": "Calendar — odd days method",
+    "examRelevance": "Calendar questions — one of the 5 reasoning items.",
+    "origin": "practice", "tags": ["calendar"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-005", "subjectId": "reasoning", "topicId": "reas-analogies",
+    "text": "Teacher : School :: Doctor : ?",
+    "textHi": "शिक्षक : विद्यालय :: डॉक्टर : ?",
+    "options": [
+      { "key": "A", "text": "Medicine", "whyIncorrect": "Medicine is a tool, not the workplace." },
+      { "key": "B", "text": "Patient", "whyIncorrect": "Patient is the person served, not the place." },
+      { "key": "C", "text": "Hospital" },
+      { "key": "D", "text": "Stethoscope", "whyIncorrect": "An instrument, not the place." }
+    ],
+    "correct": "C",
+    "explanation": "Relationship: professional : place of work. Teacher works in a school; doctor works in a hospital.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Verbal analogy",
+    "examRelevance": "Analogy is the first listed reasoning topic.",
+    "origin": "practice", "tags": ["analogy"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-006", "subjectId": "reasoning", "topicId": "reas-classification",
+    "text": "Find the odd one out: 3, 5, 11, 14, 17, 21",
+    "textHi": "विषम चुनें: 3, 5, 11, 14, 17, 21",
+    "options": [
+      { "key": "A", "text": "21" , "whyIncorrect": "21 = 3×7 is composite, but 14 is the only EVEN number — the stronger, primary classification." },
+      { "key": "B", "text": "14" },
+      { "key": "C", "text": "11", "whyIncorrect": "11 is an odd prime like most others." },
+      { "key": "D", "text": "17", "whyIncorrect": "17 is an odd prime." }
+    ],
+    "correct": "B",
+    "explanation": "All numbers except 14 are odd. Note: 21 is not prime, so 'prime' is not a consistent rule for the set; parity gives the unique odd one out. In classification questions choose the most basic, unambiguous rule.",
+    "difficulty": "medium", "type": "reasoning",
+    "source": "Classification",
+    "examRelevance": "Odd-one-out with distractor rules is common.",
+    "origin": "practice", "tags": ["classification"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-007", "subjectId": "reasoning", "topicId": "reas-venn-dice",
+    "text": "Which Venn diagram best represents the relationship among: Teachers, Women, Mothers?",
+    "textHi": "शिक्षक, महिलाएँ, माताएँ — इनके संबंध को कौन सा वेन आरेख सर्वोत्तम दर्शाता है?",
+    "options": [
+      { "key": "A", "text": "Three separate circles", "whyIncorrect": "Some teachers are women and some women are mothers — they overlap." },
+      { "key": "B", "text": "Mothers inside Women; Teachers overlapping both" },
+      { "key": "C", "text": "Women inside Mothers; Teachers separate", "whyIncorrect": "Not all women are mothers; Mothers ⊂ Women, not the reverse." },
+      { "key": "D", "text": "Three concentric circles", "whyIncorrect": "Teachers are not a subset of mothers or women." }
+    ],
+    "correct": "B",
+    "explanation": "All mothers are women (subset). Teachers may be women/mothers or not, so the Teachers circle partially overlaps both.",
+    "difficulty": "medium", "type": "reasoning",
+    "source": "Venn diagram logic",
+    "examRelevance": "Venn diagram questions test category relations.",
+    "origin": "practice", "tags": ["venn diagram"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-008", "subjectId": "reasoning", "topicId": "reas-letter-series",
+    "text": "Find the missing term: AZ, BY, CX, DW, ?",
+    "textHi": "लुप्त पद ज्ञात करें: AZ, BY, CX, DW, ?",
+    "options": [
+      { "key": "A", "text": "EV" },
+      { "key": "B", "text": "EU", "whyIncorrect": "The second letter moves back one step each time: Z, Y, X, W, V." },
+      { "key": "C", "text": "FV", "whyIncorrect": "First letter moves forward one step: A, B, C, D, E." },
+      { "key": "D", "text": "EW", "whyIncorrect": "Second letter must decrease to V." }
+    ],
+    "correct": "A",
+    "explanation": "First letters A, B, C, D, E (forward); second letters Z, Y, X, W, V (backward). These are opposite-letter pairs (A↔Z, B↔Y…), a classic pattern.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Letter series",
+    "examRelevance": "Letter series — listed topic.",
+    "origin": "practice", "tags": ["letter series"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-009", "subjectId": "reasoning", "topicId": "reas-assertion-reason",
+    "text": "Assertion (A): Ice floats on water. Reason (R): Ice is less dense than water. Choose the correct option.",
+    "textHi": "अभिकथन (A): बर्फ पानी पर तैरती है। कारण (R): बर्फ पानी से कम घनी होती है।",
+    "options": [
+      { "key": "A", "text": "Both A and R are true and R is the correct explanation of A" },
+      { "key": "B", "text": "Both A and R are true but R is not the correct explanation of A", "whyIncorrect": "Lower density is precisely why ice floats." },
+      { "key": "C", "text": "A is true but R is false", "whyIncorrect": "R is true — ice (~0.92 g/cm³) is less dense than water." },
+      { "key": "D", "text": "A is false but R is true", "whyIncorrect": "A is true — ice does float." }
+    ],
+    "correct": "A",
+    "explanation": "Water expands on freezing (anomalous expansion) due to open hexagonal hydrogen-bonded structure, making ice ~9% less dense — hence it floats. R correctly explains A.",
+    "difficulty": "easy", "type": "reasoning",
+    "source": "Assertion-Reason format; NCERT Class 9 Science",
+    "examRelevance": "Assertion–Reason is a listed reasoning type.",
+    "origin": "practice", "tags": ["assertion reason"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "re-010", "subjectId": "reasoning", "topicId": "reas-clocks-calendars",
+    "text": "What is the angle between the hour and minute hands of a clock at 3:20?",
+    "textHi": "3:20 बजे घड़ी की घंटे और मिनट की सुइयों के बीच का कोण क्या है?",
+    "options": [
+      { "key": "A", "text": "10°", "whyIncorrect": "Forgot the hour hand moves 10° in 20 minutes." },
+      { "key": "B", "text": "20°" },
+      { "key": "C", "text": "30°", "whyIncorrect": "Would be true only if the hour hand stayed exactly at 3." },
+      { "key": "D", "text": "60°", "whyIncorrect": "Incorrect computation." }
+    ],
+    "correct": "B",
+    "explanation": "Angle = |30H − 5.5M| = |30×3 − 5.5×20| = |90 − 110| = 20°. (Hour hand: 0.5°/min; minute hand: 6°/min.)",
+    "difficulty": "medium", "type": "reasoning",
+    "source": "Clock angle formula",
+    "examRelevance": "Clock questions — listed syllabus topic.",
+    "origin": "practice", "tags": ["clock"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

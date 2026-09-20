@@ -1,0 +1,326 @@
+[
+  {
+    "id": "ma-001", "subjectId": "math", "topicId": "math-fractions",
+    "text": "Which of the following fractions is the largest?",
+    "textHi": "निम्न में से सबसे बड़ी भिन्न कौन सी है?",
+    "options": [
+      { "key": "A", "text": "3/4", "whyIncorrect": "3/4 = 0.75, smaller than 5/6." },
+      { "key": "B", "text": "5/6" },
+      { "key": "C", "text": "7/9", "whyIncorrect": "7/9 ≈ 0.778, smaller than 5/6." },
+      { "key": "D", "text": "11/15", "whyIncorrect": "11/15 ≈ 0.733, the smallest of the four." }
+    ],
+    "correct": "B",
+    "explanation": "Convert to decimals: 3/4 = 0.75, 5/6 ≈ 0.833, 7/9 ≈ 0.778, 11/15 ≈ 0.733. Alternatively use LCM 180: 135/180, 150/180, 140/180, 132/180. Shortcut: compare each fraction's shortfall from 1 — 1/4, 1/6, 2/9, 4/15; the smallest shortfall (1/6) gives the largest fraction.",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 6–7 Mathematics, Fractions",
+    "examRelevance": "Comparison of fractions is a standard 16-mark-section question.",
+    "origin": "practice", "tags": ["fractions", "comparison"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-002", "subjectId": "math", "topicId": "math-percentage-divisibility",
+    "text": "A number is divisible by 9 if:",
+    "textHi": "एक संख्या 9 से विभाज्य होती है यदि:",
+    "options": [
+      { "key": "A", "text": "Its last digit is 9", "whyIncorrect": "e.g., 19 ends in 9 but is not divisible by 9." },
+      { "key": "B", "text": "The sum of its digits is divisible by 9" },
+      { "key": "C", "text": "Its last two digits are divisible by 9", "whyIncorrect": "That pattern is the rule for 4 (last two digits divisible by 4), not 9." },
+      { "key": "D", "text": "It is odd", "whyIncorrect": "18 is even and divisible by 9." }
+    ],
+    "correct": "B",
+    "explanation": "Divisibility rules: 2 (even last digit), 3 & 9 (digit sum divisible by 3/9), 4 (last two digits), 5 (ends in 0/5), 6 (divisible by 2 and 3), 8 (last three digits), 10 (ends in 0), 11 (alternating digit-sum difference divisible by 11).",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 6 Mathematics, Playing with Numbers",
+    "examRelevance": "Divisibility is explicitly listed in the official syllabus.",
+    "origin": "practice", "tags": ["divisibility"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-003", "subjectId": "math", "topicId": "math-percentage-divisibility",
+    "text": "The price of a book was increased by 20% and then decreased by 20%. The net change in price is:",
+    "textHi": "एक पुस्तक का मूल्य 20% बढ़ाया गया और फिर 20% घटाया गया। मूल्य में शुद्ध परिवर्तन है:",
+    "options": [
+      { "key": "A", "text": "No change", "whyIncorrect": "Successive equal % increase and decrease never cancel out — the decrease acts on a larger base." },
+      { "key": "B", "text": "4% increase", "whyIncorrect": "Sign is wrong; the net effect is a decrease." },
+      { "key": "C", "text": "4% decrease" },
+      { "key": "D", "text": "2% decrease", "whyIncorrect": "Net change = −(20×20)/100 = −4%, not −2%." }
+    ],
+    "correct": "C",
+    "explanation": "Let price = 100. After +20% → 120. After −20% of 120 → 120 − 24 = 96. Net −4%. Formula for successive changes a% and b%: a + b + ab/100 = 20 − 20 − 4 = −4%.",
+    "difficulty": "medium", "type": "application",
+    "source": "Percentage — successive change formula",
+    "examRelevance": "Classic percentage trap question.",
+    "origin": "practice", "tags": ["percentage", "successive change"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-004", "subjectId": "math", "topicId": "math-profit-loss",
+    "text": "A shopkeeper buys a pen for ₹40 and sells it for ₹50. His profit percentage is:",
+    "textHi": "एक दुकानदार ₹40 में एक पेन खरीदता है और ₹50 में बेचता है। उसका लाभ प्रतिशत है:",
+    "options": [
+      { "key": "A", "text": "20%", "whyIncorrect": "20% would be the result if profit were computed on selling price (10/50) — profit % is always on cost price." },
+      { "key": "B", "text": "25%" },
+      { "key": "C", "text": "10%", "whyIncorrect": "₹10 is the absolute profit, not the percentage." },
+      { "key": "D", "text": "12.5%", "whyIncorrect": "Incorrect computation." }
+    ],
+    "correct": "B",
+    "explanation": "Profit = SP − CP = 50 − 40 = ₹10. Profit % = (Profit/CP) × 100 = (10/40) × 100 = 25%. Remember profit/loss percent is always calculated on the cost price unless stated otherwise.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 7 Mathematics, Comparing Quantities",
+    "examRelevance": "Profit-loss basics — expect at least one question.",
+    "origin": "practice", "tags": ["profit loss"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-005", "subjectId": "math", "topicId": "math-interest",
+    "text": "The simple interest on ₹5,000 at 8% per annum for 3 years is:",
+    "textHi": "₹5,000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज है:",
+    "options": [
+      { "key": "A", "text": "₹1,200" },
+      { "key": "B", "text": "₹1,298.56", "whyIncorrect": "₹1,298.56 is the COMPOUND interest for the same data (5000×1.08³ − 5000)." },
+      { "key": "C", "text": "₹400", "whyIncorrect": "₹400 is the interest for ONE year only." },
+      { "key": "D", "text": "₹1,500", "whyIncorrect": "Would require a 10% rate." }
+    ],
+    "correct": "A",
+    "explanation": "SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1,200. Compound interest for the same case would be 5000(1.08)³ − 5000 ≈ ₹1,298.56 — CI exceeds SI from the 2nd year.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 7–8 Mathematics, Simple & Compound Interest",
+    "examRelevance": "Interest formula application.",
+    "origin": "practice", "tags": ["simple interest"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-006", "subjectId": "math", "topicId": "math-interest",
+    "text": "The difference between compound interest and simple interest on a sum for 2 years at 10% p.a. is ₹50. The sum is:",
+    "textHi": "किसी धनराशि पर 10% वार्षिक दर से 2 वर्ष के चक्रवृद्धि और साधारण ब्याज का अंतर ₹50 है। धनराशि है:",
+    "options": [
+      { "key": "A", "text": "₹500", "whyIncorrect": "Would give a difference of ₹5." },
+      { "key": "B", "text": "₹5,000" },
+      { "key": "C", "text": "₹2,500", "whyIncorrect": "Would give a difference of ₹25." },
+      { "key": "D", "text": "₹10,000", "whyIncorrect": "Would give a difference of ₹100." }
+    ],
+    "correct": "B",
+    "explanation": "For 2 years, CI − SI = P(R/100)². So 50 = P × (10/100)² = P × 0.01 ⇒ P = ₹5,000. Check: SI = 1000; CI = 5000×1.21 − 5000 = 1050; difference 50 ✓.",
+    "difficulty": "medium", "type": "application",
+    "source": "Compound interest — 2-year difference formula",
+    "examRelevance": "Popular shortcut-based question.",
+    "origin": "practice", "tags": ["compound interest", "shortcut"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-007", "subjectId": "math", "topicId": "math-average",
+    "text": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. The excluded number is:",
+    "textHi": "5 संख्याओं का औसत 27 है। यदि एक संख्या हटा दी जाए तो औसत 25 हो जाता है। हटाई गई संख्या है:",
+    "options": [
+      { "key": "A", "text": "25", "whyIncorrect": "Removing 25 would leave average (135−25)/4 = 27.5, not 25." },
+      { "key": "B", "text": "27", "whyIncorrect": "Removing 27 would leave average 108/4 = 27." },
+      { "key": "C", "text": "35" },
+      { "key": "D", "text": "30", "whyIncorrect": "Removing 30 gives 105/4 = 26.25." }
+    ],
+    "correct": "C",
+    "explanation": "Sum of 5 numbers = 5 × 27 = 135. Sum of remaining 4 = 4 × 25 = 100. Excluded number = 135 − 100 = 35.",
+    "difficulty": "easy", "type": "application",
+    "source": "Average — sum method",
+    "examRelevance": "Standard average question.",
+    "origin": "practice", "tags": ["average"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-008", "subjectId": "math", "topicId": "math-ratio",
+    "text": "Two numbers are in the ratio 3 : 5. If 9 is added to each, the ratio becomes 3 : 4. The numbers are:",
+    "textHi": "दो संख्याएँ 3 : 5 के अनुपात में हैं। यदि प्रत्येक में 9 जोड़ा जाए तो अनुपात 3 : 4 हो जाता है। संख्याएँ हैं:",
+    "options": [
+      { "key": "A", "text": "9 and 15" },
+      { "key": "B", "text": "12 and 20", "whyIncorrect": "(21 : 29) is not 3 : 4." },
+      { "key": "C", "text": "6 and 10", "whyIncorrect": "(15 : 19) is not 3 : 4." },
+      { "key": "D", "text": "15 and 25", "whyIncorrect": "(24 : 34) = 12 : 17, not 3 : 4." }
+    ],
+    "correct": "A",
+    "explanation": "Let numbers be 3x and 5x. (3x+9)/(5x+9) = 3/4 ⇒ 12x + 36 = 15x + 27 ⇒ 3x = 9 ⇒ x = 3. Numbers: 9 and 15. Check: 18 : 24 = 3 : 4 ✓.",
+    "difficulty": "medium", "type": "application",
+    "source": "NCERT Class 8, Ratio and Proportion",
+    "examRelevance": "Ratio with added constant — standard type.",
+    "origin": "practice", "tags": ["ratio"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-009", "subjectId": "math", "topicId": "math-area-volume",
+    "text": "The area of a rhombus whose diagonals are 12 cm and 16 cm is:",
+    "textHi": "एक समचतुर्भुज का क्षेत्रफल जिसके विकर्ण 12 सेमी और 16 सेमी हैं:",
+    "options": [
+      { "key": "A", "text": "192 cm²", "whyIncorrect": "192 = d1 × d2 — you forgot to halve." },
+      { "key": "B", "text": "96 cm²" },
+      { "key": "C", "text": "48 cm²", "whyIncorrect": "Halved twice." },
+      { "key": "D", "text": "56 cm²", "whyIncorrect": "56 = 2(12+16) would be the perimeter of a 12×16 rectangle, unrelated." }
+    ],
+    "correct": "B",
+    "explanation": "Area of rhombus = ½ × d1 × d2 = ½ × 12 × 16 = 96 cm². Bonus: side = √(6² + 8²) = 10 cm, so perimeter = 40 cm.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 8, Mensuration",
+    "examRelevance": "Mensuration formulas — area of rhombus/trapezium common.",
+    "origin": "practice", "tags": ["area", "rhombus"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-010", "subjectId": "math", "topicId": "math-area-volume",
+    "text": "A cuboidal water tank is 3 m long, 2 m wide and 1.5 m high. Its capacity in litres is:",
+    "textHi": "एक घनाभाकार पानी की टंकी 3 मी लंबी, 2 मी चौड़ी और 1.5 मी ऊँची है। इसकी क्षमता लीटर में है:",
+    "options": [
+      { "key": "A", "text": "900 litres", "whyIncorrect": "9 m³ = 9000 L; 900 misplaces the decimal." },
+      { "key": "B", "text": "9,000 litres" },
+      { "key": "C", "text": "90,000 litres", "whyIncorrect": "Too large — 1 m³ = 1000 L, not 10,000 L." },
+      { "key": "D", "text": "6,500 litres", "whyIncorrect": "6.5 is the sum of dimensions, not the product." }
+    ],
+    "correct": "B",
+    "explanation": "Volume = l × b × h = 3 × 2 × 1.5 = 9 m³. Since 1 m³ = 1000 litres, capacity = 9,000 L.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 8, Mensuration (Volume and capacity)",
+    "examRelevance": "Unit conversion m³ ↔ litre is frequently tested.",
+    "origin": "practice", "tags": ["volume", "units"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-011", "subjectId": "math", "topicId": "math-identities",
+    "text": "If x + 1/x = 5, then x² + 1/x² equals:",
+    "textHi": "यदि x + 1/x = 5, तो x² + 1/x² का मान है:",
+    "options": [
+      { "key": "A", "text": "25", "whyIncorrect": "25 is (x + 1/x)²; you must subtract the cross term 2." },
+      { "key": "B", "text": "23" },
+      { "key": "C", "text": "27", "whyIncorrect": "27 would be correct for x − 1/x = 5 (add 2 instead of subtract)." },
+      { "key": "D", "text": "10", "whyIncorrect": "Incorrect computation." }
+    ],
+    "correct": "B",
+    "explanation": "(x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 5² − 2 = 23. Companion results: x³ + 1/x³ = 5³ − 3×5 = 110.",
+    "difficulty": "medium", "type": "application",
+    "source": "Algebraic identities — (a+b)² = a² + 2ab + b²",
+    "examRelevance": "Identity-based questions are the typical 'सर्वसमिका' item.",
+    "origin": "practice", "tags": ["identities", "algebra"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-012", "subjectId": "math", "topicId": "math-factors",
+    "text": "The HCF of two numbers is 12 and their LCM is 180. If one number is 36, the other is:",
+    "textHi": "दो संख्याओं का म.स. 12 और ल.स. 180 है। यदि एक संख्या 36 है, तो दूसरी है:",
+    "options": [
+      { "key": "A", "text": "48", "whyIncorrect": "36 × 48 = 1728 ≠ 12 × 180." },
+      { "key": "B", "text": "60" },
+      { "key": "C", "text": "72", "whyIncorrect": "HCF of 36 and 72 is 36, not 12." },
+      { "key": "D", "text": "90", "whyIncorrect": "HCF of 36 and 90 is 18, not 12." }
+    ],
+    "correct": "B",
+    "explanation": "Product of two numbers = HCF × LCM ⇒ 36 × n = 12 × 180 = 2160 ⇒ n = 60. Check: HCF(36,60) = 12, LCM = 180 ✓.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 6, Playing with Numbers",
+    "examRelevance": "HCF–LCM relation appears very frequently.",
+    "origin": "practice", "tags": ["hcf", "lcm"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-013", "subjectId": "math", "topicId": "math-unitary",
+    "text": "12 workers can build a wall in 15 days. How many days will 20 workers take to build the same wall (working at the same rate)?",
+    "textHi": "12 मजदूर एक दीवार 15 दिन में बनाते हैं। 20 मजदूर उसी दीवार को कितने दिन में बनाएँगे?",
+    "options": [
+      { "key": "A", "text": "25 days", "whyIncorrect": "25 would result from a direct (wrong) proportion; more workers ⇒ fewer days." },
+      { "key": "B", "text": "9 days" },
+      { "key": "C", "text": "12 days", "whyIncorrect": "Incorrect: 12×15 = 180 worker-days ÷ 20 = 9." },
+      { "key": "D", "text": "10 days", "whyIncorrect": "Incorrect computation." }
+    ],
+    "correct": "B",
+    "explanation": "Total work = 12 × 15 = 180 worker-days. Days for 20 workers = 180 / 20 = 9. This is inverse variation — a core idea of the unitary method.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 8, Direct and Inverse Proportions",
+    "examRelevance": "ऐकिक नियम — inverse proportion question.",
+    "origin": "practice", "tags": ["unitary method", "inverse proportion"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-014", "subjectId": "math", "topicId": "math-statistics",
+    "text": "The median of the data 7, 3, 9, 5, 11, 13, 1 is:",
+    "textHi": "आँकड़ों 7, 3, 9, 5, 11, 13, 1 की माध्यिका है:",
+    "options": [
+      { "key": "A", "text": "5", "whyIncorrect": "5 is the 3rd value in sorted order; median of 7 values is the 4th." },
+      { "key": "B", "text": "7" },
+      { "key": "C", "text": "9", "whyIncorrect": "9 is the 5th value in sorted order." },
+      { "key": "D", "text": "11", "whyIncorrect": "Not the middle value." }
+    ],
+    "correct": "B",
+    "explanation": "Arrange in order: 1, 3, 5, 7, 9, 11, 13. n = 7 (odd) ⇒ median = (n+1)/2 = 4th term = 7. Mean = 49/7 = 7 too. Mode: none (all values occur once).",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 7, Data Handling",
+    "examRelevance": "Mean/median/mode is the 'general statistics' item.",
+    "origin": "practice", "tags": ["statistics", "median"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-015", "subjectId": "math", "topicId": "math-geometry",
+    "text": "The sum of the interior angles of a hexagon is:",
+    "textHi": "एक षट्भुज के अंतःकोणों का योग है:",
+    "options": [
+      { "key": "A", "text": "540°", "whyIncorrect": "540° is the sum for a pentagon (5 sides)." },
+      { "key": "B", "text": "720°" },
+      { "key": "C", "text": "900°", "whyIncorrect": "900° is for a heptagon (7 sides)." },
+      { "key": "D", "text": "360°", "whyIncorrect": "360° is for a quadrilateral (and the sum of exterior angles of any polygon)." }
+    ],
+    "correct": "B",
+    "explanation": "Sum of interior angles = (n − 2) × 180° = (6 − 2) × 180° = 720°. Each interior angle of a regular hexagon = 120°.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NCERT Class 8, Understanding Quadrilaterals",
+    "examRelevance": "Polygon angle sum is a routine geometry question.",
+    "origin": "practice", "tags": ["geometry", "polygon"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-016", "subjectId": "math", "topicId": "math-decimal-place-value",
+    "text": "In the number 4,072.35, the place value of 7 is:",
+    "textHi": "संख्या 4,072.35 में 7 का स्थानीय मान है:",
+    "options": [
+      { "key": "A", "text": "7", "whyIncorrect": "7 is the face value, not the place value." },
+      { "key": "B", "text": "70" },
+      { "key": "C", "text": "700", "whyIncorrect": "7 is in the tens place, not hundreds." },
+      { "key": "D", "text": "0.7", "whyIncorrect": "7 is to the left of the decimal point." }
+    ],
+    "correct": "B",
+    "explanation": "Reading 4,072.35: 4 thousands, 0 hundreds, 7 tens, 2 ones, 3 tenths, 5 hundredths. Place value of 7 = 7 × 10 = 70. Face value is always the digit itself (7).",
+    "difficulty": "easy", "type": "conceptual",
+    "source": "NCERT Class 5–6 Mathematics, Place Value and Decimals",
+    "examRelevance": "Place value vs face value is a common trap.",
+    "origin": "practice", "tags": ["place value", "decimals"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-017", "subjectId": "math", "topicId": "math-algebra",
+    "text": "Solve for x: 3(x − 2) = 2x + 5",
+    "textHi": "x का मान ज्ञात करें: 3(x − 2) = 2x + 5",
+    "options": [
+      { "key": "A", "text": "x = 11" },
+      { "key": "B", "text": "x = 7", "whyIncorrect": "Check: 3(5) = 15 ≠ 19." },
+      { "key": "C", "text": "x = −1", "whyIncorrect": "Check: 3(−3) = −9 ≠ 3." },
+      { "key": "D", "text": "x = 1", "whyIncorrect": "Check: 3(−1) = −3 ≠ 7." }
+    ],
+    "correct": "A",
+    "explanation": "3x − 6 = 2x + 5 ⇒ 3x − 2x = 5 + 6 ⇒ x = 11. Verify: LHS 3(9) = 27; RHS 22 + 5 = 27 ✓.",
+    "difficulty": "easy", "type": "application",
+    "source": "NCERT Class 8, Linear Equations in One Variable",
+    "examRelevance": "Basic algebra equation solving.",
+    "origin": "practice", "tags": ["algebra", "linear equation"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ma-018", "subjectId": "math", "topicId": "math-numeracy-operations",
+    "text": "Simplify: 48 ÷ 6 × 2 + 3² − 5",
+    "textHi": "सरल करें: 48 ÷ 6 × 2 + 3² − 5",
+    "options": [
+      { "key": "A", "text": "8", "whyIncorrect": "Doing 6 × 2 first (=12, then 48 ÷ 12 = 4) violates left-to-right order for ÷ and ×." },
+      { "key": "B", "text": "20" },
+      { "key": "C", "text": "24", "whyIncorrect": "Forgot to subtract 5 or misapplied the square." },
+      { "key": "D", "text": "16", "whyIncorrect": "Arithmetic error." }
+    ],
+    "correct": "B",
+    "explanation": "BODMAS: 3² = 9. Then ÷ and × left to right: 48 ÷ 6 = 8; 8 × 2 = 16. Then 16 + 9 − 5 = 20.",
+    "difficulty": "easy", "type": "application",
+    "source": "BODMAS rule — NCERT Class 6",
+    "examRelevance": "Simplification is the classic 'गणितीय संक्रियाएँ' item.",
+    "origin": "practice", "tags": ["bodmas", "simplification"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

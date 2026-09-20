@@ -1,0 +1,201 @@
+[
+  {
+    "id": "ca-2026-09-14-kvs-prt-tier2",
+    "date": "2026-09-14", "publishedOn": "2026-09-19", "category": "education",
+    "title": "CBSE declares KVS & NVS Tier-II results for Primary Teachers (PRT) and Junior Secretariat Assistants",
+    "titleHi": "CBSE ने KVS व NVS के प्राथमिक शिक्षक (PRT) एवं कनिष्ठ सचिवालय सहायक पद के टियर-II परिणाम घोषित किए",
+    "summary": "Under Recruitment Notification 01/2025, CBSE's CTET Unit declared Tier-II results for PRT and JSA posts on 14 September 2026. For posts with an interview, the result indicates shortlisting status for the interview; schedules and call letters will be issued via candidate logins after finalisation with KVS/NVS.",
+    "whyItMatters": "Directly relevant to KVS PRT aspirants — the interview stage is next. Also a likely 'education/recruitment' current-affairs point.",
+    "source": { "name": "CBSE Press Release (via kvsangathan.nic.in)", "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2026/09/2026091426.pdf", "type": "official" },
+    "verified": true,
+    "tags": ["kvs", "recruitment", "prt"],
+    "mcq": {
+      "id": "ca-mcq-001", "subjectId": "gk", "topicId": "gk-current-national",
+      "text": "Which body is conducting the KVS & NVS Recruitment Examination 2025 (Notification 01/2025), whose PRT Tier-II results were declared on 14 September 2026?",
+      "options": [
+        { "key": "A", "text": "UPSC", "whyIncorrect": "UPSC conducts civil services and some central recruitments, not this one." },
+        { "key": "B", "text": "CBSE (CTET Unit)" },
+        { "key": "C", "text": "NTA", "whyIncorrect": "NTA conducts NEET, JEE, UGC-NET etc." },
+        { "key": "D", "text": "SSC", "whyIncorrect": "SSC conducts CGL, CHSL etc." }
+      ],
+      "correct": "B",
+      "explanation": "The Central Board of Secondary Education's CTET Unit is conducting the KVS/NVS recruitment under Rectt. Notification 01/2025; press releases are issued by the Director (CTET).",
+      "difficulty": "easy", "type": "current-affairs", "source": "CBSE press release 14-09-2026", "examRelevance": "Education recruitment news", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-upessc-syllabus",
+    "date": "2026-09-19", "publishedOn": "2026-09-19", "category": "uttar-pradesh",
+    "title": "UPESSC publishes structure of UP Primary Assistant Teacher (Class 1–5) Recruitment Exam 2026: 120 MCQs, 3 marks each, negative marking",
+    "titleHi": "UPESSC ने प्राथमिक विद्यालय सहायक अध्यापक भर्ती परीक्षा 2026 की संरचना प्रकाशित की: 120 प्रश्न, 3 अंक प्रत्येक, ऋणात्मक अंकन",
+    "summary": "The official syllabus document from the Uttar Pradesh Education Service Selection Commission specifies: 120 minutes, 120 MCQs, 3 marks per question, 1 mark deducted per wrong answer, bilingual (Hindi/English) paper. Subjects: GK/Current Events 25, Reasoning 5, Hindi-Sanskrit-English 30, Science 8, Maths 16, EVS & Social Studies 8, Teaching Skill 8, Child Psychology 8, IT 4, Life Skills/Management & Attitude 8.",
+    "whyItMatters": "This is the exam this app prepares you for. Note the change from earlier 'Super TET' pattern discussions — negative marking of 1 mark per wrong answer is significant for strategy.",
+    "source": { "name": "UPESSC official syllabus PDF", "url": "https://www.upessc.up.gov.in/syllabus/837218cf-1d9a-4252-a08c-404719d1b9d9.pdf", "type": "official" },
+    "verified": true,
+    "tags": ["upessc", "super tet", "syllabus", "uttar pradesh"],
+    "mcq": {
+      "id": "ca-mcq-002", "subjectId": "gk", "topicId": "gk-current-up",
+      "text": "As per the UPESSC syllabus for the Primary Assistant Teacher Recruitment Exam 2026, how many marks are deducted for each wrong answer?",
+      "options": [
+        { "key": "A", "text": "0.25", "whyIncorrect": "Not the specified penalty." },
+        { "key": "B", "text": "0.5", "whyIncorrect": "Not the specified penalty." },
+        { "key": "C", "text": "1" },
+        { "key": "D", "text": "No negative marking", "whyIncorrect": "The document explicitly mentions negative marking." }
+      ],
+      "correct": "C",
+      "explanation": "The official document states: 'गलत उत्तर दिये जाने पर 01 अंक घटा दिया जायेगा' — each question carries 3 marks and 1 mark is deducted per wrong answer.",
+      "difficulty": "easy", "type": "current-affairs", "source": "UPESSC syllabus PDF (accessed 19-09-2026)", "examRelevance": "Exam pattern awareness", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-05-national-teachers-awards",
+    "date": "2026-09-05", "publishedOn": "2026-09-19", "category": "awards",
+    "title": "President confers National Teachers' Awards 2026 on 48 teachers on Teachers' Day",
+    "titleHi": "राष्ट्रपति ने शिक्षक दिवस पर 48 शिक्षकों को राष्ट्रीय शिक्षक पुरस्कार 2026 प्रदान किए",
+    "summary": "President Droupadi Murmu conferred the National Teachers' Awards 2026 on 48 school teachers at Vigyan Bhawan, New Delhi (26 men, 22 women from 27 states, 7 UTs and 6 central organisations), as reported.",
+    "whyItMatters": "Teachers' Day (5 September, birth anniversary of Dr S. Radhakrishnan) and the National Teachers' Awards are classic GK items; also a good talking point in the KVS interview.",
+    "source": { "name": "Web search summary of news reports (secondary) — verify on pib.gov.in", "type": "secondary" },
+    "verified": false,
+    "tags": ["awards", "teachers day", "education"],
+    "mcq": {
+      "id": "ca-mcq-003", "subjectId": "gk", "topicId": "gk-awards-sports",
+      "text": "National Teachers' Day in India (5 September) marks the birth anniversary of:",
+      "options": [
+        { "key": "A", "text": "Dr A.P.J. Abdul Kalam", "whyIncorrect": "Kalam's birthday, 15 October, is World Students' Day." },
+        { "key": "B", "text": "Dr Sarvepalli Radhakrishnan" },
+        { "key": "C", "text": "Maulana Abul Kalam Azad", "whyIncorrect": "His birthday, 11 November, is National Education Day." },
+        { "key": "D", "text": "Savitribai Phule", "whyIncorrect": "Her birthday, 3 January, is observed as Balika Din in Maharashtra." }
+      ],
+      "correct": "B",
+      "explanation": "Dr Radhakrishnan (b. 5 Sept 1888), philosopher-teacher and second President of India. World Teachers' Day is 5 October (UNESCO).",
+      "difficulty": "easy", "type": "current-affairs", "source": "Standard GK", "examRelevance": "Important days", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-epfo-wage-ceiling",
+    "date": "2026-09-17", "publishedOn": "2026-09-19", "category": "economy",
+    "title": "Union Cabinet raises EPFO wage ceiling to ₹25,000 — first increase since 2014",
+    "titleHi": "केंद्रीय मंत्रिमंडल ने EPFO वेतन सीमा ₹25,000 की — 2014 के बाद पहली वृद्धि",
+    "summary": "As reported in daily current-affairs compilations dated 18 Sept 2026, the Cabinet approved raising the EPFO mandatory-coverage wage ceiling from ₹15,000 to ₹25,000, expected to bring about 51 lakh more employees under coverage.",
+    "whyItMatters": "Economy/government-decisions item; wage-ceiling number is the kind of figure asked in GK sections.",
+    "source": { "name": "freejobalert.com Daily Current Affairs 18 Sept 2026 (secondary) — verify on pib.gov.in", "url": "https://www.freejobalert.com/articles/daily-current-affairs-18-september-2026-10428", "type": "secondary" },
+    "verified": false,
+    "tags": ["economy", "epfo", "cabinet"]
+  },
+  {
+    "id": "ca-2026-09-upi-zero-charges",
+    "date": "2026-09-17", "publishedOn": "2026-09-19", "category": "economy",
+    "title": "Finance Ministry notifies zero charges on UPI and RuPay debit-card payments up to ₹2,000",
+    "titleHi": "वित्त मंत्रालय ने ₹2,000 तक UPI व RuPay डेबिट कार्ड भुगतान पर शून्य शुल्क अधिसूचित किया",
+    "summary": "Reported notification under Section 10A of the Payment and Settlement Systems Act making UPI and RuPay debit-card transactions up to ₹2,000 free of charges.",
+    "whyItMatters": "Digital payments / UPI (NPCI) questions are frequent; note the legal basis (PSS Act).",
+    "source": { "name": "freejobalert.com Daily Current Affairs 18 Sept 2026 (secondary) — verify on pib.gov.in", "url": "https://www.freejobalert.com/articles/daily-current-affairs-18-september-2026-10428", "type": "secondary" },
+    "verified": false,
+    "tags": ["economy", "upi", "digital payments"],
+    "mcq": {
+      "id": "ca-mcq-004", "subjectId": "gk", "topicId": "gk-current-national",
+      "text": "UPI (Unified Payments Interface) is operated by:",
+      "options": [
+        { "key": "A", "text": "Reserve Bank of India directly", "whyIncorrect": "RBI regulates; it does not operate UPI." },
+        { "key": "B", "text": "National Payments Corporation of India (NPCI)" },
+        { "key": "C", "text": "State Bank of India", "whyIncorrect": "SBI is a participating bank." },
+        { "key": "D", "text": "Ministry of Finance", "whyIncorrect": "The Ministry frames policy, not operations." }
+      ],
+      "correct": "B",
+      "explanation": "NPCI (est. 2008, an initiative of RBI and IBA) operates UPI (launched 2016), RuPay, BHIM, IMPS and AePS.",
+      "difficulty": "easy", "type": "current-affairs", "source": "npci.org.in", "examRelevance": "Digital India / economy GK", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-semicon-india",
+    "date": "2026-09-16", "publishedOn": "2026-09-19", "category": "science-tech",
+    "title": "PM inaugurates SEMICON India 2026 at Yashobhoomi, New Delhi",
+    "titleHi": "प्रधानमंत्री ने यशोभूमि, नई दिल्ली में सेमीकॉन इंडिया 2026 का उद्घाटन किया",
+    "summary": "SEMICON India 2026, a five-day semiconductor conference with 600+ exhibitors and the theme 'Silicon to Systems', was reported inaugurated by the Prime Minister at Yashobhoomi (India International Convention & Expo Centre), Dwarka, New Delhi.",
+    "whyItMatters": "Science & technology / India Semiconductor Mission — theme and venue are typical MCQ hooks.",
+    "source": { "name": "freejobalert.com Daily Current Affairs 18 Sept 2026 (secondary) — verify on pib.gov.in", "url": "https://www.freejobalert.com/articles/daily-current-affairs-18-september-2026-10428", "type": "secondary" },
+    "verified": false,
+    "tags": ["science-tech", "semiconductor"]
+  },
+  {
+    "id": "ca-2026-09-asian-games",
+    "date": "2026-09-19", "publishedOn": "2026-09-19", "category": "sports",
+    "title": "Asian Games 2026 begin in Aichi-Nagoya, Japan; India fields 508 athletes across 37 sports",
+    "titleHi": "एशियाई खेल 2026 आइची-नागोया, जापान में शुरू; भारत के 508 खिलाड़ी 37 खेलों में",
+    "summary": "The 20th Asian Games (19 Sept – 4 Oct 2026) are being held in Aichi-Nagoya, Japan. India's contingent of 508 competitors across 37 sports was reported; India is the defending champion in cricket.",
+    "whyItMatters": "Sports venue + dates + India's medal tally will be a certain GK question in the coming months. Track the final tally after 4 October.",
+    "source": { "name": "freejobalert.com Daily Current Affairs 18 Sept 2026 (secondary) — verify on olympics.com/ocasia", "url": "https://www.freejobalert.com/articles/daily-current-affairs-18-september-2026-10428", "type": "secondary" },
+    "verified": false,
+    "tags": ["sports", "asian games"],
+    "mcq": {
+      "id": "ca-mcq-005", "subjectId": "gk", "topicId": "gk-awards-sports",
+      "text": "The 2026 Asian Games are being hosted by:",
+      "options": [
+        { "key": "A", "text": "Hangzhou, China", "whyIncorrect": "Hangzhou hosted the 2022 Asian Games (held in 2023)." },
+        { "key": "B", "text": "Aichi-Nagoya, Japan" },
+        { "key": "C", "text": "Doha, Qatar", "whyIncorrect": "Doha is scheduled for 2030." },
+        { "key": "D", "text": "Riyadh, Saudi Arabia", "whyIncorrect": "Riyadh is scheduled for 2034." }
+      ],
+      "correct": "B",
+      "explanation": "Asian Games: 2018 Jakarta-Palembang; 2022 Hangzhou (held 2023); 2026 Aichi-Nagoya; 2030 Doha; 2034 Riyadh.",
+      "difficulty": "easy", "type": "current-affairs", "source": "Olympic Council of Asia", "examRelevance": "Sports venues", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-18-equal-pay-day",
+    "date": "2026-09-18", "publishedOn": "2026-09-19", "category": "important-days",
+    "title": "18 September — International Equal Pay Day and World Bamboo Day",
+    "titleHi": "18 सितंबर — अंतर्राष्ट्रीय समान वेतन दिवस एवं विश्व बाँस दिवस",
+    "summary": "International Equal Pay Day (UN, first observed 2020) highlights the gender pay gap. World Bamboo Day was declared by the World Bamboo Organization in 2009. Other September days: 5 Teachers' Day; 8 International Literacy Day; 14 Hindi Diwas; 15 Engineers' Day & International Day of Democracy; 16 World Ozone Day; 17 World Patient Safety Day; 21 International Day of Peace; 27 World Tourism Day.",
+    "whyItMatters": "Important days are a guaranteed 1–2 questions in the GK section.",
+    "source": { "name": "United Nations observances; freejobalert compilation 18-09-2026", "url": "https://www.un.org/en/observances", "type": "official" },
+    "verified": true,
+    "tags": ["important days"],
+    "mcq": {
+      "id": "ca-mcq-006", "subjectId": "gk", "topicId": "gk-awards-sports",
+      "text": "World Ozone Day is observed on 16 September to commemorate the signing of which protocol?",
+      "options": [
+        { "key": "A", "text": "Kyoto Protocol", "whyIncorrect": "Kyoto (1997) concerns greenhouse gases." },
+        { "key": "B", "text": "Montreal Protocol" },
+        { "key": "C", "text": "Paris Agreement", "whyIncorrect": "Paris (2015) is a climate agreement, not a protocol on ozone." },
+        { "key": "D", "text": "Cartagena Protocol", "whyIncorrect": "Cartagena concerns biosafety." }
+      ],
+      "correct": "B",
+      "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer was signed on 16 September 1987; the UN designated the day in 1994.",
+      "difficulty": "easy", "type": "current-affairs", "source": "UNEP", "examRelevance": "Important days + environment", "origin": "practice", "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+    }
+  },
+  {
+    "id": "ca-2026-09-14-hindi-diwas",
+    "date": "2026-09-14", "publishedOn": "2026-09-19", "category": "national",
+    "title": "Hindi Diwas 2026 marks 77 years of Hindi's adoption as the official language of the Union",
+    "titleHi": "हिंदी दिवस 2026: संघ की राजभाषा के रूप में हिंदी को अपनाने के 77 वर्ष",
+    "summary": "On 14 September 1949 the Constituent Assembly adopted Hindi in Devanagari script as the official language of the Union (Article 343). Hindi Diwas has been observed since 1953.",
+    "whyItMatters": "Constitution + important day + language — three syllabus areas in one item.",
+    "source": { "name": "Department of Official Language, MHA", "url": "https://rajbhasha.gov.in/", "type": "official" },
+    "verified": true,
+    "tags": ["important days", "hindi", "constitution"]
+  },
+  {
+    "id": "ca-2026-09-new-amphibian",
+    "date": "2026-09-17", "publishedOn": "2026-09-19", "category": "science-tech",
+    "title": "ZSI team discovers new legless amphibian species Gegeneophis chandgadi in Maharashtra's Western Ghats",
+    "titleHi": "ZSI की टीम ने महाराष्ट्र के पश्चिमी घाट में नई बिना पैर वाली उभयचर प्रजाति की खोज की",
+    "summary": "A Zoological Survey of India-led team reported discovering a new caecilian species, taking India's amphibian count to 458, per current-affairs compilations.",
+    "whyItMatters": "Biodiversity/Western Ghats questions appear in science and environment sections.",
+    "source": { "name": "freejobalert.com Daily Current Affairs 18 Sept 2026 (secondary) — verify on zsi.gov.in", "url": "https://www.freejobalert.com/articles/daily-current-affairs-18-september-2026-10428", "type": "secondary" },
+    "verified": false,
+    "tags": ["science", "biodiversity"]
+  },
+  {
+    "id": "ca-2026-09-aicte-fellowship",
+    "date": "2026-09-03", "publishedOn": "2026-09-19", "category": "education",
+    "title": "AICTE launches Innovation and Entrepreneurship Doctoral Fellowship Programme (AIEDFP)",
+    "titleHi": "AICTE ने नवाचार एवं उद्यमिता डॉक्टरेट फेलोशिप कार्यक्रम (AIEDFP) शुरू किया",
+    "summary": "AICTE reportedly launched AIEDFP on 3 September 2026 to support doctoral research in innovation and entrepreneurship.",
+    "whyItMatters": "Education-sector initiative; AICTE (est. 1945, statutory 1987) is itself a common GK item.",
+    "source": { "name": "Web search summary of news reports (secondary) — verify on aicte-india.org", "type": "secondary" },
+    "verified": false,
+    "tags": ["education", "aicte"]
+  }
+]

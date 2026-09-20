@@ -1,0 +1,32 @@
+{
+  "accessedOn": "2026-09-19",
+  "officialSites": [
+    { "name": "Kendriya Vidyalaya Sangathan (official)", "url": "https://kvsangathan.nic.in/" },
+    { "name": "CBSE — recruitment press releases (CTET Unit conducts KVS/NVS recruitment 01/2025)", "url": "https://www.cbse.gov.in/" },
+    { "name": "Candidate login portal (Rectt. Notification 01/2025)", "url": "https://examinationservices.nic.in/recsys2025/root/CandidateLogin.aspx" }
+  ],
+  "currentRecruitment": {
+    "notification": "RECTT. NOTIFICATION/01/2025 (KVS & NVS, conducted by CBSE CTET Unit)",
+    "verifiedFacts": [
+      { "fact": "Tier-II results for Primary Teachers (PRTs) and Junior Secretariat Assistants declared on 14 September 2026.", "source": "CBSE Press Release dated 14 Sep 2026 (linked from kvsangathan.nic.in)", "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2026/09/2026091426.pdf" },
+      { "fact": "For posts where an interview is part of the selection process, the Tier-II result indicates the candidate's status for shortlisting to the interview.", "source": "CBSE Press Release, 14 Sep 2026", "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2026/09/2026091426.pdf" },
+      { "fact": "Interview/skill-test schedule and call letters will be made available in candidate logins after finalisation in consultation with KVS/NVS.", "source": "CBSE Press Release, 14 Sep 2026", "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2026/09/2026091426.pdf" },
+      { "fact": "Marksheets for interview posts will be made available within 15 days from publication of the final result, after completion of the interview process.", "source": "CBSE Press Release, 14 Sep 2026", "url": "https://cdnbbsr.s3waas.gov.in/s32d2ca7eedf739ef4c3800713ec482e1a/uploads/2026/09/2026091426.pdf" },
+      { "fact": "Tier-II results for PGT (Hindi), TGT (Hindi) declared 05 Sep 2026; Principal on 03 Sep 2026; PGT (Chemistry), Assistant Commissioner, Junior Translator on 21 Aug 2026.", "source": "CBSE Press Releases dated 05 Sep 2026 and 21 Aug 2026", "url": "https://www.cbse.gov.in/cbsenew/documents/Press_Note_11_KVS_NVS_2025_05092026.pdf" }
+    ],
+    "unverifiedButWidelyReported": [
+      { "claim": "Final merit for teaching posts (incl. PRT) is prepared with 85% weightage to Tier-II and 15% to Interview/Demo lesson.", "note": "Reported by coaching portals (testbook, adda247, careerpower). VERIFY against the official Recruitment Notification 01/2025 PDF in your candidate login before relying on it." },
+      { "claim": "Older (2022-23) KVS pattern used Written 70% + Demo Teaching 15% + Interview 15% with a 180-question paper — this is NOT the current pattern.", "note": "Do not prepare according to the old pattern." }
+    ]
+  },
+  "kvsFacts": [
+    { "fact": "Kendriya Vidyalaya Sangathan is an autonomous body under the Ministry of Education, Government of India; the Minister of Education is its Chairman.", "source": "kvsangathan.nic.in (About KVS)" },
+    { "fact": "KVS was started in 1963 (Central Schools scheme approved in 1962; Sangathan registered as a society in 1965).", "source": "kvsangathan.nic.in (About KVS) — verify exact year wording on the official page." },
+    { "fact": "KVS Headquarters: 18, Institutional Area, Shaheed Jeet Singh Marg, New Delhi – 110016.", "source": "kvsangathan.nic.in" },
+    { "fact": "KVS motto: 'तत्त्वं पूषन् अपावृणु' (Tattvam Pūṣan Apāvṛṇu) — from the Ishavasya Upanishad, meaning 'O Sun (nourisher), uncover the truth'.", "source": "kvsangathan.nic.in" },
+    { "fact": "KVs are affiliated to CBSE and follow NCERT curriculum; classes run in a common pattern across India so that children of transferable central government employees are not disadvantaged.", "source": "kvsangathan.nic.in (Mission)" },
+    { "fact": "KVS is organised into Regional Offices and Zonal Institutes of Education and Training (ZIETs) for teacher training.", "source": "kvsangathan.nic.in" },
+    { "fact": "Number of KVs, regions and enrolment change every year — quote the latest figure from the official website's 'KVS at a glance' page on the day of the interview rather than a memorised number.", "source": "Guidance" }
+  ],
+  "interviewPrepNote": "Interview boards for PRT typically include KVS officials and subject/education experts. Expect questions on personal background, teaching philosophy, pedagogy, child psychology, classroom situations, NEP 2020 / NCF-FS 2022 / NCF-SE 2023, FLN (NIPUN Bharat), KVS itself, and current education topics. Demo-lesson expectations (if applicable) should be verified in the official call letter."
+}

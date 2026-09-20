@@ -1,0 +1,290 @@
+[
+  {
+    "id": "gk-001", "subjectId": "gk", "topicId": "gk-awards-sports",
+    "text": "The Bharat Ratna, India's highest civilian award, was instituted in:",
+    "textHi": "भारत रत्न, भारत का सर्वोच्च नागरिक सम्मान, किस वर्ष स्थापित हुआ?",
+    "options": [
+      { "key": "A", "text": "1950", "whyIncorrect": "The Republic was formed in 1950; the award came four years later." },
+      { "key": "B", "text": "1954" },
+      { "key": "C", "text": "1947", "whyIncorrect": "No civilian awards existed at Independence." },
+      { "key": "D", "text": "1969", "whyIncorrect": "1969 is the year the Dadasaheb Phalke Award began." }
+    ],
+    "correct": "B",
+    "explanation": "Bharat Ratna and the Padma awards (Padma Vibhushan, Padma Bhushan, Padma Shri) were instituted on 2 January 1954. First recipients (1954): C. Rajagopalachari, S. Radhakrishnan, C.V. Raman. The Bharat Ratna medal is peepal-leaf shaped.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Ministry of Home Affairs — Padma Awards portal",
+    "examRelevance": "National awards are listed in the official syllabus.",
+    "origin": "practice", "tags": ["awards"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-002", "subjectId": "gk", "topicId": "gk-awards-sports",
+    "text": "India's highest sporting honour, renamed in 2021, is now called the:",
+    "textHi": "भारत का सर्वोच्च खेल सम्मान, जिसका 2021 में नाम बदला गया, अब क्या कहलाता है?",
+    "options": [
+      { "key": "A", "text": "Arjuna Award", "whyIncorrect": "Arjuna Award is for outstanding performance, ranked below the top honour." },
+      { "key": "B", "text": "Major Dhyan Chand Khel Ratna Award" },
+      { "key": "C", "text": "Dronacharya Award", "whyIncorrect": "Dronacharya is for coaches." },
+      { "key": "D", "text": "Rajiv Gandhi Khel Ratna Award", "whyIncorrect": "This was the OLD name until August 2021." }
+    ],
+    "correct": "B",
+    "explanation": "In August 2021 the Rajiv Gandhi Khel Ratna was renamed the Major Dhyan Chand Khel Ratna Award after the hockey legend (whose birthday, 29 August, is National Sports Day). Other awards: Arjuna (athletes), Dronacharya (coaches), Dhyan Chand Award (lifetime), Maulana Abul Kalam Azad Trophy (universities).",
+    "difficulty": "easy", "type": "fact",
+    "source": "Ministry of Youth Affairs & Sports — National Sports Awards scheme",
+    "examRelevance": "Sports awards — direct syllabus item.",
+    "origin": "practice", "tags": ["awards", "sports"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-003", "subjectId": "gk", "topicId": "gk-culture-art",
+    "text": "The 'Kumbh Mela' at Prayagraj is held at the confluence (Sangam) of which rivers?",
+    "textHi": "प्रयागराज में कुंभ मेला किन नदियों के संगम पर आयोजित होता है?",
+    "options": [
+      { "key": "A", "text": "Ganga and Gomti", "whyIncorrect": "Gomti joins the Ganga near Ghazipur/Saidpur, not at Prayagraj." },
+      { "key": "B", "text": "Ganga, Yamuna and the mythical Saraswati" },
+      { "key": "C", "text": "Ganga and Ghaghara", "whyIncorrect": "Ghaghara joins the Ganga in Bihar (Chhapra)." },
+      { "key": "D", "text": "Yamuna and Chambal", "whyIncorrect": "Chambal joins Yamuna near Etawah." }
+    ],
+    "correct": "B",
+    "explanation": "Triveni Sangam at Prayagraj. Kumbh Mela is inscribed on UNESCO's Representative List of Intangible Cultural Heritage (2017). Kumbh sites: Prayagraj, Haridwar, Ujjain, Nashik. Maha Kumbh 2025 was held at Prayagraj.",
+    "difficulty": "easy", "type": "fact",
+    "source": "UNESCO ICH list; UP Tourism",
+    "examRelevance": "UP-specific culture — highly probable.",
+    "origin": "practice", "tags": ["culture", "uttar pradesh", "unesco"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-004", "subjectId": "gk", "topicId": "gk-places-persons",
+    "text": "'Godan' and 'Gaban' are novels written by:",
+    "textHi": "'गोदान' और 'गबन' उपन्यास किसने लिखे?",
+    "options": [
+      { "key": "A", "text": "Jaishankar Prasad", "whyIncorrect": "Prasad wrote 'Kamayani' and plays like 'Chandragupta'." },
+      { "key": "B", "text": "Munshi Premchand" },
+      { "key": "C", "text": "Mahadevi Verma", "whyIncorrect": "She wrote 'Yama', 'Deepshikha', 'Atit ke Chalchitra'." },
+      { "key": "D", "text": "Harivansh Rai Bachchan", "whyIncorrect": "He wrote 'Madhushala'." }
+    ],
+    "correct": "B",
+    "explanation": "Premchand (Dhanpat Rai Srivastava, 1880–1936), born at Lamhi near Varanasi, UP — 'Upanyas Samrat'. Works: Godan, Gaban, Nirmala, Sevasadan, Rangbhoomi, Karmabhoomi; stories: Idgah, Kafan, Poos ki Raat, Namak ka Daroga.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Hindi literature — standard references",
+    "examRelevance": "'रचनाएँ' (works) is explicitly in the syllabus; Premchand is a UP icon.",
+    "origin": "practice", "tags": ["books", "authors", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-005", "subjectId": "gk", "topicId": "gk-places-persons",
+    "text": "The Nobel Prize in Literature (1913), the first for an Asian, was awarded to:",
+    "textHi": "साहित्य का नोबेल पुरस्कार (1913), जो किसी एशियाई को पहला था, किसे मिला?",
+    "options": [
+      { "key": "A", "text": "C.V. Raman", "whyIncorrect": "Raman won the Physics Nobel in 1930." },
+      { "key": "B", "text": "Rabindranath Tagore" },
+      { "key": "C", "text": "Mother Teresa", "whyIncorrect": "Peace Prize, 1979." },
+      { "key": "D", "text": "Amartya Sen", "whyIncorrect": "Economics, 1998." }
+    ],
+    "correct": "B",
+    "explanation": "Tagore won for 'Gitanjali'. Indian Nobel laureates: Tagore (Lit 1913), Raman (Phys 1930), Mother Teresa (Peace 1979), Amartya Sen (Econ 1998), Kailash Satyarthi (Peace 2014); Indian-origin: Har Gobind Khorana, S. Chandrasekhar, V. Ramakrishnan, Abhijit Banerjee.",
+    "difficulty": "easy", "type": "fact",
+    "source": "NobelPrize.org",
+    "examRelevance": "International awards — a listed topic.",
+    "origin": "practice", "tags": ["awards", "nobel"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-006", "subjectId": "gk", "topicId": "gk-current-up",
+    "text": "The 'One District One Product' (ODOP) scheme, later adopted nationally, was launched in Uttar Pradesh in:",
+    "textHi": "'एक जनपद एक उत्पाद' (ODOP) योजना, जिसे बाद में राष्ट्रीय स्तर पर अपनाया गया, उत्तर प्रदेश में कब शुरू हुई?",
+    "options": [
+      { "key": "A", "text": "2014", "whyIncorrect": "Too early." },
+      { "key": "B", "text": "2018" },
+      { "key": "C", "text": "2020", "whyIncorrect": "2020 is when the national PMFME scheme adopted an ODOP approach." },
+      { "key": "D", "text": "2022", "whyIncorrect": "Too late." }
+    ],
+    "correct": "B",
+    "explanation": "ODOP was launched by the UP government on 24 January 2018 (UP Diwas) to promote district-specific traditional products (e.g., Bhadohi carpets, Moradabad brassware, Firozabad glass, Lucknow chikankari, Varanasi silk, Agra leather). The concept was later scaled nationally.",
+    "difficulty": "medium", "type": "fact",
+    "source": "odopup.in (UP Govt) ; invest.up.gov.in",
+    "examRelevance": "UP flagship scheme — highly likely under 'प्रदेश से सम्बन्धित'.",
+    "origin": "practice", "tags": ["uttar pradesh", "schemes", "odop"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-007", "subjectId": "gk", "topicId": "gk-current-up",
+    "text": "Uttar Pradesh Diwas (UP Day) is celebrated on:",
+    "textHi": "उत्तर प्रदेश दिवस कब मनाया जाता है?",
+    "options": [
+      { "key": "A", "text": "26 January", "whyIncorrect": "Republic Day." },
+      { "key": "B", "text": "24 January" },
+      { "key": "C", "text": "1 November", "whyIncorrect": "1 November is the foundation day of several other states (Karnataka, Kerala, MP, Chhattisgarh, Haryana, Punjab)." },
+      { "key": "D", "text": "15 August", "whyIncorrect": "Independence Day." }
+    ],
+    "correct": "B",
+    "explanation": "The 'United Provinces' were renamed 'Uttar Pradesh' on 24 January 1950; UP Diwas has been celebrated on 24 January since 2018. Capital: Lucknow; High Court: Prayagraj (Allahabad) with Lucknow bench; 75 districts, 18 divisions.",
+    "difficulty": "easy", "type": "fact",
+    "source": "UP Government — up.gov.in",
+    "examRelevance": "UP basic facts — must-know.",
+    "origin": "practice", "tags": ["uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-008", "subjectId": "gk", "topicId": "gk-culture-art",
+    "text": "Which of the following is NOT a UNESCO World Heritage Site in Uttar Pradesh?",
+    "textHi": "निम्न में से कौन उत्तर प्रदेश में यूनेस्को विश्व धरोहर स्थल नहीं है?",
+    "options": [
+      { "key": "A", "text": "Taj Mahal", "whyIncorrect": "Inscribed 1983." },
+      { "key": "B", "text": "Agra Fort", "whyIncorrect": "Inscribed 1983." },
+      { "key": "C", "text": "Fatehpur Sikri", "whyIncorrect": "Inscribed 1986." },
+      { "key": "D", "text": "Sarnath" }
+    ],
+    "correct": "D",
+    "explanation": "UP has three cultural World Heritage Sites — Taj Mahal, Agra Fort, Fatehpur Sikri. Sarnath (Varanasi), site of Buddha's first sermon (Dhammachakkappavattana) and origin of the national emblem's Lion Capital, is on India's tentative list, not yet inscribed (as of the app's content date — verify latest UNESCO decisions).",
+    "difficulty": "medium", "type": "fact",
+    "source": "UNESCO World Heritage List — India",
+    "examRelevance": "Heritage sites in UP — likely question.",
+    "origin": "practice", "tags": ["unesco", "uttar pradesh", "heritage"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-009", "subjectId": "gk", "topicId": "gk-awards-sports",
+    "text": "The Olympic Games 2028 will be hosted by:",
+    "textHi": "ओलंपिक खेल 2028 की मेजबानी कौन करेगा?",
+    "options": [
+      { "key": "A", "text": "Paris", "whyIncorrect": "Paris hosted the 2024 Summer Olympics." },
+      { "key": "B", "text": "Los Angeles" },
+      { "key": "C", "text": "Brisbane", "whyIncorrect": "Brisbane hosts 2032." },
+      { "key": "D", "text": "Tokyo", "whyIncorrect": "Tokyo hosted 2020 (held in 2021)." }
+    ],
+    "correct": "B",
+    "explanation": "Summer Olympics: 2020 Tokyo (held 2021), 2024 Paris, 2028 Los Angeles, 2032 Brisbane. Winter Olympics 2026: Milan–Cortina d'Ampezzo, Italy. India has expressed interest in bidding for 2036.",
+    "difficulty": "easy", "type": "fact",
+    "source": "International Olympic Committee — olympics.com",
+    "examRelevance": "Sports venues are regularly asked.",
+    "origin": "practice", "tags": ["sports", "olympics"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-010", "subjectId": "gk", "topicId": "gk-culture-art",
+    "text": "'Nautanki' is a traditional folk theatre form primarily associated with:",
+    "textHi": "'नौटंकी' मुख्यतः किस राज्य की पारंपरिक लोक-नाट्य विधा है?",
+    "options": [
+      { "key": "A", "text": "Uttar Pradesh" },
+      { "key": "B", "text": "Maharashtra", "whyIncorrect": "Maharashtra's folk theatre is Tamasha." },
+      { "key": "C", "text": "Gujarat", "whyIncorrect": "Gujarat's is Bhavai." },
+      { "key": "D", "text": "West Bengal", "whyIncorrect": "West Bengal's is Jatra." }
+    ],
+    "correct": "A",
+    "explanation": "Nautanki (Hathras and Kanpur styles) is a musical folk theatre of UP. Other folk forms: Tamasha (Maharashtra), Bhavai (Gujarat), Jatra (Bengal), Yakshagana (Karnataka), Swang (Haryana), Maach (MP), Ramlila/Raslila (UP).",
+    "difficulty": "easy", "type": "fact",
+    "source": "Sangeet Natak Akademi; CCRT",
+    "examRelevance": "Indian art & culture with UP linkage.",
+    "origin": "practice", "tags": ["culture", "folk theatre", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-011", "subjectId": "gk", "topicId": "gk-places-persons",
+    "text": "The 'Statue of Unity', the world's tallest statue, is dedicated to:",
+    "textHi": "'स्टैच्यू ऑफ यूनिटी', विश्व की सबसे ऊँची प्रतिमा, किसे समर्पित है?",
+    "options": [
+      { "key": "A", "text": "Mahatma Gandhi", "whyIncorrect": "No; Gandhi statues exist but not this one." },
+      { "key": "B", "text": "Sardar Vallabhbhai Patel" },
+      { "key": "C", "text": "Dr B.R. Ambedkar", "whyIncorrect": "The 'Statue of Equality' proposals relate to Ambedkar." },
+      { "key": "D", "text": "Subhas Chandra Bose", "whyIncorrect": "Bose's statue is at India Gate canopy, New Delhi (2022)." }
+    ],
+    "correct": "B",
+    "explanation": "182 m tall, at Kevadia (Ekta Nagar), Narmada district, Gujarat; inaugurated 31 October 2018 (Patel's birth anniversary — National Unity Day/Rashtriya Ekta Diwas). Sculptor: Ram V. Sutar.",
+    "difficulty": "easy", "type": "fact",
+    "source": "statueofunity.in (Govt of Gujarat)",
+    "examRelevance": "Places and personalities.",
+    "origin": "practice", "tags": ["places", "personalities"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-012", "subjectId": "gk", "topicId": "gk-current-national",
+    "text": "The 'PM SHRI Schools' scheme, approved in 2022, aims to:",
+    "textHi": "2022 में स्वीकृत 'पीएम श्री स्कूल' योजना का उद्देश्य है:",
+    "options": [
+      { "key": "A", "text": "Provide free laptops to all students", "whyIncorrect": "Not a laptop scheme." },
+      { "key": "B", "text": "Upgrade 14,500+ existing schools as exemplar NEP-2020 schools" },
+      { "key": "C", "text": "Set up new private schools in every district", "whyIncorrect": "PM SHRI strengthens existing government/KVS/NVS schools." },
+      { "key": "D", "text": "Replace the CBSE board", "whyIncorrect": "Unrelated." }
+    ],
+    "correct": "B",
+    "explanation": "PM SHRI (PM Schools for Rising India) — Cabinet approval 7 Sept 2022 — develops over 14,500 schools (including Kendriya Vidyalayas and Navodaya Vidyalayas) as model schools showcasing NEP 2020: green schools, ICT, experiential and competency-based learning.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Ministry of Education, PIB release 07-09-2022",
+    "examRelevance": "Education scheme — relevant to both exams and the KVS interview.",
+    "origin": "practice", "tags": ["schemes", "education", "pm shri"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-013", "subjectId": "gk", "topicId": "gk-current-national",
+    "text": "'PM POSHAN' scheme is the renamed version of:",
+    "textHi": "'पीएम पोषण' योजना किसका नया नाम है?",
+    "options": [
+      { "key": "A", "text": "Integrated Child Development Services (ICDS)", "whyIncorrect": "ICDS (1975) is now part of Saksham Anganwadi & Poshan 2.0." },
+      { "key": "B", "text": "Mid-Day Meal Scheme" },
+      { "key": "C", "text": "Sarva Shiksha Abhiyan", "whyIncorrect": "SSA merged into Samagra Shiksha (2018)." },
+      { "key": "D", "text": "Beti Bachao Beti Padhao", "whyIncorrect": "Unrelated." }
+    ],
+    "correct": "B",
+    "explanation": "In September 2021, the Mid-Day Meal Scheme (national launch 1995) was renamed PM POSHAN (Pradhan Mantri Poshan Shakti Nirman), extended to Balvatika (pre-primary) children in government schools along with Classes 1–8.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Ministry of Education, PIB 29-09-2021",
+    "examRelevance": "Education schemes are an easy score in GK.",
+    "origin": "practice", "tags": ["schemes", "education"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-014", "subjectId": "gk", "topicId": "gk-current-intl",
+    "text": "The headquarters of UNESCO is located in:",
+    "textHi": "यूनेस्को का मुख्यालय कहाँ स्थित है?",
+    "options": [
+      { "key": "A", "text": "Geneva", "whyIncorrect": "Geneva hosts WHO, ILO, WTO, UNHCR." },
+      { "key": "B", "text": "Paris" },
+      { "key": "C", "text": "New York", "whyIncorrect": "New York hosts the UN headquarters and UNICEF." },
+      { "key": "D", "text": "Vienna", "whyIncorrect": "Vienna hosts IAEA and UNIDO." }
+    ],
+    "correct": "B",
+    "explanation": "UNESCO (est. 1945) — Paris. Key HQs: UN — New York; WHO/ILO/WTO — Geneva; IAEA — Vienna; FAO — Rome; IMF/World Bank — Washington DC; UNEP — Nairobi; ICJ — The Hague.",
+    "difficulty": "easy", "type": "fact",
+    "source": "unesco.org",
+    "examRelevance": "International organisations — standard GK.",
+    "origin": "practice", "tags": ["international", "organisations"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-015", "subjectId": "gk", "topicId": "gk-awards-sports",
+    "text": "Hindi Diwas is celebrated on 14 September because on this day in 1949:",
+    "textHi": "हिंदी दिवस 14 सितंबर को क्यों मनाया जाता है?",
+    "options": [
+      { "key": "A", "text": "Hindi was declared the national language", "whyIncorrect": "India has no 'national language'; Hindi is an OFFICIAL language of the Union." },
+      { "key": "B", "text": "The Constituent Assembly adopted Hindi in Devanagari script as the official language of the Union" },
+      { "key": "C", "text": "Premchand was born", "whyIncorrect": "Premchand's birthday is 31 July 1880." },
+      { "key": "D", "text": "The Official Languages Act was passed", "whyIncorrect": "The Official Languages Act was passed in 1963." }
+    ],
+    "correct": "B",
+    "explanation": "Article 343: Hindi in Devanagari is the official language of the Union (adopted 14 Sept 1949). Eighth Schedule lists 22 languages. World Hindi Day is 10 January. The 2026 Hindi Diwas marked the 77th anniversary.",
+    "difficulty": "medium", "type": "fact",
+    "source": "Constitution of India, Art. 343; Dept. of Official Language",
+    "examRelevance": "Important days + constitution — a tricky, frequently mis-answered item.",
+    "origin": "practice", "tags": ["important days", "hindi", "constitution"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "gk-016", "subjectId": "gk", "topicId": "gk-culture-art",
+    "text": "The Lion Capital of Ashoka, adopted as India's national emblem, was found at:",
+    "textHi": "अशोक का सिंह स्तंभ शीर्ष, जिसे भारत के राष्ट्रीय प्रतीक के रूप में अपनाया गया, कहाँ मिला?",
+    "options": [
+      { "key": "A", "text": "Sanchi", "whyIncorrect": "Sanchi (MP) has the Great Stupa; its capital differs." },
+      { "key": "B", "text": "Sarnath" },
+      { "key": "C", "text": "Bodh Gaya", "whyIncorrect": "Site of Buddha's enlightenment." },
+      { "key": "D", "text": "Lumbini", "whyIncorrect": "Buddha's birthplace (Nepal)." }
+    ],
+    "correct": "B",
+    "explanation": "The Lion Capital (c. 250 BCE) from Sarnath, Varanasi (UP), was adopted as the State Emblem on 26 January 1950, with 'Satyameva Jayate' from the Mundaka Upanishad. It is kept in the Sarnath Museum.",
+    "difficulty": "easy", "type": "fact",
+    "source": "State Emblem of India (Prohibition of Improper Use) Act 2005; ASI",
+    "examRelevance": "National symbols + UP site — high yield.",
+    "origin": "practice", "tags": ["national symbols", "uttar pradesh"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]

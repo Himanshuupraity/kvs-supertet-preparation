@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ic-001", "subjectId": "ict", "topicId": "ict-oer",
+    "text": "Which of the following is a Government of India platform for Open Educational Resources (OER) with QR-coded 'energised textbooks'?",
+    "textHi": "निम्न में से कौन भारत सरकार का ओपन एजुकेशनल रिसोर्स (OER) प्लेटफ़ॉर्म है जिसमें QR-कोड युक्त 'ऊर्जित पाठ्यपुस्तकें' हैं?",
+    "options": [
+      { "key": "A", "text": "DIKSHA" },
+      { "key": "B", "text": "UMANG", "whyIncorrect": "UMANG is a unified app for accessing government services." },
+      { "key": "C", "text": "DigiLocker", "whyIncorrect": "DigiLocker stores digital documents/certificates." },
+      { "key": "D", "text": "CoWIN", "whyIncorrect": "CoWIN was the COVID-19 vaccination platform." }
+    ],
+    "correct": "A",
+    "explanation": "DIKSHA (Digital Infrastructure for Knowledge Sharing), launched 2017 by MoE/NCERT, hosts e-content, teacher courses (NISHTHA) and QR codes printed in NCERT/state textbooks. It became the 'One Nation One Digital Platform' under PM eVIDYA.",
+    "difficulty": "easy", "type": "fact",
+    "source": "diksha.gov.in; Ministry of Education",
+    "examRelevance": "OER and digital platforms are named in the IT syllabus.",
+    "origin": "practice", "tags": ["diksha", "oer"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ic-002", "subjectId": "ict", "topicId": "ict-apps-digital",
+    "text": "SWAYAM is best described as:",
+    "textHi": "SWAYAM का सर्वोत्तम वर्णन है:",
+    "options": [
+      { "key": "A", "text": "An online MOOC platform offering free courses from Class 9 to post-graduation" },
+      { "key": "B", "text": "A hardware scheme to distribute tablets", "whyIncorrect": "SWAYAM is a software/course platform." },
+      { "key": "C", "text": "A TV channel for school students", "whyIncorrect": "That is SWAYAM PRABHA — the DTH channel bouquet." },
+      { "key": "D", "text": "An examination portal", "whyIncorrect": "Not an exam portal (though SWAYAM courses have proctored exams)." }
+    ],
+    "correct": "A",
+    "explanation": "SWAYAM (Study Webs of Active-Learning for Young Aspiring Minds), launched 2017, provides MOOCs with four quadrants: video lecture, reading material, self-assessment tests, and discussion forum. SWAYAM PRABHA is the companion set of DTH educational channels.",
+    "difficulty": "easy", "type": "fact",
+    "source": "swayam.gov.in",
+    "examRelevance": "Digital initiatives — expected in the 4-question IT section.",
+    "origin": "practice", "tags": ["swayam", "mooc"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ic-003", "subjectId": "ict", "topicId": "ict-computer-internet",
+    "text": "Which of the following is an INPUT device?",
+    "textHi": "निम्न में से कौन इनपुट डिवाइस है?",
+    "options": [
+      { "key": "A", "text": "Printer", "whyIncorrect": "Printer is an output device." },
+      { "key": "B", "text": "Monitor", "whyIncorrect": "Monitor is an output device." },
+      { "key": "C", "text": "Scanner" },
+      { "key": "D", "text": "Speaker", "whyIncorrect": "Speaker is an output device." }
+    ],
+    "correct": "C",
+    "explanation": "Input: keyboard, mouse, scanner, microphone, webcam, touchscreen (also output). Output: monitor, printer, speaker, projector. Storage: HDD, SSD, pen drive.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Computer fundamentals",
+    "examRelevance": "Basic computer literacy question.",
+    "origin": "practice", "tags": ["computer basics"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ic-004", "subjectId": "ict", "topicId": "ict-teaching-skill",
+    "text": "The 'TPACK' framework for integrating technology in teaching stands for:",
+    "textHi": "शिक्षण में प्रौद्योगिकी एकीकरण का 'TPACK' ढाँचा किसका संक्षिप्त रूप है?",
+    "options": [
+      { "key": "A", "text": "Technological Pedagogical Content Knowledge" },
+      { "key": "B", "text": "Teaching Practice and Classroom Knowledge", "whyIncorrect": "Not the expansion." },
+      { "key": "C", "text": "Technology Purchase and Cost Analysis", "whyIncorrect": "Unrelated." },
+      { "key": "D", "text": "Total Pedagogy and Assessment Check", "whyIncorrect": "Unrelated." }
+    ],
+    "correct": "A",
+    "explanation": "TPACK (Mishra & Koehler, 2006) describes the intersection of technology, pedagogy and content knowledge needed for effective technology-integrated teaching — the teacher must know WHAT to teach, HOW to teach it, and WHICH tool fits.",
+    "difficulty": "medium", "type": "conceptual",
+    "source": "Mishra & Koehler (2006), Teachers College Record",
+    "examRelevance": "IT in teaching-skill development — conceptual item.",
+    "origin": "practice", "tags": ["tpack", "ict in education"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ic-005", "subjectId": "ict", "topicId": "ict-computer-internet",
+    "text": "'URL' in the context of the internet stands for:",
+    "textHi": "इंटरनेट के संदर्भ में 'URL' का पूर्ण रूप है:",
+    "options": [
+      { "key": "A", "text": "Uniform Resource Locator" },
+      { "key": "B", "text": "Universal Reading Link", "whyIncorrect": "Not the expansion." },
+      { "key": "C", "text": "United Resource Library", "whyIncorrect": "Not the expansion." },
+      { "key": "D", "text": "Unified Router Line", "whyIncorrect": "Not the expansion." }
+    ],
+    "correct": "A",
+    "explanation": "A URL is the address of a resource on the web, e.g., https://kvsangathan.nic.in — protocol (https), domain (kvsangathan.nic.in), path. Related: HTTP/HTTPS, WWW (Tim Berners-Lee, 1989), ISP, browser.",
+    "difficulty": "easy", "type": "fact",
+    "source": "Internet basics",
+    "examRelevance": "Abbreviations are common in the IT section.",
+    "origin": "practice", "tags": ["internet", "abbreviations"],
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  },
+  {
+    "id": "ic-006", "subjectId": "ict", "topicId": "ict-apps-digital",
+    "text": "In Uttar Pradesh, the 'Prerna' portal/app is used primarily for:",
+    "textHi": "उत्तर प्रदेश में 'प्रेरणा' पोर्टल/ऐप का मुख्य उपयोग है:",
+    "options": [
+      { "key": "A", "text": "Monitoring Basic Education — teacher attendance, school data, FLN learning outcomes ('Mission Prerna')" },
+      { "key": "B", "text": "Booking railway tickets", "whyIncorrect": "That is IRCTC." },
+      { "key": "C", "text": "Filing income tax", "whyIncorrect": "Unrelated." },
+      { "key": "D", "text": "University admissions", "whyIncorrect": "Unrelated." }
+    ],
+    "correct": "A",
+    "explanation": "Mission Prerna (launched 2019) is UP Basic Education Department's flagship FLN programme; the Prerna portal/app (prernaup.in) is used for school monitoring, teacher digital attendance, learning-outcome tracking and 'Prerna Lakshya' goals for Classes 1–5. DBT for uniforms/books also runs through it.",
+    "difficulty": "medium", "type": "fact",
+    "source": "prernaup.in — Basic Education Dept., Govt of UP",
+    "examRelevance": "UP-specific education tech — highly relevant to the target post.",
+    "origin": "practice", "tags": ["uttar pradesh", "prerna", "fln"], "important": true,
+    "createdAt": "2026-09-19", "updatedAt": "2026-09-19"
+  }
+]
