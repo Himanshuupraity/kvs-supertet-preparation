@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
-import { Mic, Square, X, ChevronRight, Volume2, Save, Loader2, Camera, Keyboard } from 'lucide-react';
+import { Mic, Square, X, ChevronRight, Volume2, Save, Loader2, Camera, Keyboard, AlertTriangle } from 'lucide-react';
 import type { InterviewAnswer, InterviewFeedback, InterviewQuestion, InterviewSession } from '@/types/models';
 import { useInterviewStore } from '@/store/useInterviewStore';
 import { useUserStore } from '@/store/useUserStore';
@@ -11,6 +11,7 @@ import { pickFollowUp } from '@/services/evaluationService';
 import { buildReport } from '@/services/interviewService';
 import { saveRecording } from '@/services/recordingStorage';
 import { useInterviewRecorder } from '@/hooks/useInterviewRecorder';
+import { speechFailureMessage, type SpeechFailure } from '@/services/speechService';
 import { FeedbackPanel } from '@/components/interview/FeedbackPanel';
 import { Button, Modal } from '@/components/ui';
 import { uid } from '@/utils/ids';
@@ -33,7 +34,7 @@ export default function InterviewSessionPage() {
   const [session, setSession] = useState<InterviewSession | undefined>(stored);
   const [queue, setQueue] = useState<QueueItem[]>(() => (stored ? stored.plannedQuestionIds.slice(stored.answers.filter((a) => !a.isFollowUp).length).map((id) => getInterviewQuestion(id)).filter(Boolean).map((q) => ({ question: q!, text: q!.question, isFollowUp: false })) : []));
   const [phase, setPhase] = useState<Phase>('ask');
-  const [pending, setPending] = useState<{ blob: Blob | null; transcript: string; durationSec: number; presentation: InterviewFeedback['presentation']; source: InterviewAnswer['transcriptSource'] } | null>(null);
+  const [pending, setPending] = useState<{ blob: Blob | null; transcript: string; durationSec: number; presentation: InterviewFeedback['presentation']; source: InterviewAnswer['transcriptSource']; speechFailure: SpeechFailure | null; micHeardAudio: boolean } | null>(null);
   const [manual, setManual] = useState('');
   const [feedback, setFeedback] = useState<InterviewFeedback | null>(null);
   const [nextFollowUp, setNextFollowUp] = useState<string | null>(null);
@@ -66,7 +67,7 @@ export default function InterviewSessionPage() {
 
   const stopAnswer = async () => {
     const r = await rec.stop();
-    setPending({ blob: r.blob, transcript: r.transcript, durationSec: r.durationSec, presentation: r.presentation, source: r.transcriptSource });
+    setPending({ blob: r.blob, transcript: r.transcript, durationSec: r.durationSec, presentation: r.presentation, source: r.transcriptSource, speechFailure: r.speechFailure, micHeardAudio: r.micHeardAudio });
     if (!r.transcript || r.transcript.split(/\s+/).length < 8) { setManual(r.transcript); setPhase('transcript'); }
     else await evaluate(r.transcript, r.durationSec, r.presentation, r.transcriptSource);
   };
@@ -172,6 +173,9 @@ export default function InterviewSessionPage() {
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-3 text-sm">
                 <p className="text-slate-300 text-xs mb-0.5">Live transcript {rec.liveText.final || rec.liveText.interim ? '' : '(listening…)'}</p>
                 <p className="line-clamp-3">{rec.liveText.final} <span className="text-slate-400">{rec.liveText.interim}</span></p>
+                {rec.speechFailure && rec.speechFailure !== 'no-speech' && !rec.liveText.final && (
+                  <p className="mt-1 text-xs text-amber-300 flex items-start gap-1"><AlertTriangle size={14} className="shrink-0 mt-0.5" /> {speechFailureMessage(rec.speechFailure)} Keep answering — you can type the transcript after stopping.</p>
+                )}
               </div>
             )}
           </div>
@@ -180,6 +184,7 @@ export default function InterviewSessionPage() {
         {phase === 'ask' && (
           <div className="space-y-2">
             <p className="text-center text-sm text-slate-400">Take a breath. Think for a few seconds. Then press Start and answer as you would to the board (60–120 seconds).</p>
+            {rec.speechBlocked && <p className="rounded-xl bg-amber-900/40 border border-amber-800 text-amber-100 text-sm p-3">{speechFailureMessage(rec.speechBlocked)}</p>}
             <Button full size="lg" onClick={startAnswer} className="!bg-rose-600 hover:!bg-rose-700"><Mic /> Start Answer</Button>
           </div>
         )}
@@ -189,8 +194,10 @@ export default function InterviewSessionPage() {
 
         {phase === 'transcript' && pending && (
           <div className="rounded-2xl bg-slate-900 border border-slate-800 p-4 space-y-3">
-            <p className="font-semibold flex items-center gap-2"><Keyboard size={18} /> {pending.source === 'none' ? 'Speech-to-text was not available or heard too little.' : 'Very short transcript captured.'}</p>
-            <p className="text-sm text-slate-400">Type (or correct) what you said so it can be evaluated. Recorded for {pending.durationSec}s.</p>
+            <p className="font-semibold flex items-center gap-2"><AlertTriangle size={18} className="text-amber-400 shrink-0" /> {pending.source === 'none' ? 'Your answer could not be transcribed.' : 'Only a very short transcript was captured.'}</p>
+            {pending.source === 'none' && <p className="text-sm text-amber-200">{speechFailureMessage(pending.speechFailure)}</p>}
+            {pending.source === 'none' && pending.speechFailure === 'no-speech' && !pending.micHeardAudio && <p className="text-sm text-amber-200">The microphone recorded almost no sound for {pending.durationSec}s — check that the right input device is selected and that the mic is not muted.</p>}
+            <p className="text-sm text-slate-400 flex items-center gap-2"><Keyboard size={18} className="shrink-0" /> Type (or correct) what you said so it can be evaluated. Recorded for {pending.durationSec}s.</p>
             <textarea className="input !bg-slate-800 !border-slate-700 !text-white min-h-[140px]" value={manual} onChange={(e) => setManual(e.target.value)} placeholder="Type your answer here…" />
             <div className="flex gap-2">
               <Button variant="secondary" full onClick={() => { setPhase('ask'); setPending(null); }}>Re-record</Button>
