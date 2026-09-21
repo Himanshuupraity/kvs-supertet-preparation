@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BarChart3, Settings2, Trash2, ShieldCheck, FileText, Video, MonitorPlay } from 'lucide-react';
+import { Trash2, ShieldCheck, Video, ChevronRight } from 'lucide-react';
 import { useUserStore, defaultTargets } from '@/store/useUserStore';
 import { useProgressStore } from '@/store/useProgressStore';
 import { useInterviewStore } from '@/store/useInterviewStore';
 import { Card, SectionTitle, Button, PageHeader, Modal } from '@/components/ui';
+import { TOOLS } from '@/components/layout/nav';
 import { listRecordingKeys, deleteRecording } from '@/services/recordingStorage';
 
 export default function ProfilePage() {
@@ -64,12 +65,21 @@ export default function ProfilePage() {
         </div>
       </Card>
 
-      <div className="grid sm:grid-cols-3 gap-3">
-        <Link to="/kvs/reference" className="card p-4 flex items-center gap-3"><MonitorPlay className="text-brand-600" /><span className="font-semibold">Reference interviews</span></Link>
-        <Link to="/analytics" className="card p-4 flex items-center gap-3"><BarChart3 className="text-brand-600" /><span className="font-semibold">Performance analytics</span></Link>
-        <Link to="/admin" className="card p-4 flex items-center gap-3"><Settings2 className="text-brand-600" /><span className="font-semibold">Admin / content</span></Link>
-        <Link to="/sources" className="card p-4 flex items-center gap-3"><FileText className="text-brand-600" /><span className="font-semibold">Sources & accuracy</span></Link>
-      </div>
+      {/* The sidebar that holds these is desktop-only, so on a phone this is the only way in. */}
+      <section>
+        <SectionTitle title="Tools" subtitle="Everything outside the five main tabs" />
+        <ul className="grid sm:grid-cols-2 gap-2">
+          {TOOLS.map((t) => (
+            <li key={t.to} className="min-w-0">
+              <Link to={t.to} className="card p-4 flex items-center gap-3">
+                <span className="w-10 h-10 rounded-xl bg-brand-50 text-brand-700 grid place-items-center shrink-0"><t.icon size={20} /></span>
+                <span className="font-semibold flex-1 min-w-0 truncate">{t.label}</span>
+                <ChevronRight size={18} className="text-ink-faint shrink-0" />
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       <Card className="border-red-100">
         <SectionTitle title="Danger zone" />

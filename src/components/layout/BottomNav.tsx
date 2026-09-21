@@ -5,7 +5,7 @@ import { cn } from '@/utils/cn';
 export function BottomNav() {
   const { pathname } = useLocation();
   return (
-    <nav className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-surface-border pb-[var(--safe-bottom)]" aria-label="Primary">
+    <nav className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur border-t border-surface-border pb-[max(var(--safe-bottom),0.5rem)] [touch-action:manipulation]" aria-label="Primary">
       <ul className="grid grid-cols-5">
         {NAV.map((n) => {
           const active = n.match(pathname);

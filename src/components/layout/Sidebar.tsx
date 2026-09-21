@@ -1,16 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { BarChart3, CalendarCheck, Search, Settings2, Bookmark, GraduationCap, MonitorPlay } from 'lucide-react';
-import { NAV } from './nav';
+import { GraduationCap } from 'lucide-react';
+import { NAV, TOOLS } from './nav';
 import { cn } from '@/utils/cn';
-
-const SECONDARY = [
-  { to: '/search', label: 'Search', icon: Search },
-  { to: '/kvs/reference', label: 'Reference Interviews', icon: MonitorPlay },
-  { to: '/plan', label: 'Study Plan', icon: CalendarCheck },
-  { to: '/analytics', label: 'Analytics', icon: BarChart3 },
-  { to: '/supertet/revision', label: 'Revision Center', icon: Bookmark },
-  { to: '/admin', label: 'Admin / Content', icon: Settings2 },
-];
 
 export function Sidebar() {
   const { pathname } = useLocation();
@@ -28,7 +19,7 @@ export function Sidebar() {
         </ul>
         <p className="px-3 mt-6 mb-2 text-[11px] font-semibold uppercase tracking-wide text-ink-faint">Tools</p>
         <ul className="space-y-1">
-          {SECONDARY.map((n) => { const active = pathname.startsWith(n.to); return (
+          {TOOLS.map((n) => { const active = n.match(pathname); return (
             <li key={n.to}><Link to={n.to} className={cn('flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium', active ? 'bg-brand-50 text-brand-700' : 'text-ink-muted hover:bg-surface-muted')}><n.icon size={20} />{n.label}</Link></li>
           ); })}
         </ul>

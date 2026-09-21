@@ -88,7 +88,7 @@ export default function ReferenceVideosPage() {
 
 function VideoCard({ v, topic, onPlay }: { v: ReferenceVideo; topic?: string; onPlay: () => void }) {
   return (
-    <li>
+    <li className="min-w-0">
       <button type="button" onClick={onPlay} className="card p-0 overflow-hidden w-full text-left flex sm:block gap-3 items-stretch">
         <div className="relative w-36 sm:w-full shrink-0 aspect-video bg-surface-muted">
           <img src={`https://i.ytimg.com/vi/${v.id}/mqdefault.jpg`} alt="" loading="lazy" className="w-full h-full object-cover" />
@@ -96,7 +96,7 @@ function VideoCard({ v, topic, onPlay }: { v: ReferenceVideo; topic?: string; on
           {v.durationSec > 0 && <span className="absolute bottom-1 right-1 rounded bg-black/80 text-white text-[10px] font-semibold px-1.5 py-0.5">{secondsToClock(v.durationSec)}</span>}
         </div>
         <div className="p-2.5 sm:p-3 min-w-0 flex-1">
-          <p className="font-semibold text-sm leading-snug line-clamp-2">{v.title}</p>
+          <p className="font-semibold text-sm leading-snug line-clamp-2 break-words">{v.title}</p>
           <p className="text-xs text-ink-muted mt-1 truncate">{v.channel}</p>
           {topic && <p className="text-[11px] text-ink-faint mt-0.5 truncate">{topic}</p>}
         </div>
