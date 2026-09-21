@@ -34,6 +34,7 @@ const InterviewSessionPage = lazy(() => import('@/pages/kvs/InterviewSessionPage
 const InterviewReportPage = lazy(() => import('@/pages/kvs/InterviewReportPage'));
 const InterviewHistoryPage = lazy(() => import('@/pages/kvs/InterviewHistoryPage'));
 const KvsInfoPage = lazy(() => import('@/pages/kvs/KvsInfoPage'));
+const ReferenceVideosPage = lazy(() => import('@/pages/kvs/ReferenceVideosPage'));
 
 const CurrentAffairsPage = lazy(() => import('@/pages/currentAffairs/CurrentAffairsPage'));
 const CurrentAffairDetailPage = lazy(() => import('@/pages/currentAffairs/CurrentAffairDetailPage'));
@@ -76,6 +77,7 @@ export default function App() {
 
               <Route path="/kvs" element={<KvsDashboard />} />
               <Route path="/kvs/about" element={<KvsInfoPage />} />
+              <Route path="/kvs/reference" element={<ReferenceVideosPage />} />
               <Route path="/kvs/questions" element={<InterviewQuestionsPage />} />
               <Route path="/kvs/questions/:id" element={<InterviewQuestionDetailPage />} />
               <Route path="/kvs/interview/new" element={<InterviewSetupPage />} />

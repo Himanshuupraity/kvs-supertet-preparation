@@ -1,10 +1,11 @@
 import { Link, useLocation } from 'react-router-dom';
-import { BarChart3, CalendarCheck, Search, Settings2, Bookmark, GraduationCap } from 'lucide-react';
+import { BarChart3, CalendarCheck, Search, Settings2, Bookmark, GraduationCap, MonitorPlay } from 'lucide-react';
 import { NAV } from './nav';
 import { cn } from '@/utils/cn';
 
 const SECONDARY = [
   { to: '/search', label: 'Search', icon: Search },
+  { to: '/kvs/reference', label: 'Reference Interviews', icon: MonitorPlay },
   { to: '/plan', label: 'Study Plan', icon: CalendarCheck },
   { to: '/analytics', label: 'Analytics', icon: BarChart3 },
   { to: '/supertet/revision', label: 'Revision Center', icon: Bookmark },

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mic, BookOpen, Star, BarChart3, Building2, ChevronRight, History } from 'lucide-react';
+import { Mic, BookOpen, Star, BarChart3, Building2, ChevronRight, History, MonitorPlay } from 'lucide-react';
 import { useInterviewStore } from '@/store/useInterviewStore';
 import { useProgressStore } from '@/store/useProgressStore';
 import { getInterviewQuestions } from '@/services/contentService';
@@ -41,6 +41,7 @@ export default function KvsDashboard() {
         <Button variant="secondary" to="/kvs/questions?important=1"><Star size={18} /> Important Questions</Button>
         <Button variant="secondary" to="/kvs/interview/history"><History size={18} /> Interview History</Button>
         <Button variant="secondary" to="/analytics?tab=kvs"><BarChart3 size={18} /> My Performance</Button>
+        <Button variant="secondary" to="/kvs/reference" className="col-span-2"><MonitorPlay size={18} /> Reference Interviews (videos)</Button>
       </div>
       {trend.length >= 2 && <Card><SectionTitle title="Score progress" subtitle="Overall score per AI interview" /><TrendLine data={trend} xKey="idx" yKey="overall" unit="/100" /></Card>}
       <Link to="/kvs/about" className="card p-4 flex items-center gap-3">

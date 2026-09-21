@@ -1,7 +1,7 @@
-import type { CurrentAffair, InterviewCategory, InterviewQuestion, Question, StudyNote, Subject, SyllabusMeta, Topic } from '@/types/models';
+import type { CurrentAffair, InterviewCategory, InterviewQuestion, Question, ReferenceTopic, ReferenceVideo, StudyNote, Subject, SyllabusMeta, Topic } from '@/types/models';
 import syllabus from '@/data/syllabus/supertet-syllabus.json';
 import { bundledQuestions } from '@/data/questions';
-import { bundledInterviewQuestions, interviewCategories } from '@/data/interview';
+import { bundledInterviewQuestions, interviewCategories, referenceTopics, referenceVideos } from '@/data/interview';
 import { bundledCurrentAffairs } from '@/data/currentAffairs';
 import { bundledNotes } from '@/data/notes';
 import { useContentStore } from '@/store/useContentStore';
@@ -57,6 +57,9 @@ export function getInterviewQuestions(): InterviewQuestion[] {
 export function getInterviewQuestion(id: string): InterviewQuestion | undefined {
   return getInterviewQuestions().find((q) => q.id === id);
 }
+
+export function getReferenceTopics(): ReferenceTopic[] { return referenceTopics; }
+export function getReferenceVideos(): ReferenceVideo[] { return referenceVideos; }
 
 export function getAllCurrentAffairs(): CurrentAffair[] {
   const s = useContentStore.getState();

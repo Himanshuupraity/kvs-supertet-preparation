@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BarChart3, Settings2, Trash2, ShieldCheck, FileText, Video } from 'lucide-react';
+import { BarChart3, Settings2, Trash2, ShieldCheck, FileText, Video, MonitorPlay } from 'lucide-react';
 import { useUserStore, defaultTargets } from '@/store/useUserStore';
 import { useProgressStore } from '@/store/useProgressStore';
 import { useInterviewStore } from '@/store/useInterviewStore';
@@ -65,6 +65,7 @@ export default function ProfilePage() {
       </Card>
 
       <div className="grid sm:grid-cols-3 gap-3">
+        <Link to="/kvs/reference" className="card p-4 flex items-center gap-3"><MonitorPlay className="text-brand-600" /><span className="font-semibold">Reference interviews</span></Link>
         <Link to="/analytics" className="card p-4 flex items-center gap-3"><BarChart3 className="text-brand-600" /><span className="font-semibold">Performance analytics</span></Link>
         <Link to="/admin" className="card p-4 flex items-center gap-3"><Settings2 className="text-brand-600" /><span className="font-semibold">Admin / content</span></Link>
         <Link to="/sources" className="card p-4 flex items-center gap-3"><FileText className="text-brand-600" /><span className="font-semibold">Sources & accuracy</span></Link>

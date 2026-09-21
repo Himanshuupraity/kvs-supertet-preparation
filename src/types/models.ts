@@ -331,3 +331,15 @@ export interface QuestionHistoryEntry {
 }
 
 export interface StudyPlanBlock { subjectId: ID | 'ca' | 'gk' | 'kvs'; label: string; minutes: number; reason: string; route: string; }
+
+/** A curated YouTube reference interview / preparation video. */
+export interface ReferenceVideo {
+  /** YouTube video id */
+  id: ID;
+  topicId: ID;
+  title: string;
+  channel: string;
+  durationSec: number;
+  publishedAt: ISODate;
+}
+export interface ReferenceTopic { id: ID; name: string; description: string; /** fallback YouTube search for more videos */ query: string; }

@@ -1,7 +1,8 @@
-import type { InterviewCategory, InterviewQuestion } from '@/types/models';
+import type { InterviewCategory, InterviewQuestion, ReferenceTopic, ReferenceVideo } from '@/types/models';
 import categories from './categories.json';
 import q1 from './questions-1.json';
 import q2 from './questions-2.json';
+import reference from './referenceVideos.json';
 
 export const interviewCategories = categories as InterviewCategory[];
 export const bundledInterviewQuestions: InterviewQuestion[] = [
@@ -22,3 +23,6 @@ export const fullMockStructure: { section: string; categoryIds: string[]; count:
   { section: 'Situational', categoryIds: ['situational', 'parents'], count: 2 },
   { section: 'Closing', categoryIds: ['closing'], count: 1 },
 ];
+
+export const referenceTopics = reference.topics as ReferenceTopic[];
+export const referenceVideos = reference.videos as ReferenceVideo[];
