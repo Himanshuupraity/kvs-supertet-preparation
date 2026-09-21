@@ -33,12 +33,15 @@ jobs:
       - name: Install server dependencies
         run: npm ci --prefix server
 
+      # Without a key the job fetches news, publishes nothing and still reports success —
+      # which is how the site silently went stale. Fail loudly instead.
       - name: Check AI key
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::warning::ANTHROPIC_API_KEY secret is not set — news is fetched but nothing is summarised or published."
+            echo "::error::ANTHROPIC_API_KEY secret is not set — news can be fetched but nothing can be summarised or published, so no current affairs will appear in the app. Add it in Settings → Secrets and variables → Actions."
+            exit 1
           fi
 
       - name: Run daily refresh
@@ -55,7 +58,7 @@ jobs:
         run: |
           git add src/data
           if git diff --cached --quiet; then
-            echo "No new content today."
+            echo "::warning::Daily refresh produced no new content — check the run log above for why (no fresh feed items, or every item filtered out)."
             exit 0
           fi
           git config user.name "github-actions[bot]"
