@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Search, Flame, GraduationCap } from 'lucide-react';
+import { Search, Flame, GraduationCap, UserRound } from 'lucide-react';
 import { useProgressStore } from '@/store/useProgressStore';
 import { computeStreak } from '@/services/analyticsService';
 
@@ -17,6 +17,9 @@ export function TopBar() {
         <div className="flex items-center gap-1">
           <span className="chip bg-orange-50 text-orange-700" title="Day streak"><Flame size={14} /> {streak}</span>
           {pathname !== '/search' && <Link to="/search" className="tap grid place-items-center rounded-xl text-ink-muted hover:bg-white" aria-label="Search"><Search size={22} /></Link>}
+          {/* Second way into Profile (and from there, Tools). The bottom bar's right edge can sit
+              under Chrome's own toolbar or the gesture bar on Android, so it is not always tappable. */}
+          <Link to="/profile" className={`tap grid place-items-center rounded-xl hover:bg-white ${pathname.startsWith('/profile') ? 'text-brand-700 bg-white' : 'text-ink-muted'}`} aria-label="Profile and tools"><UserRound size={22} /></Link>
         </div>
       </div>
     </header>
