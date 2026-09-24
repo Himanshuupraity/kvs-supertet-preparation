@@ -133,9 +133,7 @@ Uses browser `MediaDevices.getUserMedia` + `MediaRecorder` (recording), Web Spee
 
 `server/src/jobs/dailyRefresh.ts` fetches fresh news from RSS feeds (`NEWS_FEEDS`, default: PIB press releases + The Hindu National — no API key needed) or a JSON news API (`NEWS_API_URL`), summarises each item into a dated `CurrentAffair` + MCQ with the AI provider (marked `verified:false` until approved in Admin), generates a few new syllabus-mapped MCQs with duplicate detection, and publishes today's Daily Challenge set. It never invents news: with no source configured it fetches nothing.
 
-**It is scheduled by `.github/workflows/daily-refresh.yml`** (04:00 IST daily, or run it manually from the Actions tab). The workflow runs the job with `PUBLISH_TO=bundled`, so new items are written straight into `src/data/currentAffairs/YYYY-MM.json` and `src/data/questions/generated.json`, committed to `main`, and Vercel redeploys the site.
-
-Setup (one time): add the repository secret **`ANTHROPIC_API_KEY`** (GitHub → Settings → Secrets and variables → Actions). Optionally set a repository variable `NEWS_FEEDS` to use different feeds. Without the key the workflow runs but publishes nothing.
+It is no longer scheduled automatically (the GitHub Actions workflow was removed). To publish new items into `src/data/currentAffairs/YYYY-MM.json` and `src/data/questions/generated.json`, run it locally with `PUBLISH_TO=bundled` and an `ANTHROPIC_API_KEY`, then commit the changes.
 
 Other ways to run it (writes to `server/data/*.json` unless `PUBLISH_TO=bundled`):
 
